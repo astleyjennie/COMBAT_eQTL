@@ -232,6 +232,14 @@ p2d <- rasterGrob(p2d, interpolate=TRUE)
 png('figures/Figure2.png', height = 2300, width = 2600, res = 200)
 figure2 <- grid.arrange(p2a, p2b, p2c, p2d
 )
+grid.text("(a)", x = unit(0.02, "npc"), y = unit(0.98, "npc"),
+          just = c("left", "top"), gp = gpar(fontsize = 16, fontfamily = "Times"))
+grid.text("(b)", x = unit(0.52, "npc"), y = unit(0.98, "npc"),
+          just = c("left", "top"), gp = gpar(fontsize = 16, fontfamily = "Times"))
+grid.text("(c)", x = unit(0.02, "npc"), y = unit(0.50, "npc"),
+          just = c("left", "top"), gp = gpar(fontsize = 16, fontfamily = "Times"))
+grid.text("(d)", x = unit(0.52, "npc"), y = unit(0.50, "npc"),
+          just = c("left", "top"), gp = gpar(fontsize = 16, fontfamily = "Times"))
 dev.off()
 
 
@@ -501,6 +509,16 @@ dev.off()
 
 png("figures/Figure3.png", width = 4200, height = 6000, res = 300)
 p3 <- grid.arrange(p3a, p3b, p3c, p3d, p3e, nrow = 5, heights = c(1.5, 1.5, 1, 1, 1))
+grid.text("(a)", x = unit(0.02, "npc"), y = unit(0.99, "npc"),
+          just = c("left", "top"), gp = gpar(fontsize = 16, fontfamily = "Times"))
+grid.text("(b)", x = unit(0.02, "npc"), y = unit(0.75, "npc"),
+          just = c("left", "top"), gp = gpar(fontsize = 16, fontfamily = "Times"))
+grid.text("(c)", x = unit(0.02, "npc"), y = unit(0.50, "npc"),
+          just = c("left", "top"), gp = gpar(fontsize = 16, fontfamily = "Times"))
+grid.text("(d)", x = unit(0.02, "npc"), y = unit(0.34, "npc"),
+          just = c("left", "top"), gp = gpar(fontsize = 16, fontfamily = "Times"))
+grid.text("(e)", x = unit(0.02, "npc"), y = unit(0.15, "npc"),
+          just = c("left", "top"), gp = gpar(fontsize = 16, fontfamily = "Times"))
 dev.off()
 
 # ----- Figure 4 ----- ####
@@ -723,6 +741,12 @@ figure4 <- grid.arrange(p4a, p4b1, p4b2, legend_p4c1, legend_p4c2, p4c1_plot, p4
                         heights = c(1, 1, 1, 0.5, 1.2, 1.2, 1.2),
                         layout_matrix = fig4_matrix_array
 )
+grid.text("(a)", x = unit(0.02, "npc"), y = unit(0.99, "npc"),
+          just = c("left", "top"), gp = gpar(fontsize = 16, fontfamily = "Times"))
+grid.text("(b)", x = unit(0.4, "npc"), y = unit(0.99, "npc"),
+          just = c("left", "top"), gp = gpar(fontsize = 16, fontfamily = "Times"))
+grid.text("(c)", x = unit(0.02, "npc"), y = unit(0.52, "npc"),
+          just = c("left", "top"), gp = gpar(fontsize = 16, fontfamily = "Times"))
 print(figure4)
 dev.off()
 
