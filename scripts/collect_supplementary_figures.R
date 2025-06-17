@@ -6,11 +6,16 @@ library(gridExtra)
 library(png)
 library(readr)
 library(stringr)
+#library(gridtext)
 
 # Set paths
 figure_dir <- "/well/combat/users/bsg751/projects/eqtl/runtensorqtl/COMBAT_eQTL/figures/supplementary/figures"
 caption_file <- "/well/combat/users/bsg751/projects/eqtl/runtensorqtl/COMBAT_eQTL/figures/supplementary/figure_data/figure_captions.csv"
 output_pdf <- "/well/combat/users/bsg751/projects/eqtl/runtensorqtl/COMBAT_eQTL/figures/supplementary/supplementary_figures.pdf"
+
+library(tidyverse)
+library(grid)
+library(png)
 
 # Load captions
 caption_data <- read_csv(caption_file)
@@ -29,16 +34,14 @@ captions <- sapply(basename(fig_files_sorted), function(f) {
   }
 })
 
-# Custom width scale factors (1 = full width)
+# Custom width scale factors
 custom_widths <- c(
-  #"figure_S3.png" = 0.7,
-  #"figure_S7.png" = 0.6,
   "figure_S8.png" = 0.9,
   "figure_S9.png" = 0.8,
   "figure_S10.png" = 0.8
 )
 
-# Open PDF device with Times font
+# Open PDF device
 pdf(output_pdf, width = 8, height = 10, family = "Times")
 
 for (i in seq_along(fig_files_sorted)) {
@@ -51,20 +54,44 @@ for (i in seq_along(fig_files_sorted)) {
   
   grid.newpage()
   
-  # Layout: 2 rows, image and caption (caption directly below image)
+  # Layout
   pushViewport(viewport(layout = grid.layout(2, 1, heights = unit(c(0.8, 0.2), "npc"))))
   
-  # Draw image scaled by width, maintain aspect ratio, centered
-  grid.raster(img,
-              vp = viewport(layout.pos.row = 1, layout.pos.col = 1),
-              width = unit(scale_width, "npc"),
-              height = unit(scale_width, "npc") * (nrow(img) / ncol(img)))
+  # Draw image
+  grid.raster(
+    img,
+    vp = viewport(layout.pos.row = 1, layout.pos.col = 1),
+    width = unit(scale_width, "npc"),
+    height = unit(scale_width, "npc") * (nrow(img) / ncol(img))
+  )
   
-  # Draw caption just below image, with text wrapping
-  grid.text(str_wrap(captions[i], width = 100),
-            vp = viewport(layout.pos.row = 2, layout.pos.col = 1),
-            gp = gpar(fontsize = 12, fontfamily = "Times"),
-            just = "left", x = unit(0.05, "npc"))
+  # Extract prefix (e.g., "Supplementary Figure 1:") and body
+  full_caption <- captions[i]
+  parts <- strsplit(full_caption, ":\\s*", perl = TRUE)[[1]]
+  
+  if (length(parts) >= 2) {
+    prefix <- paste0(parts[1], ":")
+    body <- paste(parts[-1], collapse = ": ")
+  } else {
+    prefix <- full_caption
+    body <- ""
+  }
+  
+  # Draw bold prefix
+  pushViewport(viewport(layout.pos.row = 2, layout.pos.col = 1))
+  grid.text(prefix,
+            x = unit(0.05, "npc"), y = unit(0.95, "npc"),
+            just = c("left", "top"),
+            gp = gpar(fontsize = 12, fontface = "bold", fontfamily = "Times"))
+  
+  # Draw regular caption text, wrapped
+  wrapped_body <- str_wrap(body, width = 100)
+  grid.text(wrapped_body,
+            x = unit(0.05, "npc"), y = unit(0.85, "npc"),
+            just = c("left", "top"),
+            gp = gpar(fontsize = 12, fontface = "plain", fontfamily = "Times"))
+  
+  popViewport()
 }
 
 dev.off()

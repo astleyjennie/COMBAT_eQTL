@@ -1,6 +1,5 @@
 # Created 17/06/2025 by Jennifer Astley <jennifer.astley@kennedy.ox.ac.uk>
 # Last modified 17/06/2025 by Jennifer Astley
-
 library(grid)
 library(gridExtra)
 library(png)
@@ -11,7 +10,6 @@ library(stringr)
 figure_dir <- "/well/combat/users/bsg751/projects/eqtl/runtensorqtl/COMBAT_eQTL/figures/main/figures"
 caption_file <- "/well/combat/users/bsg751/projects/eqtl/runtensorqtl/COMBAT_eQTL/figures/main/figure_data/main_figure_captions.csv"
 output_pdf <- "/well/combat/users/bsg751/projects/eqtl/runtensorqtl/COMBAT_eQTL/figures/main/main_figures.pdf"
-library(stringr)
 
 # Load captions
 caption_data <- read_csv(caption_file)
@@ -51,26 +49,44 @@ for (i in seq_along(fig_files_sorted)) {
   
   grid.newpage()
   
-  # Layout: 2 rows, image and caption (caption directly below image)
+  # Layout: 2 rows, image and caption
   pushViewport(viewport(layout = grid.layout(2, 1, heights = unit(c(0.8, 0.2), "npc"))))
   
-  # Draw image scaled by width, maintain aspect ratio, centered
-  grid.raster(img,
-              vp = viewport(layout.pos.row = 1, layout.pos.col = 1),
-              width = unit(scale_width, "npc"),
-              height = unit(scale_width, "npc") * (nrow(img) / ncol(img)))
-  
-  # Wrap caption text to ~60 characters width for better fitting
-  wrapped_caption <- str_wrap(captions[i], width = 140)
-  
-  # Draw caption just below image, left-justified and indented a bit
-  grid.text(
-    wrapped_caption,
-    vp = viewport(layout.pos.row = 2, layout.pos.col = 1),
-    gp = gpar(fontsize = 8, fontfamily = "Times"),
-    just = "left",
-    x = unit(0.05, "npc")
+  # Draw image
+  grid.raster(
+    img,
+    vp = viewport(layout.pos.row = 1, layout.pos.col = 1),
+    width = unit(scale_width, "npc"),
+    height = unit(scale_width, "npc") * (nrow(img) / ncol(img))
   )
+  
+  # Extract prefix (e.g., "Figure 1:") and body
+  full_caption <- captions[i]
+  parts <- strsplit(full_caption, ":\\s*", perl = TRUE)[[1]]
+  
+  if (length(parts) >= 2) {
+    prefix <- paste0(parts[1], ":")
+    body <- paste(parts[-1], collapse = ": ")
+  } else {
+    prefix <- full_caption
+    body <- ""
+  }
+  
+  # Draw bold prefix (Figure X:)
+  pushViewport(viewport(layout.pos.row = 2, layout.pos.col = 1))
+  grid.text(prefix,
+            x = unit(0.05, "npc"), y = unit(0.95, "npc"),
+            just = c("left", "top"),
+            gp = gpar(fontsize = 8, fontface = "bold", fontfamily = "Times"))
+  
+  # Draw wrapped regular caption below
+  wrapped_body <- str_wrap(body, width = 140)
+  grid.text(wrapped_body,
+            x = unit(0.05, "npc"), y = unit(0.85, "npc"),
+            just = c("left", "top"),
+            gp = gpar(fontsize = 8, fontface = "plain", fontfamily = "Times"))
+  
+  popViewport()
 }
 
 dev.off()
