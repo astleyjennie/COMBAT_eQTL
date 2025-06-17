@@ -23,7 +23,7 @@ cell_count <- read.table('figure_data/fig2a.csv', header = T)
 
 scale_factor <- max(cell_count$cell_numbers) / max(cell_count$Count)
 
-png('figures/figure2a.png', width = 1000)
+png('figures/figure2a.png', width = 10, height = 6, units = "in", res = 300)
 p2a <- cell_count %>% 
   mutate(Cell = fct_reorder(Cell, cell_numbers, .desc = TRUE)) %>% 
   ggplot(aes(x = Cell)) +
@@ -237,13 +237,13 @@ dev.off()
 
 # ----- Figure 3 ----- ####
 
-combat_gwas_filter <- read.table('figure_data/combat_gwas_all_traits_heatmap.csv', sep = '\t', header = T)
+combat_gwas_filter <- fread('figure_data/combat_gwas_all_traits_heatmap.csv')
 # EQTL_SNP |	GWAS_SNP |	GWAS_TRAIT |	EQTL_CELL_TYPE |	EQTL_GENE |	EQTL_CELL_count
-combat_gwas_covid <- read.table('figure_data/combat_gwas_covid_traits_heatmap.csv', sep = '\t', header = T)
+combat_gwas_covid <- fread('figure_data/combat_gwas_covid_traits_heatmap.csv')
 # EQTL_SNP |	GWAS_SNP |	GWAS_TRAIT |	STUDY |	EQTL_CELL_TYPE |	EQTL_GENE |	EQTL_CELL_count
-onek1k_gwas_filter <- read.table('figure_data/onek1k_gwas_all_traits_heatmap.csv', sep = '\t', header = T)
+onek1k_gwas_filter <- fread('figure_data/onek1k_gwas_all_traits_heatmap.csv')
 # EQTL_SNP |	GWAS_SNP |	GWAS_TRAIT |	EQTL_CELL_TYPE |	EQTL_GENE |	EQTL_CELL_count
-onek1k_gwas_covid <- read.table('figure_data/onek1k_gwas_covid_traits_heatmap.csv', sep = '\t', header = T)
+onek1k_gwas_covid <- fread('figure_data/onek1k_gwas_covid_traits_heatmap.csv')
 # EQTL_SNP |	GWAS_SNP |	GWAS_TRAIT |	STUDY |	EQTL_CELL_TYPE |	EQTL_GENE |	EQTL_CELL_count
 
 
@@ -251,7 +251,7 @@ onek1k_gwas_covid <- read.table('figure_data/onek1k_gwas_covid_traits_heatmap.cs
 # In the ONEK1K case, there are 18 covid-related traits reported across 14 studies.
 # All of these are in the heatmaps but this can be modified.
 
-trait_order <- c("Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)", "Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)", "COVID-19 (critical illness vs population or mild symptoms)", "Hay fever and/or eczema", "Ulcerative colitis", "Alzheimers disease or family history of Alzheimers disease", "Amyotrophic lateral sclerosis", "Autoimmune neurological syndromes with anti-GAD65 autoantibodies", "Autoimmune traits", "COVID-19 (hospitalized covid vs population)")
+trait_order <- c("Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)", "Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)", "COVID-19 (critical illness vs population or mild symptoms)", "Hay fever and/or eczema", "Ulcerative colitis", "Alzheimer's disease or family history of Alzheimer's disease", "Amyotrophic lateral sclerosis", "Autoimmune neurological syndromes with anti-GAD65 autoantibodies", "Autoimmune traits", "COVID-19 (hospitalized covid vs population)")
 
 # Figure 3a ####
 
@@ -499,7 +499,7 @@ dev.off()
 
 # Figure 3 combined ####
 
-png("figures/figure_3.png", width = 4200, height = 6000, res = 300)
+png("figures/Figure3.png", width = 4200, height = 6000, res = 300)
 p3 <- grid.arrange(p3a, p3b, p3c, p3d, p3e, nrow = 5, heights = c(1.5, 1.5, 1, 1, 1))
 dev.off()
 
@@ -744,7 +744,7 @@ egene_overlap$Cell1 <- factor(egene_overlap$Cell1, levels=cell_vector)
 egene_overlap$Cell2 <- factor(egene_overlap$Cell2, levels=cell_vector)
 
 
-png("figures/figure_S1.png", height = 550, width = 600)
+png("figures/figure_S1.png", width = 11, height = 9, units = "in", res = 300)
 fs1 <- egene_overlap %>% 
   filter(overlap_percent != 100) %>% 
   ggplot(aes(Cell1, Cell2, fill = overlap_percent)) +
@@ -774,32 +774,42 @@ dev.off()
 # Intersection of eGenes per cell type (upset plot)
 
 # Upset plot showing eGene cell type intersection/overlap
+# Filtering intersections containing only one Gene-SNP pair for image clarity
 
 cis_results <- fread('figure_data/all_results_cis_indep.csv')
 # Mode |	Cell |	Chr |	Gene |	SNP |	SNP_TSS |	maf |	pq_val |	slope |	slope_se
 
+filtered_upset_data <- new_dataframe %>%
+  distinct(Gene, SNP, .keep_all = TRUE) %>%
+  unnest(cols = Cell_List) %>%
+  mutate(CellMember = 1) %>%
+  pivot_wider(
+    names_from = Cell_List,
+    values_from = CellMember,
+    values_fill = list(CellMember = 0)
+  )
 
-new_dataframe <- cis_results %>%
-  group_by(Gene, SNP) %>%
-  summarise(Cell_List = list(unique(Cell))) %>%
+filtered_upset_data <- filtered_upset_data %>%
+  mutate(intersection_key = apply(select(., CD4, cMono, CD8, NK, ncMono, B, DC, DP, GDT, HSC, DN, MAIT, PB, PLT, iNKT), 1, paste, collapse = "")) %>%
+  group_by(intersection_key) %>%
+  filter(n() > 1) %>%   # Keep only combinations that appear more than once
   ungroup()
 
-png('figures/figure_S2.png', width=15000, height=7000, res = 300)
-new_dataframe %>%
-  distinct(Gene, SNP, .keep_all=TRUE) %>%
-  unnest(cols = Cell_List) %>%
-  mutate(CellMember=1) %>%
-  pivot_wider(names_from =Cell_List, values_from = CellMember, values_fill = list(CellMember = 0)) %>%
-  as.data.frame() %>%
-  UpSetR::upset(sets = c("CD4","cMono","CD8","NK","ncMono","B","DC","DP","GDT","HSC","DN","MAIT","PB","PLT","iNKT"),
-                keep.order = F,
-                nintersects = 90,
-                text.scale = 1.5,
-                set_size.show = TRUE,
-                sets.bar.color = "#046C9A",
-                main.bar.color = "#046C9A",
-                matrix.color = "#046C9A")
+# Plot
+png("figures/figure_S2.png", width = 22, height = 9, units = "in", res = 300)
+UpSetR::upset(
+  as.data.frame(filtered_upset_data),
+  sets = c("CD4", "cMono", "CD8", "NK", "ncMono", "B", "DC", "DP", "GDT", "HSC", "DN", "MAIT", "PB", "PLT", "iNKT"),
+  keep.order = FALSE,
+  nintersects = 90,
+  text.scale = 1.5,
+  set_size.show = TRUE,
+  sets.bar.color = "#046C9A",
+  main.bar.color = "#046C9A",
+  matrix.color = "#046C9A"
+)
 dev.off()
+
 
 
 
@@ -811,8 +821,7 @@ dev.off()
 # Figure S4 ####
 
 # ONEK1K GWAS all traits (filtered on above studies)
-png("figures/figure_S4.png", width=1500)
-#png("figures/figure_S4.png", width = 6, height = 5, units = "in", res = 200)
+png("figures/figure_S4.png", width = 24, height = 9, units = "in", res = 300)
 onek1k_gwas_filter %>%
   mutate(GWAS_TRAIT = factor(GWAS_TRAIT, levels = trait_order)) %>%
   ggplot(aes(x = EQTL_GENE, y = GWAS_TRAIT, fill = EQTL_CELL_count)) +
@@ -830,11 +839,17 @@ dev.off()
 # Figure S5 ####
 
 # COMBAT GWAS covid traits
-png("figures/figure_S5.png", width = 900)
+png("figures/figure_S5.png", width = 10, height = 5, units = "in", res = 300)
 combat_gwas_covid %>%
   ggplot(aes(x = EQTL_GENE, y = GWAS_TRAIT, fill = EQTL_CELL_count)) +
   geom_tile(color = "white") + 
-  scale_fill_gradient(low = "#9D26C6", high = "#C64D26", na.value = "white") +
+  scale_fill_gradient(
+    low = "#9D26C6",
+    high = "#C64D26",
+    na.value = "white",
+    breaks = c(1, 2, 3),
+    limits = c(1, 3)
+  ) +
   labs(title = "Heatmap of eQTL Cell Count - COMBAT COVID Traits",
        x = "eQTL Gene",
        y = "GWAS Trait",
@@ -847,11 +862,17 @@ dev.off()
 # Figure S6 ####
 
 # ONEK1K GWAS covid traits
-png("figures/figure_S6.png", width = 1600)
+png("figures/figure_S6.png", width = 22, height = 9, units = "in", res = 300)
 onek1k_gwas_covid %>%
   ggplot(aes(x = EQTL_GENE, y = GWAS_TRAIT, fill = EQTL_CELL_count)) +
   geom_tile(color = "white") + 
-  scale_fill_gradient(low = "#269FC6", high = "#4FC626", na.value = "white") +
+  scale_fill_gradient(
+    low = "#269FC6",
+    high = "#4FC626",
+    na.value = "white",
+    breaks = seq(1, 13, by = 2),
+    limits = c(1, 13)
+  ) +
   labs(title = "Heatmap of eQTL Cell Count - ONEK1K COVID Traits",
        x = "eQTL Gene",
        y = "GWAS Trait",
@@ -864,7 +885,42 @@ dev.off()
 # Figure S7 ####
 
 # Genetic principal component analysis
-# Made by others
+
+genetic_pcs <- fread('figure_data/PCA_assignments.csv')
+
+png("figures/figure_S7.png", width = 6, height = 4, units = "in", res = 300)
+ggplot(genetic_pcs, aes(x = PC1, y = PC2)) +
+  geom_point(
+    data = subset(data_combined, group == "1000G_EUR"),
+    aes(color = Population),
+    shape = 19, size = 2
+  ) +
+  geom_point(
+    data = subset(data_combined, group == "1000G_nonEUR"),
+    aes(x = PC1, y = PC2),
+    color = "lightgrey",
+    shape = 19, size = 2
+  ) +
+  geom_point(
+    data = subset(data_combined, group == "COMBAT_EUR"),
+    aes(x = PC1, y = PC2),
+    color = "black", fill = "black",
+    shape = 21, size = 2, stroke = 0.5
+  ) +
+  geom_point(
+    data = subset(data_combined, group == "COMBAT_nonEUR"),
+    aes(x = PC1, y = PC2),
+    color = "black", fill = NA,
+    shape = 21, size = 2, stroke = 0.5
+  ) +
+  theme_minimal() +
+  labs(
+    title = "",
+    x = "PC1", y = "PC2",
+    color = "Population\n(1000G EUR)"
+  ) +
+  theme(legend.position = "right")
+dev.off()
 
 # Figure S8 ####
 
