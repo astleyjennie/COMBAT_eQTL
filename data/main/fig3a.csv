@@ -1,0 +1,165 @@
+QUERY_SNP	GWAS_SNP	GWAS_TRAIT	EQTL_CELL_TYPE	EQTL_GENE_NAME	EQTL_CELL_count
+rs200968609	rs3766606	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	cMono	PARK7	1
+rs200968609	rs3766606	Ulcerative colitis	cMono	PARK7	1
+rs34791736	rs2258734	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD4	MMEL1	1
+rs34791736	rs897628	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD4	MMEL1	1
+rs34878017	rs3766606	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4	PARK7	1
+rs34878017	rs3766606	Ulcerative colitis	CD4	PARK7	1
+rs4908400	rs11247791	Resistance to COVID-19 infection (Exposed negative vs positive)	cMono	PHACTR4	1
+rs4908405	rs11247791	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4	PHACTR4	1
+rs71500084	rs2036021	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4	MUTYH	1
+rs75972122	rs6697886	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	cMono	CDK11A	1
+rs1324551	rs1800682	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	cMono	ACTA2	1
+rs1800682	rs1800682	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	ncMono	ACTA2	1
+rs1874151	rs2270550	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4	VCL	1
+rs7069061	rs1800682	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4	ACTA2	3
+rs7069061	rs1800682	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8	ACTA2	3
+rs7069061	rs1800682	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	NK	ACTA2	3
+rs174535	rs174535	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8	TMEM258	1
+rs174535	rs174535	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	B	FADS1	1
+rs174545	rs174535	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4	TMEM258	1
+rs568617	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8	FIBP	1
+rs583887	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4	CTSW	5
+rs583887	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8	CTSW	5
+rs583887	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	DP	CTSW	5
+rs583887	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	DN	CTSW	5
+rs583887	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	DC	CTSW	5
+rs622614	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	NK	CTSW	3
+rs622614	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	MAIT	CTSW	3
+rs622614	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	GDT	CTSW	3
+rs99780	rs174535	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	NK	FADS1	1
+rs17103034	rs8006884	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	cMono	PPP2R3C	1
+rs17103034	rs8006884	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	NK	PRORP	1
+rs7153747	rs10139154	Amyotrophic lateral sclerosis	CD4	SCFD1	1
+rs72664807	rs8006884	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	ncMono	PPP2R3C	1
+rs4788085	rs26528	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	cMono	SULT1A2	1
+rs4788085	rs26528	Ulcerative colitis	cMono	SULT1A2	1
+rs62034323	rs26528	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	ncMono	SULT1A2	1
+rs62034323	rs26528	Ulcerative colitis	ncMono	SULT1A2	1
+rs698720	rs1728785	Ulcerative colitis	NK	ZFP90	1
+rs7404095	rs7404095	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	cMono	PRKCB	1
+rs7404095	rs7404095	Ulcerative colitis	cMono	PRKCB	1
+rs1008723	rs35736272	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8	ORMDL3	1
+rs1008723	rs7359623	Hay fever and/or eczema	CD8	ORMDL3	1
+rs1008723	rs11078928	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8	ORMDL3	1
+rs11080115	rs62070270	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4	NSRP1	1
+rs11080115	rs7220151	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4	NSRP1	1
+rs11080115	rs9747395	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4	NSRP1	1
+rs11080115	rs11080114	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4	NSRP1	1
+rs11080115	rs8065261	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4	NSRP1	1
+rs11080115	rs11080121	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4	NSRP1	1
+rs11557466	rs12946510	Ulcerative colitis	B	ORMDL3	1
+rs11557466	rs35736272	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	B	ORMDL3	1
+rs11557466	rs7359623	Hay fever and/or eczema	B	ORMDL3	1
+rs11557466	rs11078928	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	B	ORMDL3	1
+rs12944882	rs7359623	Hay fever and/or eczema	GDT	ORMDL3	1
+rs1724409	rs63750417	COVID-19 (hospitalized covid vs population)	CD4	LRRC37A2	1
+rs2696531	rs63750417	COVID-19 (hospitalized covid vs population)	NK	KANSL1	1
+rs2872516	rs35736272	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	NK	ORMDL3	1
+rs2872516	rs11078928	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	NK	ORMDL3	1
+rs2906009	rs63750417	COVID-19 (hospitalized covid vs population)	NK	LRRC37A2	1
+rs62063281	rs63750417	COVID-19 (hospitalized covid vs population)	CD4	LINC02210-CRHR1	1
+rs78534596	rs7225151	Alzheimer's disease or family history of Alzheimer's disease	cMono	SCIMP	1
+rs9303280	rs7359623	Hay fever and/or eczema	CD4	ORMDL3	1
+rs9891103	rs63750417	COVID-19 (hospitalized covid vs population)	CD8	LINC02210-CRHR1	1
+rs11083840	rs11083840	Ulcerative colitis	CD4	PTGIR	1
+rs11083840	rs11083840	Ulcerative colitis	CD4	GNG8	1
+rs12720356	rs73510898	COVID-19 (critical illness vs population or mild symptoms)	cMono	ZGLP1	1
+rs12720356	rs73510898	COVID-19 (critical illness vs population or mild symptoms)	cMono	ZGLP1	1
+rs12720356	rs12720356	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	cMono	ZGLP1	1
+rs12720356	rs12720356	Ulcerative colitis	cMono	ZGLP1	1
+rs12720356	rs12720356	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	cMono	ZGLP1	1
+rs12720356	rs142770866	COVID-19 (hospitalized covid vs population)	cMono	ZGLP1	1
+rs4803936	rs4802307	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4	PPP5C	1
+rs583954	rs1405655	COVID-19 (hospitalized covid vs population)	ncMono	NAPSA	2
+rs583954	rs1405655	COVID-19 (hospitalized covid vs population)	cMono	NAPSA	2
+rs62136101	rs4802307	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	NK	PPP5C	1
+rs11675457	rs13407913	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	cMono	ADCY3	1
+rs11675457	rs13407913	Ulcerative colitis	cMono	ADCY3	1
+rs11682128	rs10194375	Alzheimer's disease or family history of Alzheimer's disease	NK	BIN1	1
+rs13017599	rs67574266	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD4	REL	2
+rs13017599	rs67574266	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	B	REL	2
+rs13384682	rs6436047	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4	ARPC2	1
+rs13384682	rs6436048	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4	ARPC2	1
+rs13384682	rs13015410	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4	ARPC2	1
+rs61041183	rs6436047	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8	ARPC2	1
+rs61041183	rs6436048	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8	ARPC2	1
+rs6745050	rs11571297	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8	CTLA4	1
+rs11702262	rs11701331	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4	CBR1	1
+rs1893592	rs1893592	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4	UBASH3A	1
+rs178088	rs178046	Resistance to COVID-19 infection (Exposed negative vs positive)	NK	SNAP29	1
+rs178088	rs165718	Resistance to COVID-19 infection (Exposed negative vs positive)	NK	SNAP29	1
+rs178088	rs165902	Resistance to COVID-19 infection (Exposed negative vs positive)	NK	SNAP29	1
+rs178088	rs165898	Resistance to COVID-19 infection (Exposed negative vs positive)	NK	SNAP29	1
+rs178088	rs165691	Resistance to COVID-19 infection (Exposed negative vs positive)	NK	SNAP29	1
+rs178088	rs178052	Resistance to COVID-19 infection (Exposed negative vs positive)	NK	SNAP29	1
+rs178088	rs165850	Resistance to COVID-19 infection (Exposed negative vs positive)	NK	SNAP29	1
+rs5754100	rs2266961	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4	UBE2L3	1
+rs909685	rs2069235	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	NK	SYNGR1	2
+rs909685	rs2069235	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	GDT	SYNGR1	2
+rs6808936	rs1344674	Hay fever and/or eczema	cMono	ZBTB38	1
+rs11946205	rs78740643	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4	ANTXR2	1
+rs11946205	rs76275007	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4	ANTXR2	1
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4	ERAP2	13
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8	ERAP2	13
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	ncMono	ERAP2	13
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	cMono	ERAP2	13
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	NK	ERAP2	13
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	B	ERAP2	13
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	PB	ERAP2	13
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	HSC	ERAP2	13
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	MAIT	ERAP2	13
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	DP	ERAP2	13
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	DN	ERAP2	13
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	DC	ERAP2	13
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	GDT	ERAP2	13
+rs2927608	rs1363907	Ulcerative colitis	CD4	ERAP2	13
+rs2927608	rs1363907	Ulcerative colitis	CD8	ERAP2	13
+rs2927608	rs1363907	Ulcerative colitis	ncMono	ERAP2	13
+rs2927608	rs1363907	Ulcerative colitis	cMono	ERAP2	13
+rs2927608	rs1363907	Ulcerative colitis	NK	ERAP2	13
+rs2927608	rs1363907	Ulcerative colitis	B	ERAP2	13
+rs2927608	rs1363907	Ulcerative colitis	PB	ERAP2	13
+rs2927608	rs1363907	Ulcerative colitis	HSC	ERAP2	13
+rs2927608	rs1363907	Ulcerative colitis	MAIT	ERAP2	13
+rs2927608	rs1363907	Ulcerative colitis	DP	ERAP2	13
+rs2927608	rs1363907	Ulcerative colitis	DN	ERAP2	13
+rs2927608	rs1363907	Ulcerative colitis	DC	ERAP2	13
+rs2927608	rs1363907	Ulcerative colitis	GDT	ERAP2	13
+rs469758	rs469758	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4	ERAP1	1
+rs7731626	rs7731626	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD4	ANKRD55	1
+rs1040803	rs7752672	Resistance to COVID-19 infection (Exposed negative vs positive)	cMono	HDDC2	1
+rs2071474	rs2621363	Hay fever and/or eczema	B	HLA-DOB	1
+rs2975049	rs28749131	Hay fever and/or eczema	cMono	HLA-A	1
+rs57588792	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	cMono	HLA-DRB1	1
+rs57588792	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	DP	HLA-DQA2	1
+rs57588792	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	cMono	HLA-DRB1	1
+rs57588792	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	DP	HLA-DQA2	1
+rs59350153	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	NK	HLA-DQA2	2
+rs59350153	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	DN	HLA-DQA2	2
+rs59350153	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	NK	HLA-DQA2	2
+rs59350153	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	DN	HLA-DQA2	2
+rs7752672	rs7752672	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4	HDDC2	1
+rs9260057	rs28749131	Hay fever and/or eczema	NK	HLA-A	1
+rs9271154	rs9271192	Alzheimer's disease or family history of Alzheimer's disease	HSC	HLA-DRB1	1
+rs9271154	rs9271209	Ulcerative colitis	HSC	HLA-DRB1	1
+rs9271589	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	CD8	HLA-DQA2	1
+rs9271589	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	CD8	HLA-DQA2	1
+rs2391362	rs28550029	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	NK	SKAP2	1
+rs3778753	rs4728142	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	ncMono	IRF5	1
+rs3778753	rs4728142	Ulcerative colitis	ncMono	IRF5	1
+rs3778753	rs3757387	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	ncMono	IRF5	1
+rs3778753	rs3823536	Sjögren's syndrome	ncMono	IRF5	1
+rs3778753	rs3823536	Sjögren's syndrome	ncMono	IRF5	1
+rs73069539	rs28550029	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4	SKAP2	2
+rs73069539	rs28550029	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8	SKAP2	2
+rs7788301	rs866500	Alzheimer's disease or family history of Alzheimer's disease	B	CASTOR3P	1
+rs28834970	rs28834970	Alzheimer's disease or family history of Alzheimer's disease	cMono	PTK2B	1
+rs4625013	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	cMono	DNAAF11	1
+rs4625013	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	cMono	DNAAF11	1
+rs4625013	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	cMono	DNAAF11	1
+rs4625013	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	cMono	DNAAF11	1
+rs922483	rs2409780	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8	BLK	2
+rs922483	rs2409780	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	B	BLK	2
+rs1008382	rs10818483	Hay fever and/or eczema	CD8	TRAF1	1
+rs1008382	rs35942002	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8	TRAF1	1

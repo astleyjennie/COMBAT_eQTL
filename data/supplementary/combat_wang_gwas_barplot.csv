@@ -1,0 +1,553 @@
+trait	hit_combat	hit_wang	hit_both	hit_neither	type	proportion	raw_value
+Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	20	1	1	205	COMBAT only	0.0892857142857143	20
+Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	20	1	1	205	Wang only	0.00446428571428571	1
+Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	20	1	1	205	COMBAT and Wang	0.00446428571428571	1
+Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	20	1	1	205	Neither	0.915178571428571	205
+COVID-19 severity	19	0	1	29	COMBAT only	0.513513513513513	19
+COVID-19 severity	19	0	1	29	Wang only	0	0
+COVID-19 severity	19	0	1	29	COMBAT and Wang	0.027027027027027	1
+COVID-19 severity	19	0	1	29	Neither	0.783783783783784	29
+Systemic lupus erythematosus (MTAG)	12	0	1	233	COMBAT only	0.0489795918367347	12
+Systemic lupus erythematosus (MTAG)	12	0	1	233	Wang only	0	0
+Systemic lupus erythematosus (MTAG)	12	0	1	233	COMBAT and Wang	0.00408163265306122	1
+Systemic lupus erythematosus (MTAG)	12	0	1	233	Neither	0.951020408163265	233
+Type 1 diabetes	12	0	0	64	COMBAT only	0.166666666666667	12
+Type 1 diabetes	12	0	0	64	Wang only	0	0
+Type 1 diabetes	12	0	0	64	COMBAT and Wang	0	0
+Type 1 diabetes	12	0	0	64	Neither	0.888888888888889	64
+Resistance to COVID-19 infection (Exposed negative vs positive)	10	0	1	244	COMBAT only	0.0392156862745098	10
+Resistance to COVID-19 infection (Exposed negative vs positive)	10	0	1	244	Wang only	0	0
+Resistance to COVID-19 infection (Exposed negative vs positive)	10	0	1	244	COMBAT and Wang	0.00392156862745098	1
+Resistance to COVID-19 infection (Exposed negative vs positive)	10	0	1	244	Neither	0.956862745098039	244
+Rheumatoid arthritis	10	1	3	73	COMBAT only	0.114942528735632	10
+Rheumatoid arthritis	10	1	3	73	Wang only	0.0114942528735632	1
+Rheumatoid arthritis	10	1	3	73	COMBAT and Wang	0.0344827586206897	3
+Rheumatoid arthritis	10	1	3	73	Neither	0.839080459770115	73
+Multiple sclerosis	9	1	0	88	COMBAT only	0.0927835051546392	9
+Multiple sclerosis	9	1	0	88	Wang only	0.0103092783505155	1
+Multiple sclerosis	9	1	0	88	COMBAT and Wang	0	0
+Multiple sclerosis	9	1	0	88	Neither	0.907216494845361	88
+Inflammatory bowel disease	8	0	0	84	COMBAT only	0.0869565217391304	8
+Inflammatory bowel disease	8	0	0	84	Wang only	0	0
+Inflammatory bowel disease	8	0	0	84	COMBAT and Wang	0	0
+Inflammatory bowel disease	8	0	0	84	Neither	0.91304347826087	84
+Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	8	0	1	33	COMBAT only	0.19047619047619	8
+Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	8	0	1	33	Wang only	0	0
+Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	8	0	1	33	COMBAT and Wang	0.0238095238095238	1
+Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	8	0	1	33	Neither	0.785714285714286	33
+Ulcerative colitis	8	1	0	82	COMBAT only	0.0888888888888889	8
+Ulcerative colitis	8	1	0	82	Wang only	0.0111111111111111	1
+Ulcerative colitis	8	1	0	82	COMBAT and Wang	0	0
+Ulcerative colitis	8	1	0	82	Neither	0.911111111111111	82
+Rheumatoid arthritis (ACPA-positive)	7	0	1	35	COMBAT only	0.162790697674419	7
+Rheumatoid arthritis (ACPA-positive)	7	0	1	35	Wang only	0	0
+Rheumatoid arthritis (ACPA-positive)	7	0	1	35	COMBAT and Wang	0.0232558139534884	1
+Rheumatoid arthritis (ACPA-positive)	7	0	1	35	Neither	0.813953488372093	35
+COVID-19 (critical illness vs population or mild symptoms)	6	0	0	44	COMBAT only	0.125	6
+COVID-19 (critical illness vs population or mild symptoms)	6	0	0	44	Wang only	0	0
+COVID-19 (critical illness vs population or mild symptoms)	6	0	0	44	COMBAT and Wang	0	0
+COVID-19 (critical illness vs population or mild symptoms)	6	0	0	44	Neither	0.916666666666667	44
+Parkinson's disease or first degree relation to individual with Parkinson's disease	6	1	1	101	COMBAT only	0.0560747663551402	6
+Parkinson's disease or first degree relation to individual with Parkinson's disease	6	1	1	101	Wang only	0.00934579439252336	1
+Parkinson's disease or first degree relation to individual with Parkinson's disease	6	1	1	101	COMBAT and Wang	0.00934579439252336	1
+Parkinson's disease or first degree relation to individual with Parkinson's disease	6	1	1	101	Neither	0.94392523364486	101
+Allergic disease (asthma, hay fever or eczema)	5	1	0	74	COMBAT only	0.0632911392405063	5
+Allergic disease (asthma, hay fever or eczema)	5	1	0	74	Wang only	0.0126582278481013	1
+Allergic disease (asthma, hay fever or eczema)	5	1	0	74	COMBAT and Wang	0	0
+Allergic disease (asthma, hay fever or eczema)	5	1	0	74	Neither	0.936708860759494	74
+Autoimmune traits	5	0	0	67	COMBAT only	0.0694444444444444	5
+Autoimmune traits	5	0	0	67	Wang only	0	0
+Autoimmune traits	5	0	0	67	COMBAT and Wang	0	0
+Autoimmune traits	5	0	0	67	Neither	0.930555555555556	67
+COVID-19 (critical illness vs population)	5	0	0	44	COMBAT only	0.106382978723404	5
+COVID-19 (critical illness vs population)	5	0	0	44	Wang only	0	0
+COVID-19 (critical illness vs population)	5	0	0	44	COMBAT and Wang	0	0
+COVID-19 (critical illness vs population)	5	0	0	44	Neither	0.936170212765957	44
+COVID-19 (hospitalized covid vs population)	5	0	0	44	COMBAT only	0.106382978723404	5
+COVID-19 (hospitalized covid vs population)	5	0	0	44	Wang only	0	0
+COVID-19 (hospitalized covid vs population)	5	0	0	44	COMBAT and Wang	0	0
+COVID-19 (hospitalized covid vs population)	5	0	0	44	Neither	0.936170212765957	44
+Hay fever and/or eczema	5	3	0	146	COMBAT only	0.0324675324675325	5
+Hay fever and/or eczema	5	3	0	146	Wang only	0.0194805194805195	3
+Hay fever and/or eczema	5	3	0	146	COMBAT and Wang	0	0
+Hay fever and/or eczema	5	3	0	146	Neither	0.948051948051948	146
+Nonatopic asthma	5	0	1	93	COMBAT only	0.0510204081632653	5
+Nonatopic asthma	5	0	1	93	Wang only	0	0
+Nonatopic asthma	5	0	1	93	COMBAT and Wang	0.0102040816326531	1
+Nonatopic asthma	5	0	1	93	Neither	0.948979591836735	93
+Primary biliary cirrhosis	5	0	0	41	COMBAT only	0.113636363636364	5
+Primary biliary cirrhosis	5	0	0	41	Wang only	0	0
+Primary biliary cirrhosis	5	0	0	41	COMBAT and Wang	0	0
+Primary biliary cirrhosis	5	0	0	41	Neither	0.931818181818182	41
+Psoriasis	5	0	0	55	COMBAT only	0.0862068965517241	5
+Psoriasis	5	0	0	55	Wang only	0	0
+Psoriasis	5	0	0	55	COMBAT and Wang	0	0
+Psoriasis	5	0	0	55	Neither	0.948275862068966	55
+Alzheimer’s disease polygenic risk score (upper quantile vs lower quantile)	4	1	0	458	COMBAT only	0.00863930885529158	4
+Alzheimer’s disease polygenic risk score (upper quantile vs lower quantile)	4	1	0	458	Wang only	0.00215982721382289	1
+Alzheimer’s disease polygenic risk score (upper quantile vs lower quantile)	4	1	0	458	COMBAT and Wang	0	0
+Alzheimer’s disease polygenic risk score (upper quantile vs lower quantile)	4	1	0	458	Neither	0.989200863930886	458
+Atopic asthma	4	3	1	187	COMBAT only	0.0205128205128205	4
+Atopic asthma	4	3	1	187	Wang only	0.0153846153846154	3
+Atopic asthma	4	3	1	187	COMBAT and Wang	0.00512820512820513	1
+Atopic asthma	4	3	1	187	Neither	0.958974358974359	187
+Autoimmune traits (pleiotropy)	4	0	3	30	COMBAT only	0.108108108108108	4
+Autoimmune traits (pleiotropy)	4	0	3	30	Wang only	0	0
+Autoimmune traits (pleiotropy)	4	0	3	30	COMBAT and Wang	0.0810810810810811	3
+Autoimmune traits (pleiotropy)	4	0	3	30	Neither	0.810810810810811	30
+COVID-19 with respiratory failure	4	0	0	11	COMBAT only	0.307692307692308	4
+COVID-19 with respiratory failure	4	0	0	11	Wang only	0	0
+COVID-19 with respiratory failure	4	0	0	11	COMBAT and Wang	0	0
+COVID-19 with respiratory failure	4	0	0	11	Neither	0.846153846153846	11
+Primary biliary cholangitis	4	1	0	93	COMBAT only	0.0408163265306122	4
+Primary biliary cholangitis	4	1	0	93	Wang only	0.0102040816326531	1
+Primary biliary cholangitis	4	1	0	93	COMBAT and Wang	0	0
+Primary biliary cholangitis	4	1	0	93	Neither	0.948979591836735	93
+Severe COVID-19 infection	4	6	0	281	COMBAT only	0.013745704467354	4
+Severe COVID-19 infection	4	6	0	281	Wang only	0.0206185567010309	6
+Severe COVID-19 infection	4	6	0	281	COMBAT and Wang	0	0
+Severe COVID-19 infection	4	6	0	281	Neither	0.965635738831615	281
+Allergic rhinitis	3	2	0	36	COMBAT only	0.0731707317073171	3
+Allergic rhinitis	3	2	0	36	Wang only	0.0487804878048781	2
+Allergic rhinitis	3	2	0	36	COMBAT and Wang	0	0
+Allergic rhinitis	3	2	0	36	Neither	0.878048780487805	36
+Alzheimer's disease or family history of Alzheimer's disease	3	0	0	66	COMBAT only	0.0434782608695652	3
+Alzheimer's disease or family history of Alzheimer's disease	3	0	0	66	Wang only	0	0
+Alzheimer's disease or family history of Alzheimer's disease	3	0	0	66	COMBAT and Wang	0	0
+Alzheimer's disease or family history of Alzheimer's disease	3	0	0	66	Neither	0.956521739130435	66
+Asthma	3	2	0	81	COMBAT only	0.0352941176470588	3
+Asthma	3	2	0	81	Wang only	0.0235294117647059	2
+Asthma	3	2	0	81	COMBAT and Wang	0	0
+Asthma	3	2	0	81	Neither	0.952941176470588	81
+Asthma in any disease	3	0	1	100	COMBAT only	0.029126213592233	3
+Asthma in any disease	3	0	1	100	Wang only	0	0
+Asthma in any disease	3	0	1	100	COMBAT and Wang	0.00970873786407767	1
+Asthma in any disease	3	0	1	100	Neither	0.970873786407767	100
+Asthma with severe exacerbations	3	0	0	1	COMBAT only	0.75	3
+Asthma with severe exacerbations	3	0	0	1	Wang only	0	0
+Asthma with severe exacerbations	3	0	0	1	COMBAT and Wang	0	0
+Asthma with severe exacerbations	3	0	0	1	Neither	0.25	1
+COVID-19 (hospitalized vs population)	3	0	0	8	COMBAT only	0.333333333333333	3
+COVID-19 (hospitalized vs population)	3	0	0	8	Wang only	0	0
+COVID-19 (hospitalized vs population)	3	0	0	8	COMBAT and Wang	0	0
+COVID-19 (hospitalized vs population)	3	0	0	8	Neither	0.888888888888889	8
+Childhood asthma with severe exacerbations	3	0	0	15	COMBAT only	0.166666666666667	3
+Childhood asthma with severe exacerbations	3	0	0	15	Wang only	0	0
+Childhood asthma with severe exacerbations	3	0	0	15	COMBAT and Wang	0	0
+Childhood asthma with severe exacerbations	3	0	0	15	Neither	0.833333333333333	15
+Chronic obstructive pulmonary disease	3	0	0	98	COMBAT only	0.0303030303030303	3
+Chronic obstructive pulmonary disease	3	0	0	98	Wang only	0	0
+Chronic obstructive pulmonary disease	3	0	0	98	COMBAT and Wang	0	0
+Chronic obstructive pulmonary disease	3	0	0	98	Neither	0.98989898989899	98
+Chronic rhinosinusitis	3	0	0	1	COMBAT only	1.5	3
+Chronic rhinosinusitis	3	0	0	1	Wang only	0	0
+Chronic rhinosinusitis	3	0	0	1	COMBAT and Wang	0	0
+Chronic rhinosinusitis	3	0	0	1	Neither	0.5	1
+Chronic sinusitis	3	0	0	9	COMBAT only	0.3	3
+Chronic sinusitis	3	0	0	9	Wang only	0	0
+Chronic sinusitis	3	0	0	9	COMBAT and Wang	0	0
+Chronic sinusitis	3	0	0	9	Neither	0.9	9
+Parkinson's disease	3	0	0	6	COMBAT only	0.428571428571429	3
+Parkinson's disease	3	0	0	6	Wang only	0	0
+Parkinson's disease	3	0	0	6	COMBAT and Wang	0	0
+Parkinson's disease	3	0	0	6	Neither	0.857142857142857	6
+Tuberculosis	3	0	0	26	COMBAT only	0.111111111111111	3
+Tuberculosis	3	0	0	26	Wang only	0	0
+Tuberculosis	3	0	0	26	COMBAT and Wang	0	0
+Tuberculosis	3	0	0	26	Neither	0.962962962962963	26
+Allergy	2	1	0	22	COMBAT only	0.08	2
+Allergy	2	1	0	22	Wang only	0.04	1
+Allergy	2	1	0	22	COMBAT and Wang	0	0
+Allergy	2	1	0	22	Neither	0.88	22
+Asthma (adult onset)	2	0	1	73	COMBAT only	0.0266666666666667	2
+Asthma (adult onset)	2	0	1	73	Wang only	0	0
+Asthma (adult onset)	2	0	1	73	COMBAT and Wang	0.0133333333333333	1
+Asthma (adult onset)	2	0	1	73	Neither	0.973333333333333	73
+Asthma (childhood onset)	2	1	1	94	COMBAT only	0.0204081632653061	2
+Asthma (childhood onset)	2	1	1	94	Wang only	0.0102040816326531	1
+Asthma (childhood onset)	2	1	1	94	COMBAT and Wang	0.0102040816326531	1
+Asthma (childhood onset)	2	1	1	94	Neither	0.959183673469388	94
+Asthma or allergic disease (pleiotropy)	2	0	1	35	COMBAT only	0.0526315789473684	2
+Asthma or allergic disease (pleiotropy)	2	0	1	35	Wang only	0	0
+Asthma or allergic disease (pleiotropy)	2	0	1	35	COMBAT and Wang	0.0263157894736842	1
+Asthma or allergic disease (pleiotropy)	2	0	1	35	Neither	0.921052631578947	35
+Chronic bronchitis	2	0	0	4	COMBAT only	0.4	2
+Chronic bronchitis	2	0	0	4	Wang only	0	0
+Chronic bronchitis	2	0	0	4	COMBAT and Wang	0	0
+Chronic bronchitis	2	0	0	4	Neither	0.8	4
+Fulminant type 1 diabetes	2	0	0	2	COMBAT only	0.666666666666667	2
+Fulminant type 1 diabetes	2	0	0	2	Wang only	0	0
+Fulminant type 1 diabetes	2	0	0	2	COMBAT and Wang	0	0
+Fulminant type 1 diabetes	2	0	0	2	Neither	0.666666666666667	2
+Giant cell arteritis	2	0	0	3	COMBAT only	0.5	2
+Giant cell arteritis	2	0	0	3	Wang only	0	0
+Giant cell arteritis	2	0	0	3	COMBAT and Wang	0	0
+Giant cell arteritis	2	0	0	3	Neither	0.75	3
+Hepatitis B (viral clearance)	2	0	0	2	COMBAT only	0.5	2
+Hepatitis B (viral clearance)	2	0	0	2	Wang only	0	0
+Hepatitis B (viral clearance)	2	0	0	2	COMBAT and Wang	0	0
+Hepatitis B (viral clearance)	2	0	0	2	Neither	0.5	2
+Hyperthyroidism	2	0	0	8	COMBAT only	0.2	2
+Hyperthyroidism	2	0	0	8	Wang only	0	0
+Hyperthyroidism	2	0	0	8	COMBAT and Wang	0	0
+Hyperthyroidism	2	0	0	8	Neither	0.8	8
+Hypothyroidism	2	2	0	78	COMBAT only	0.024390243902439	2
+Hypothyroidism	2	2	0	78	Wang only	0.024390243902439	2
+Hypothyroidism	2	2	0	78	COMBAT and Wang	0	0
+Hypothyroidism	2	2	0	78	Neither	0.951219512195122	78
+Juvenile idiopathic arthritis (oligoarticular or rheumatoid factor-negative polyarticular)	2	0	0	18	COMBAT only	0.1	2
+Juvenile idiopathic arthritis (oligoarticular or rheumatoid factor-negative polyarticular)	2	0	0	18	Wang only	0	0
+Juvenile idiopathic arthritis (oligoarticular or rheumatoid factor-negative polyarticular)	2	0	0	18	COMBAT and Wang	0	0
+Juvenile idiopathic arthritis (oligoarticular or rheumatoid factor-negative polyarticular)	2	0	0	18	Neither	0.9	18
+Leprosy	2	0	0	6	COMBAT only	0.25	2
+Leprosy	2	0	0	6	Wang only	0	0
+Leprosy	2	0	0	6	COMBAT and Wang	0	0
+Leprosy	2	0	0	6	Neither	0.75	6
+Primary sclerosing cholangitis (MTAG)	2	2	0	17	COMBAT only	0.0952380952380952	2
+Primary sclerosing cholangitis (MTAG)	2	2	0	17	Wang only	0.0952380952380952	2
+Primary sclerosing cholangitis (MTAG)	2	2	0	17	COMBAT and Wang	0	0
+Primary sclerosing cholangitis (MTAG)	2	2	0	17	Neither	0.80952380952381	17
+Self-reported allergy	2	0	0	13	COMBAT only	0.133333333333333	2
+Self-reported allergy	2	0	0	13	Wang only	0	0
+Self-reported allergy	2	0	0	13	COMBAT and Wang	0	0
+Self-reported allergy	2	0	0	13	Neither	0.866666666666667	13
+Sjögren's syndrome	2	0	0	4	COMBAT only	0.333333333333333	2
+Sjögren's syndrome	2	0	0	4	Wang only	0	0
+Sjögren's syndrome	2	0	0	4	COMBAT and Wang	0	0
+Sjögren's syndrome	2	0	0	4	Neither	0.666666666666667	4
+Adult asthma	1	0	0	2	COMBAT only	0.333333333333333	1
+Adult asthma	1	0	0	2	Wang only	0	0
+Adult asthma	1	0	0	2	COMBAT and Wang	0	0
+Adult asthma	1	0	0	2	Neither	0.666666666666667	2
+Allergic disease (asthma, hay fever and/or eczema) (multivariate analysis)	1	1	1	49	COMBAT only	0.0192307692307692	1
+Allergic disease (asthma, hay fever and/or eczema) (multivariate analysis)	1	1	1	49	Wang only	0.0192307692307692	1
+Allergic disease (asthma, hay fever and/or eczema) (multivariate analysis)	1	1	1	49	COMBAT and Wang	0.0192307692307692	1
+Allergic disease (asthma, hay fever and/or eczema) (multivariate analysis)	1	1	1	49	Neither	0.942307692307692	49
+Alzheimer's disease (late onset)	1	0	0	6	COMBAT only	0.142857142857143	1
+Alzheimer's disease (late onset)	1	0	0	6	Wang only	0	0
+Alzheimer's disease (late onset)	1	0	0	6	COMBAT and Wang	0	0
+Alzheimer's disease (late onset)	1	0	0	6	Neither	0.857142857142857	6
+Amyotrophic lateral sclerosis	1	0	0	5	COMBAT only	0.166666666666667	1
+Amyotrophic lateral sclerosis	1	0	0	5	Wang only	0	0
+Amyotrophic lateral sclerosis	1	0	0	5	COMBAT and Wang	0	0
+Amyotrophic lateral sclerosis	1	0	0	5	Neither	0.833333333333333	5
+Ankylosing spondylitis	1	0	0	8	COMBAT only	0.111111111111111	1
+Ankylosing spondylitis	1	0	0	8	Wang only	0	0
+Ankylosing spondylitis	1	0	0	8	COMBAT and Wang	0	0
+Ankylosing spondylitis	1	0	0	8	Neither	0.888888888888889	8
+Antineutrophil cytoplasmic antibody-associated vasculitis	1	0	0	8	COMBAT only	0.111111111111111	1
+Antineutrophil cytoplasmic antibody-associated vasculitis	1	0	0	8	Wang only	0	0
+Antineutrophil cytoplasmic antibody-associated vasculitis	1	0	0	8	COMBAT and Wang	0	0
+Antineutrophil cytoplasmic antibody-associated vasculitis	1	0	0	8	Neither	0.888888888888889	8
+Asthma (moderate or severe)	1	0	0	7	COMBAT only	0.125	1
+Asthma (moderate or severe)	1	0	0	7	Wang only	0	0
+Asthma (moderate or severe)	1	0	0	7	COMBAT and Wang	0	0
+Asthma (moderate or severe)	1	0	0	7	Neither	0.875	7
+Asthma and hay fever	1	0	0	9	COMBAT only	0.1	1
+Asthma and hay fever	1	0	0	9	Wang only	0	0
+Asthma and hay fever	1	0	0	9	COMBAT and Wang	0	0
+Asthma and hay fever	1	0	0	9	Neither	0.9	9
+Asthma-COPD overlap syndrome	1	1	0	11	COMBAT only	0.0769230769230769	1
+Asthma-COPD overlap syndrome	1	1	0	11	Wang only	0.0769230769230769	1
+Asthma-COPD overlap syndrome	1	1	0	11	COMBAT and Wang	0	0
+Asthma-COPD overlap syndrome	1	1	0	11	Neither	0.846153846153846	11
+Autoimmune neurological syndromes with anti-GAD65 autoantibodies	1	0	1	33	COMBAT only	0.0285714285714286	1
+Autoimmune neurological syndromes with anti-GAD65 autoantibodies	1	0	1	33	Wang only	0	0
+Autoimmune neurological syndromes with anti-GAD65 autoantibodies	1	0	1	33	COMBAT and Wang	0.0285714285714286	1
+Autoimmune neurological syndromes with anti-GAD65 autoantibodies	1	0	1	33	Neither	0.942857142857143	33
+Autoimmune thyroid disease	1	2	1	95	COMBAT only	0.0101010101010101	1
+Autoimmune thyroid disease	1	2	1	95	Wang only	0.0202020202020202	2
+Autoimmune thyroid disease	1	2	1	95	COMBAT and Wang	0.0101010101010101	1
+Autoimmune thyroid disease	1	2	1	95	Neither	0.95959595959596	95
+Autoimmune thyroid diseases (Graves disease or Hashimoto's thyroiditis)	1	0	0	2	COMBAT only	0.333333333333333	1
+Autoimmune thyroid diseases (Graves disease or Hashimoto's thyroiditis)	1	0	0	2	Wang only	0	0
+Autoimmune thyroid diseases (Graves disease or Hashimoto's thyroiditis)	1	0	0	2	COMBAT and Wang	0	0
+Autoimmune thyroid diseases (Graves disease or Hashimoto's thyroiditis)	1	0	0	2	Neither	0.666666666666667	2
+Birdshot chorioretinopathy	1	0	0	1	COMBAT only	0.5	1
+Birdshot chorioretinopathy	1	0	0	1	Wang only	0	0
+Birdshot chorioretinopathy	1	0	0	1	COMBAT and Wang	0	0
+Birdshot chorioretinopathy	1	0	0	1	Neither	0.5	1
+Celiac disease	1	0	0	4	COMBAT only	0.2	1
+Celiac disease	1	0	0	4	Wang only	0	0
+Celiac disease	1	0	0	4	COMBAT and Wang	0	0
+Celiac disease	1	0	0	4	Neither	0.8	4
+Childhood asthma	1	0	0	0	COMBAT only	1	1
+Childhood asthma	1	0	0	0	Wang only	0	0
+Childhood asthma	1	0	0	0	COMBAT and Wang	0	0
+Childhood asthma	1	0	0	0	Neither	0	0
+Chronic hepatitis B infection	1	0	0	8	COMBAT only	0.111111111111111	1
+Chronic hepatitis B infection	1	0	0	8	Wang only	0	0
+Chronic hepatitis B infection	1	0	0	8	COMBAT and Wang	0	0
+Chronic hepatitis B infection	1	0	0	8	Neither	0.888888888888889	8
+Chronic hepatitis C infection	1	0	0	1	COMBAT only	0.5	1
+Chronic hepatitis C infection	1	0	0	1	Wang only	0	0
+Chronic hepatitis C infection	1	0	0	1	COMBAT and Wang	0	0
+Chronic hepatitis C infection	1	0	0	1	Neither	0.5	1
+Chronic inflammatory sinonasal disease	1	0	0	12	COMBAT only	0.0769230769230769	1
+Chronic inflammatory sinonasal disease	1	0	0	12	Wang only	0	0
+Chronic inflammatory sinonasal disease	1	0	0	12	COMBAT and Wang	0	0
+Chronic inflammatory sinonasal disease	1	0	0	12	Neither	0.923076923076923	12
+Crohn's disease	1	0	0	7	COMBAT only	0.125	1
+Crohn's disease	1	0	0	7	Wang only	0	0
+Crohn's disease	1	0	0	7	COMBAT and Wang	0	0
+Crohn's disease	1	0	0	7	Neither	0.875	7
+Diverticular disease	1	0	0	38	COMBAT only	0.0256410256410256	1
+Diverticular disease	1	0	0	38	Wang only	0	0
+Diverticular disease	1	0	0	38	COMBAT and Wang	0	0
+Diverticular disease	1	0	0	38	Neither	0.974358974358974	38
+Dupuytren's disease	1	0	0	60	COMBAT only	0.0163934426229508	1
+Dupuytren's disease	1	0	0	60	Wang only	0	0
+Dupuytren's disease	1	0	0	60	COMBAT and Wang	0	0
+Dupuytren's disease	1	0	0	60	Neither	0.983606557377049	60
+Graves' disease	1	0	0	8	COMBAT only	0.111111111111111	1
+Graves' disease	1	0	0	8	Wang only	0	0
+Graves' disease	1	0	0	8	COMBAT and Wang	0	0
+Graves' disease	1	0	0	8	Neither	0.888888888888889	8
+Hashimoto thyroiditis	1	0	0	15	COMBAT only	0.0625	1
+Hashimoto thyroiditis	1	0	0	15	Wang only	0	0
+Hashimoto thyroiditis	1	0	0	15	COMBAT and Wang	0	0
+Hashimoto thyroiditis	1	0	0	15	Neither	0.9375	15
+Hepatitis B	1	0	0	3	COMBAT only	0.25	1
+Hepatitis B	1	0	0	3	Wang only	0	0
+Hepatitis B	1	0	0	3	COMBAT and Wang	0	0
+Hepatitis B	1	0	0	3	Neither	0.75	3
+Juvenile rheumatoid arthritis	1	0	0	0	COMBAT only	1	1
+Juvenile rheumatoid arthritis	1	0	0	0	Wang only	0	0
+Juvenile rheumatoid arthritis	1	0	0	0	COMBAT and Wang	0	0
+Juvenile rheumatoid arthritis	1	0	0	0	Neither	0	0
+Kawasaki disease	1	0	0	3	COMBAT only	0.25	1
+Kawasaki disease	1	0	0	3	Wang only	0	0
+Kawasaki disease	1	0	0	3	COMBAT and Wang	0	0
+Kawasaki disease	1	0	0	3	Neither	0.75	3
+Late-onset myasthenia gravis	1	0	0	5	COMBAT only	0.166666666666667	1
+Late-onset myasthenia gravis	1	0	0	5	Wang only	0	0
+Late-onset myasthenia gravis	1	0	0	5	COMBAT and Wang	0	0
+Late-onset myasthenia gravis	1	0	0	5	Neither	0.833333333333333	5
+Multiple sclerosis (OCB status)	1	0	0	6	COMBAT only	0.142857142857143	1
+Multiple sclerosis (OCB status)	1	0	0	6	Wang only	0	0
+Multiple sclerosis (OCB status)	1	0	0	6	COMBAT and Wang	0	0
+Multiple sclerosis (OCB status)	1	0	0	6	Neither	0.857142857142857	6
+Pediatric asthma	1	1	0	33	COMBAT only	0.0285714285714286	1
+Pediatric asthma	1	1	0	33	Wang only	0.0285714285714286	1
+Pediatric asthma	1	1	0	33	COMBAT and Wang	0	0
+Pediatric asthma	1	1	0	33	Neither	0.942857142857143	33
+Persistent hepatitis B virus infection	1	0	0	1	COMBAT only	0.5	1
+Persistent hepatitis B virus infection	1	0	0	1	Wang only	0	0
+Persistent hepatitis B virus infection	1	0	0	1	COMBAT and Wang	0	0
+Persistent hepatitis B virus infection	1	0	0	1	Neither	0.5	1
+Primary sclerosing cholangitis	1	2	1	14	COMBAT only	0.0555555555555556	1
+Primary sclerosing cholangitis	1	2	1	14	Wang only	0.111111111111111	2
+Primary sclerosing cholangitis	1	2	1	14	COMBAT and Wang	0.0555555555555556	1
+Primary sclerosing cholangitis	1	2	1	14	Neither	0.777777777777778	14
+Psoriasis vulgaris	1	2	0	22	COMBAT only	0.04	1
+Psoriasis vulgaris	1	2	0	22	Wang only	0.08	2
+Psoriasis vulgaris	1	2	0	22	COMBAT and Wang	0	0
+Psoriasis vulgaris	1	2	0	22	Neither	0.88	22
+Rheumatoid arthritis (ACPA-negative)	1	0	0	1	COMBAT only	0.5	1
+Rheumatoid arthritis (ACPA-negative)	1	0	0	1	Wang only	0	0
+Rheumatoid arthritis (ACPA-negative)	1	0	0	1	COMBAT and Wang	0	0
+Rheumatoid arthritis (ACPA-negative)	1	0	0	1	Neither	0.5	1
+Sarcoidosis	1	1	0	4	COMBAT only	0.166666666666667	1
+Sarcoidosis	1	1	0	4	Wang only	0.166666666666667	1
+Sarcoidosis	1	1	0	4	COMBAT and Wang	0	0
+Sarcoidosis	1	1	0	4	Neither	0.666666666666667	4
+Sarcoidosis (Lofgren's syndrome vs non-Lofgren's syndrome)	1	0	0	24	COMBAT only	0.04	1
+Sarcoidosis (Lofgren's syndrome vs non-Lofgren's syndrome)	1	0	0	24	Wang only	0	0
+Sarcoidosis (Lofgren's syndrome vs non-Lofgren's syndrome)	1	0	0	24	COMBAT and Wang	0	0
+Sarcoidosis (Lofgren's syndrome vs non-Lofgren's syndrome)	1	0	0	24	Neither	0.96	24
+Sarcoidosis (non-Lofgren's syndrome without extrapulmonary manifestations)	1	0	0	1	COMBAT only	0.5	1
+Sarcoidosis (non-Lofgren's syndrome without extrapulmonary manifestations)	1	0	0	1	Wang only	0	0
+Sarcoidosis (non-Lofgren's syndrome without extrapulmonary manifestations)	1	0	0	1	COMBAT and Wang	0	0
+Sarcoidosis (non-Lofgren's syndrome without extrapulmonary manifestations)	1	0	0	1	Neither	0.5	1
+Sarcoidosis (non-Lofgren's syndrome)	1	0	0	0	COMBAT only	1	1
+Sarcoidosis (non-Lofgren's syndrome)	1	0	0	0	Wang only	0	0
+Sarcoidosis (non-Lofgren's syndrome)	1	0	0	0	COMBAT and Wang	0	0
+Sarcoidosis (non-Lofgren's syndrome)	1	0	0	0	Neither	0	0
+Severe autoimmune type 2 diabetes	1	0	0	0	COMBAT only	1	1
+Severe autoimmune type 2 diabetes	1	0	0	0	Wang only	0	0
+Severe autoimmune type 2 diabetes	1	0	0	0	COMBAT and Wang	0	0
+Severe autoimmune type 2 diabetes	1	0	0	0	Neither	0	0
+Systemic lupus erythematosus	1	1	0	7	COMBAT only	0.111111111111111	1
+Systemic lupus erythematosus	1	1	0	7	Wang only	0.111111111111111	1
+Systemic lupus erythematosus	1	1	0	7	COMBAT and Wang	0	0
+Systemic lupus erythematosus	1	1	0	7	Neither	0.777777777777778	7
+Systemic lupus erythematosus and Systemic sclerosis	1	0	0	10	COMBAT only	0.0909090909090909	1
+Systemic lupus erythematosus and Systemic sclerosis	1	0	0	10	Wang only	0	0
+Systemic lupus erythematosus and Systemic sclerosis	1	0	0	10	COMBAT and Wang	0	0
+Systemic lupus erythematosus and Systemic sclerosis	1	0	0	10	Neither	0.909090909090909	10
+Systemic sclerosis	1	0	0	8	COMBAT only	0.111111111111111	1
+Systemic sclerosis	1	0	0	8	Wang only	0	0
+Systemic sclerosis	1	0	0	8	COMBAT and Wang	0	0
+Systemic sclerosis	1	0	0	8	Neither	0.888888888888889	8
+Systemic seropositive rheumatic diseases (Systemic sclerosis or systemic lupus erythematosus or rheumatoid arthritis or idiopathic inflammatory myopathies)	1	0	1	24	COMBAT only	0.0384615384615385	1
+Systemic seropositive rheumatic diseases (Systemic sclerosis or systemic lupus erythematosus or rheumatoid arthritis or idiopathic inflammatory myopathies)	1	0	1	24	Wang only	0	0
+Systemic seropositive rheumatic diseases (Systemic sclerosis or systemic lupus erythematosus or rheumatoid arthritis or idiopathic inflammatory myopathies)	1	0	1	24	COMBAT and Wang	0.0384615384615385	1
+Systemic seropositive rheumatic diseases (Systemic sclerosis or systemic lupus erythematosus or rheumatoid arthritis or idiopathic inflammatory myopathies)	1	0	1	24	Neither	0.923076923076923	24
+Takayasu arteritis	1	1	0	5	COMBAT only	0.142857142857143	1
+Takayasu arteritis	1	1	0	5	Wang only	0.142857142857143	1
+Takayasu arteritis	1	1	0	5	COMBAT and Wang	0	0
+Takayasu arteritis	1	1	0	5	Neither	0.714285714285714	5
+Urticaria	1	1	0	3	COMBAT only	0.2	1
+Urticaria	1	1	0	3	Wang only	0.2	1
+Urticaria	1	1	0	3	COMBAT and Wang	0	0
+Urticaria	1	1	0	3	Neither	0.6	3
+Vasculitis (pleiotropy)	1	1	0	11	COMBAT only	0.0769230769230769	1
+Vasculitis (pleiotropy)	1	1	0	11	Wang only	0.0769230769230769	1
+Vasculitis (pleiotropy)	1	1	0	11	COMBAT and Wang	0	0
+Vasculitis (pleiotropy)	1	1	0	11	Neither	0.846153846153846	11
+Vitiligo	1	1	1	46	COMBAT only	0.0204081632653061	1
+Vitiligo	1	1	1	46	Wang only	0.0204081632653061	1
+Vitiligo	1	1	1	46	COMBAT and Wang	0.0204081632653061	1
+Vitiligo	1	1	1	46	Neither	0.938775510204082	46
+Vitiligo (early onset)	1	0	0	1	COMBAT only	0.5	1
+Vitiligo (early onset)	1	0	0	1	Wang only	0	0
+Vitiligo (early onset)	1	0	0	1	COMBAT and Wang	0	0
+Vitiligo (early onset)	1	0	0	1	Neither	0.5	1
+Vitiligo (late onset)	1	0	0	0	COMBAT only	1	1
+Vitiligo (late onset)	1	0	0	0	Wang only	0	0
+Vitiligo (late onset)	1	0	0	0	COMBAT and Wang	0	0
+Vitiligo (late onset)	1	0	0	0	Neither	0	0
+Alzheimer's disease	0	2	0	7	COMBAT only	0	0
+Alzheimer's disease	0	2	0	7	Wang only	0.222222222222222	2
+Alzheimer's disease	0	2	0	7	COMBAT and Wang	0	0
+Alzheimer's disease	0	2	0	7	Neither	0.777777777777778	7
+Alzheimer's disease in APOE e4- carriers	0	0	0	3	COMBAT only	0	0
+Alzheimer's disease in APOE e4- carriers	0	0	0	3	Wang only	0	0
+Alzheimer's disease in APOE e4- carriers	0	0	0	3	COMBAT and Wang	0	0
+Alzheimer's disease in APOE e4- carriers	0	0	0	3	Neither	1	3
+Amyotrophic lateral sclerosis (sporadic)	0	0	0	17	COMBAT only	0	0
+Amyotrophic lateral sclerosis (sporadic)	0	0	0	17	Wang only	0	0
+Amyotrophic lateral sclerosis (sporadic)	0	0	0	17	COMBAT and Wang	0	0
+Amyotrophic lateral sclerosis (sporadic)	0	0	0	17	Neither	1	17
+Arthritis (juvenile idiopathic)	0	0	0	13	COMBAT only	0	0
+Arthritis (juvenile idiopathic)	0	0	0	13	Wang only	0	0
+Arthritis (juvenile idiopathic)	0	0	0	13	COMBAT and Wang	0	0
+Arthritis (juvenile idiopathic)	0	0	0	13	Neither	1	13
+Atopic dermatitis	0	1	1	83	COMBAT only	0	0
+Atopic dermatitis	0	1	1	83	Wang only	0.0117647058823529	1
+Atopic dermatitis	0	1	1	83	COMBAT and Wang	0.0117647058823529	1
+Atopic dermatitis	0	1	1	83	Neither	0.976470588235294	83
+Atopic march	0	0	0	5	COMBAT only	0	0
+Atopic march	0	0	0	5	Wang only	0	0
+Atopic march	0	0	0	5	COMBAT and Wang	0	0
+Atopic march	0	0	0	5	Neither	1	5
+Behcet's disease	0	1	0	7	COMBAT only	0	0
+Behcet's disease	0	1	0	7	Wang only	0.125	1
+Behcet's disease	0	1	0	7	COMBAT and Wang	0	0
+Behcet's disease	0	1	0	7	Neither	0.875	7
+COVID-19	0	0	0	0	COMBAT only	NA	0
+COVID-19	0	0	0	0	Wang only	NA	0
+COVID-19	0	0	0	0	COMBAT and Wang	NA	0
+COVID-19	0	0	0	0	Neither	NA	0
+COVID-19 (severe vs non-severe with positive test)	0	0	0	0	COMBAT only	NA	0
+COVID-19 (severe vs non-severe with positive test)	0	0	0	0	Wang only	NA	0
+COVID-19 (severe vs non-severe with positive test)	0	0	0	0	COMBAT and Wang	NA	0
+COVID-19 (severe vs non-severe with positive test)	0	0	0	0	Neither	NA	0
+COVID-19 (severe vs tested, not severe)	0	0	0	0	COMBAT only	NA	0
+COVID-19 (severe vs tested, not severe)	0	0	0	0	Wang only	NA	0
+COVID-19 (severe vs tested, not severe)	0	0	0	0	COMBAT and Wang	NA	0
+COVID-19 (severe vs tested, not severe)	0	0	0	0	Neither	NA	0
+Chronic obstructive pulmonary disease (moderate to severe)	0	0	0	4	COMBAT only	0	0
+Chronic obstructive pulmonary disease (moderate to severe)	0	0	0	4	Wang only	0	0
+Chronic obstructive pulmonary disease (moderate to severe)	0	0	0	4	COMBAT and Wang	0	0
+Chronic obstructive pulmonary disease (moderate to severe)	0	0	0	4	Neither	1	4
+Dermatomyositis	0	0	0	0	COMBAT only	NA	0
+Dermatomyositis	0	0	0	0	Wang only	NA	0
+Dermatomyositis	0	0	0	0	COMBAT and Wang	NA	0
+Dermatomyositis	0	0	0	0	Neither	NA	0
+Dermatomyositis or juvenile dermatomyositis	0	0	0	1	COMBAT only	0	0
+Dermatomyositis or juvenile dermatomyositis	0	0	0	1	Wang only	0	0
+Dermatomyositis or juvenile dermatomyositis	0	0	0	1	COMBAT and Wang	0	0
+Dermatomyositis or juvenile dermatomyositis	0	0	0	1	Neither	1	1
+Eczema	0	1	0	46	COMBAT only	0	0
+Eczema	0	1	0	46	Wang only	0.0212765957446809	1
+Eczema	0	1	0	46	COMBAT and Wang	0	0
+Eczema	0	1	0	46	Neither	0.978723404255319	46
+Eosinophilic esophagitis	0	0	0	1	COMBAT only	0	0
+Eosinophilic esophagitis	0	0	0	1	Wang only	0	0
+Eosinophilic esophagitis	0	0	0	1	COMBAT and Wang	0	0
+Eosinophilic esophagitis	0	0	0	1	Neither	1	1
+HIV-1 susceptibility	0	0	0	0	COMBAT only	NA	0
+HIV-1 susceptibility	0	0	0	0	Wang only	NA	0
+HIV-1 susceptibility	0	0	0	0	COMBAT and Wang	NA	0
+HIV-1 susceptibility	0	0	0	0	Neither	NA	0
+Inflammatory bowel disease (early onset)	0	0	1	3	COMBAT only	0	0
+Inflammatory bowel disease (early onset)	0	0	1	3	Wang only	0	0
+Inflammatory bowel disease (early onset)	0	0	1	3	COMBAT and Wang	0.25	1
+Inflammatory bowel disease (early onset)	0	0	1	3	Neither	0.75	3
+Inflammatory skin disease	0	0	1	50	COMBAT only	0	0
+Inflammatory skin disease	0	0	1	50	Wang only	0	0
+Inflammatory skin disease	0	0	1	50	COMBAT and Wang	0.0196078431372549	1
+Inflammatory skin disease	0	0	1	50	Neither	0.980392156862745	50
+Limited cutaneous systemic scleroderma	0	0	0	6	COMBAT only	0	0
+Limited cutaneous systemic scleroderma	0	0	0	6	Wang only	0	0
+Limited cutaneous systemic scleroderma	0	0	0	6	COMBAT and Wang	0	0
+Limited cutaneous systemic scleroderma	0	0	0	6	Neither	1	6
+Morbidity in COVID-19 (deceased vs asymptomatic)	0	0	0	1	COMBAT only	0	0
+Morbidity in COVID-19 (deceased vs asymptomatic)	0	0	0	1	Wang only	0	0
+Morbidity in COVID-19 (deceased vs asymptomatic)	0	0	0	1	COMBAT and Wang	0	0
+Morbidity in COVID-19 (deceased vs asymptomatic)	0	0	0	1	Neither	1	1
+Mortality in COVID-19	0	0	0	0	COMBAT only	NA	0
+Mortality in COVID-19	0	0	0	0	Wang only	NA	0
+Mortality in COVID-19	0	0	0	0	COMBAT and Wang	NA	0
+Mortality in COVID-19	0	0	0	0	Neither	NA	0
+Mumps	0	0	0	9	COMBAT only	0	0
+Mumps	0	0	0	9	Wang only	0	0
+Mumps	0	0	0	9	COMBAT and Wang	0	0
+Mumps	0	0	0	9	Neither	1	9
+Ocular sarcoidosis	0	0	0	4	COMBAT only	0	0
+Ocular sarcoidosis	0	0	0	4	Wang only	0	0
+Ocular sarcoidosis	0	0	0	4	COMBAT and Wang	0	0
+Ocular sarcoidosis	0	0	0	4	Neither	1	4
+Parkinson disease	0	0	0	13	COMBAT only	0	0
+Parkinson disease	0	0	0	13	Wang only	0	0
+Parkinson disease	0	0	0	13	COMBAT and Wang	0	0
+Parkinson disease	0	0	0	13	Neither	1	13
+Parkinson disease and lewy body pathology	0	0	0	0	COMBAT only	NA	0
+Parkinson disease and lewy body pathology	0	0	0	0	Wang only	NA	0
+Parkinson disease and lewy body pathology	0	0	0	0	COMBAT and Wang	NA	0
+Parkinson disease and lewy body pathology	0	0	0	0	Neither	NA	0
+Parkinson's disease (motor and cognition)	0	0	0	0	COMBAT only	NA	0
+Parkinson's disease (motor and cognition)	0	0	0	0	Wang only	NA	0
+Parkinson's disease (motor and cognition)	0	0	0	0	COMBAT and Wang	NA	0
+Parkinson's disease (motor and cognition)	0	0	0	0	Neither	NA	0
+Pediatric autoimmune diseases	0	1	1	24	COMBAT only	0	0
+Pediatric autoimmune diseases	0	1	1	24	Wang only	0.0384615384615385	1
+Pediatric autoimmune diseases	0	1	1	24	COMBAT and Wang	0.0384615384615385	1
+Pediatric autoimmune diseases	0	1	1	24	Neither	0.923076923076923	24
+Pneumonia	0	0	0	2	COMBAT only	0	0
+Pneumonia	0	0	0	2	Wang only	0	0
+Pneumonia	0	0	0	2	COMBAT and Wang	0	0
+Pneumonia	0	0	0	2	Neither	1	2
+Polymyositis	0	0	0	2	COMBAT only	0	0
+Polymyositis	0	0	0	2	Wang only	0	0
+Polymyositis	0	0	0	2	COMBAT and Wang	0	0
+Polymyositis	0	0	0	2	Neither	1	2
+Psoriasis or coronary artery disease	0	1	0	3	COMBAT only	0	0
+Psoriasis or coronary artery disease	0	1	0	3	Wang only	0.25	1
+Psoriasis or coronary artery disease	0	1	0	3	COMBAT and Wang	0	0
+Psoriasis or coronary artery disease	0	1	0	3	Neither	0.75	3
+Psoriatic arthritis	0	0	0	5	COMBAT only	0	0
+Psoriatic arthritis	0	0	0	5	Wang only	0	0
+Psoriatic arthritis	0	0	0	5	COMBAT and Wang	0	0
+Psoriatic arthritis	0	0	0	5	Neither	1	5
+Rheumatoid arthritis (rheumatoid factor and anti-cyclic citrullinated peptide seronegative)	0	0	1	1	COMBAT only	0	0
+Rheumatoid arthritis (rheumatoid factor and anti-cyclic citrullinated peptide seronegative)	0	0	1	1	Wang only	0	0
+Rheumatoid arthritis (rheumatoid factor and anti-cyclic citrullinated peptide seronegative)	0	0	1	1	COMBAT and Wang	0.5	1
+Rheumatoid arthritis (rheumatoid factor and anti-cyclic citrullinated peptide seronegative)	0	0	1	1	Neither	0.5	1
+SARS-CoV-2 infection	0	0	0	8	COMBAT only	0	0
+SARS-CoV-2 infection	0	0	0	8	Wang only	0	0
+SARS-CoV-2 infection	0	0	0	8	COMBAT and Wang	0	0
+SARS-CoV-2 infection	0	0	0	8	Neither	1	8
+Shingles	0	0	0	36	COMBAT only	0	0
+Shingles	0	0	0	36	Wang only	0	0
+Shingles	0	0	0	36	COMBAT and Wang	0	0
+Shingles	0	0	0	36	Neither	1	36
+Sinonasal disease	0	0	0	13	COMBAT only	0	0
+Sinonasal disease	0	0	0	13	Wang only	0	0
+Sinonasal disease	0	0	0	13	COMBAT and Wang	0	0
+Sinonasal disease	0	0	0	13	Neither	1	13
+Strep throat	0	0	0	3	COMBAT only	0	0
+Strep throat	0	0	0	3	Wang only	0	0
+Strep throat	0	0	0	3	COMBAT and Wang	0	0
+Strep throat	0	0	0	3	Neither	1	3

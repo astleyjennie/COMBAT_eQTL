@@ -1,0 +1,579 @@
+QUERY_SNP	GWAS_SNP	GWAS_TRAIT	EQTL_CELL_TYPE	EQTL_GENE_NAME	EQTL_CELL_count
+rs10902704	rs11247791	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Effector memory/TEMRA	PHACTR4	2
+rs10902704	rs11247791	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Naive/Central memory T cell	PHACTR4	2
+rs10910095	rs10910095	Hay fever and/or eczema	CD8 Effector memory	TNFRSF14	1
+rs11121242	rs2065603	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Recruiting Cell	ENO1	2
+rs11121242	rs2065603	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	ENO1	2
+rs12129508	rs10910095	Hay fever and/or eczema	CD8 Naive/Central memory T cell	TNFRSF14	1
+rs12139364	rs2036021	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	MUTYH	1
+rs12141053	rs11247791	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	TRNAU1AP	1
+rs12722986	rs61802846	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Naive/Central memory T cell	NDUFS2	1
+rs12722986	rs9427397	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8 Naive/Central memory T cell	NDUFS2	1
+rs1467513	rs4646093	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	DNAJC16	1
+rs159963	rs301806	Hay fever and/or eczema	CD4 Naive/Central memory T cell	RP5-1115A15.1	1
+rs16837660	rs16837677	Sjögren's syndrome	CD4 Naive/Central memory T cell	SH2D2A	1
+rs2070901	rs2070901	Hay fever and/or eczema	Dendritic Cell	FCER1G	1
+rs2070902	rs2070901	Hay fever and/or eczema	Non-classic Monocyte	FCER1G	1
+rs2227312	rs2234161	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Cell	TNFRSF14	1
+rs2227312	rs10910092	Ulcerative colitis	Natural Killer Cell	TNFRSF14	1
+rs2227312	rs6667605	Ulcerative colitis	Natural Killer Cell	TNFRSF14	1
+rs2260976	rs2258734	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Non-classic Monocyte	MMEL1	1
+rs2260976	rs897628	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Non-classic Monocyte	MMEL1	1
+rs2495366	rs2234161	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Effector memory/TEMRA	TNFRSF14	1
+rs2495366	rs10910092	Ulcerative colitis	CD4 Effector memory/TEMRA	TNFRSF14	1
+rs2495366	rs6667605	Ulcerative colitis	CD4 Effector memory/TEMRA	TNFRSF14	1
+rs2764842	rs2258734	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Non-classic Monocyte	MMEL1	1
+rs2764842	rs897628	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Non-classic Monocyte	MMEL1	1
+rs2843401	rs2258734	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Non-classic Monocyte	MMEL1	1
+rs2843401	rs897628	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Non-classic Monocyte	MMEL1	1
+rs2843402	rs2258734	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Non-classic Monocyte	MMEL1	1
+rs2843402	rs897628	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Non-classic Monocyte	MMEL1	1
+rs2843404	rs2258734	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Non-classic Monocyte	MMEL1	1
+rs2843404	rs897628	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Non-classic Monocyte	MMEL1	1
+rs28734787	rs10910095	Hay fever and/or eczema	CD4 Naive/Central memory T cell	TNFRSF14	1
+rs2995091	rs1214598	Hay fever and/or eczema	CD4 Naive/Central memory T cell	RP11-104L21.3	1
+rs301819	rs301806	Hay fever and/or eczema	CD4 Naive/Central memory T cell	RERE	1
+rs34466510	rs3766606	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Cell	PARK7	1
+rs34466510	rs3766606	Ulcerative colitis	Natural Killer Cell	PARK7	1
+rs3748825	rs2234161	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Effector memory	TNFRSF14	1
+rs3748825	rs10910092	Ulcerative colitis	CD8 Effector memory	TNFRSF14	1
+rs3748825	rs6667605	Ulcerative colitis	CD8 Effector memory	TNFRSF14	1
+rs4233366	rs2070901	Hay fever and/or eczema	Classic Monocyte	FCER1G	1
+rs4567233	rs6697886	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 S100B T cell	TNFRSF18	1
+rs4844539	rs4844539	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	RP11-534L20.5	1
+rs4908411	rs11247791	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	PHACTR4	1
+rs4908414	rs11247791	Resistance to COVID-19 infection (Exposed negative vs positive)	Naïve/Immature B Cell	PHACTR4	1
+rs6577222	rs11583043	Ulcerative colitis	CD4 Naive/Central memory T cell	AC093157.1	1
+rs6577536	rs2065603	Resistance to COVID-19 infection (Exposed negative vs positive)	Naïve/Immature B Cell	ENO1	1
+rs6679229	rs4646093	Resistance to COVID-19 infection (Exposed negative vs positive)	Naïve/Immature B Cell	DNAJC16	1
+rs6684681	rs4844539	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	RP11-534L20.5	1
+rs868937	rs4844539	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	RP11-534L20.5	1
+rs871782	rs4844539	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	RP11-534L20.5	1
+rs876938	rs2258734	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD4 Naive/Central memory T cell	MMEL1	1
+rs876938	rs897628	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD4 Naive/Central memory T cell	MMEL1	1
+rs9426652	rs12035087	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	EIF4G3	1
+rs944769	rs4844539	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	RP11-534L20.5	1
+rs9660549	rs11247791	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Effector memory	PHACTR4	1
+rs10887877	rs1800682	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Non-classic Monocyte	ACTA2	1
+rs12414280	rs2270550	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Naive/Central memory T cell	VCL	1
+rs1324551	rs1800682	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Effector memory	ACTA2	4
+rs1324551	rs1800682	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Naive/Central memory T cell	ACTA2	4
+rs1324551	rs1800682	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Naive/Central memory T cell	FAS	1
+rs1324551	rs1800682	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Cell	ACTA2	4
+rs1324551	rs1800682	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Non-classic Monocyte	ACTA2	4
+rs1874151	rs2270550	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Effector memory/TEMRA	VCL	2
+rs1874151	rs2270550	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	VCL	2
+rs3824729	rs1800682	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Non-classic Monocyte	ACTA2	1
+rs61839660	rs61839660	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Effector memory	IL2RA	1
+rs61839660	rs61839660	Hay fever and/or eczema	CD8 Effector memory	IL2RA	1
+rs6586163	rs1800682	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Non-classic Monocyte	ACTA2	1
+rs6586164	rs1800682	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Non-classic Monocyte	ACTA2	1
+rs7918084	rs2497318	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Cell	HHEX	1
+rs9420589	rs2497318	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Effector memory	HHEX	1
+rs102274	rs174535	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Effector memory	TMEM258	1
+rs10790275	rs7117261	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Naïve/Immature B Cell	DDX6	1
+rs10790275	rs12365699	Hay fever and/or eczema	Naïve/Immature B Cell	DDX6	1
+rs11039332	rs10838725	Alzheimer's disease or family history of Alzheimer's disease	Memory B Cell	FNBP4	1
+rs1286171	rs501945	Alzheimer's disease or family history of Alzheimer's disease	Dendritic Cell	MS4A6A	1
+rs174529	rs174535	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Effector memory	FADS1	1
+rs174538	rs174535	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	TMEM258	3
+rs174538	rs174535	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Effector memory/TEMRA	TMEM258	3
+rs174538	rs174535	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Naïve/Immature B Cell	TMEM258	3
+rs174584	rs174535	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Memory B Cell	TMEM258	1
+rs34383631	rs4939490	Hay fever and/or eczema	CD4 Effector memory/TEMRA	CD6	1
+rs4246215	rs174535	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Non-classic Monocyte	TMEM258	1
+rs4409785	rs4409785	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD4 Naive/Central memory T cell	SESN3	2
+rs4409785	rs4409785	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8 Naive/Central memory T cell	SESN3	2
+rs4939491	rs4939490	Hay fever and/or eczema	CD4 Naive/Central memory T cell	CD6	1
+rs583887	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Naïve/Immature B Cell	CTSW	2
+rs583887	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Cell	CTSW	2
+rs588114	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Effector memory	FIBP	1
+rs596002	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	CTSW	5
+rs596002	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 S100B T cell	CTSW	5
+rs596002	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Effector memory/TEMRA	CTSW	5
+rs596002	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Effector memory	CTSW	5
+rs596002	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Naive/Central memory T cell	CTSW	5
+rs596002	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Cell	FIBP	1
+rs61907765	rs11221332	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	ETS1	3
+rs61907765	rs11221332	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Naive/Central memory T cell	ETS1	3
+rs61907765	rs11221332	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Cell	ETS1	3
+rs622614	rs568617	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Recruiting Cell	CTSW	1
+rs11057204	rs1260294	Hay fever and/or eczema	CD4 Effector memory/TEMRA	MPHOSPH9	1
+rs11066451	rs2660	COVID-19 (hospitalized covid vs population)	Non-classic Monocyte	OAS1	1
+rs1463877	rs1260294	Hay fever and/or eczema	CD4 Naive/Central memory T cell	MPHOSPH9	1
+rs1790089	rs1260294	Hay fever and/or eczema	CD8 Naive/Central memory T cell	MPHOSPH9	1
+rs2049114	rs1260294	Hay fever and/or eczema	CD8 Effector memory	MPHOSPH9	1
+rs2285934	rs2660	COVID-19 (hospitalized covid vs population)	CD8 Effector memory	OAS1	1
+rs28472704	rs1260294	Hay fever and/or eczema	Natural Killer Cell	MPHOSPH9	1
+rs4767029	rs2660	COVID-19 (hospitalized covid vs population)	CD4 Naive/Central memory T cell	OAS1	1
+rs531095	rs2686378	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	P2RX7	1
+rs705704	rs1689510	Hay fever and/or eczema	CD4 Naive/Central memory T cell	RPS26	5
+rs705704	rs1689510	Hay fever and/or eczema	CD8 S100B T cell	RPS26	5
+rs705704	rs1689510	Hay fever and/or eczema	CD4 Effector memory/TEMRA	RPS26	5
+rs705704	rs1689510	Hay fever and/or eczema	CD8 Effector memory	RPS26	5
+rs705704	rs1689510	Hay fever and/or eczema	CD8 Naive/Central memory T cell	RPS26	5
+rs772921	rs1689510	Hay fever and/or eczema	CD4 Naive/Central memory T cell	CD63	1
+rs877636	rs1689510	Hay fever and/or eczema	Memory B Cell	RPS26	2
+rs877636	rs1689510	Hay fever and/or eczema	Naïve/Immature B Cell	RPS26	2
+rs9567948	rs9591123	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LINC00562	1
+rs60106058	rs11850949	Resistance to COVID-19 infection (Exposed negative vs positive)	Memory B Cell	PLD4	1
+rs11150601	rs1870293	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Cell	STX4	1
+rs1170439	rs1728785	Ulcerative colitis	CD4 Naive/Central memory T cell	ZFP90	1
+rs11865339	rs1728785	Ulcerative colitis	CD8 Effector memory	ZFP90	1
+rs240707	rs26528	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Effector memory	CCDC101	1
+rs240707	rs26528	Ulcerative colitis	CD8 Effector memory	CCDC101	1
+rs35379058	rs117169628	COVID-19 (hospitalized covid vs population)	CD4 Naive/Central memory T cell	SLC22A31	1
+rs35379058	rs117169628	COVID-19 (critical illness vs population or mild symptoms)	CD4 Naive/Central memory T cell	SLC22A31	1
+rs35379058	rs117169628	COVID-19 (critical illness vs population or mild symptoms)	CD4 Naive/Central memory T cell	SLC22A31	1
+rs698718	rs1728785	Ulcerative colitis	Natural Killer Cell	ZFP90	1
+rs698719	rs1728785	Ulcerative colitis	CD8 Naive/Central memory T cell	ZFP90	1
+rs8043697	rs117169628	COVID-19 (hospitalized covid vs population)	CD4 Naive/Central memory T cell	SLC22A31	1
+rs8043697	rs117169628	COVID-19 (critical illness vs population or mild symptoms)	CD4 Naive/Central memory T cell	SLC22A31	1
+rs8043697	rs117169628	COVID-19 (critical illness vs population or mild symptoms)	CD4 Naive/Central memory T cell	SLC22A31	1
+rs9806836	rs7404095	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Classic Monocyte	PRKCB	1
+rs9806836	rs7404095	Ulcerative colitis	Classic Monocyte	PRKCB	1
+rs12453507	rs35736272	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	ORMDL3	1
+rs12453507	rs7359623	Hay fever and/or eczema	CD4 Naive/Central memory T cell	ORMDL3	1
+rs12453507	rs11078928	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD4 Naive/Central memory T cell	ORMDL3	1
+rs12944882	rs7359623	Hay fever and/or eczema	CD8 S100B T cell	ORMDL3	1
+rs12946093	rs892964	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	RP11-936I5.1	1
+rs1378358	rs63750417	COVID-19 (hospitalized covid vs population)	Memory B Cell	KANSL1-AS1	1
+rs1724390	rs63750417	COVID-19 (hospitalized covid vs population)	CD4 Naive/Central memory T cell	LRRC37A2	1
+rs1724390	rs63750417	COVID-19 (hospitalized covid vs population)	Plasma Cell	KANSL1-AS1	1
+rs17425752	rs63750417	COVID-19 (hospitalized covid vs population)	CD8 Effector memory	RP11-669E14.6	1
+rs17426195	rs63750417	COVID-19 (hospitalized covid vs population)	CD8 Effector memory	RP11-669E14.6	1
+rs17688916	rs63750417	COVID-19 (hospitalized covid vs population)	CD4 Naive/Central memory T cell	CRHR1	1
+rs17689882	rs63750417	COVID-19 (hospitalized covid vs population)	CD8 Effector memory	RP11-669E14.6	1
+rs196907	rs196941	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	ERN1	1
+rs199441	rs63750417	COVID-19 (hospitalized covid vs population)	CD4 Naive/Central memory T cell	RP11-669E14.6	1
+rs199528	rs63750417	COVID-19 (hospitalized covid vs population)	CD4 Naive/Central memory T cell	KANSL1	1
+rs2106785	rs63750417	COVID-19 (hospitalized covid vs population)	CD8 Naive/Central memory T cell	LRRC37A2	1
+rs2435204	rs63750417	COVID-19 (hospitalized covid vs population)	CD8 Effector memory	RP11-669E14.6	1
+rs3097118	rs62070270	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	EFCAB5	1
+rs3097118	rs7220151	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	EFCAB5	1
+rs3097118	rs9747395	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	EFCAB5	1
+rs34503528	rs34452291	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	ST6GALNAC1	1
+rs34835035	rs34452291	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Effector memory/TEMRA	ST6GALNAC1	1
+rs35631660	rs63750417	COVID-19 (hospitalized covid vs population)	CD8 Effector memory	RP11-669E14.6	1
+rs35736272	rs12946510	Ulcerative colitis	CD4 Effector memory/TEMRA	ORMDL3	1
+rs35736272	rs35736272	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Effector memory/TEMRA	ORMDL3	1
+rs35736272	rs7359623	Hay fever and/or eczema	CD4 Effector memory/TEMRA	ORMDL3	1
+rs35736272	rs11078928	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD4 Effector memory/TEMRA	ORMDL3	1
+rs383241	rs63750417	COVID-19 (hospitalized covid vs population)	CD8 Naive/Central memory T cell	KANSL1-AS1	1
+rs4327090	rs63750417	COVID-19 (hospitalized covid vs population)	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs440778	rs63750417	COVID-19 (hospitalized covid vs population)	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4429345	rs62070270	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	BLMH	1
+rs4429345	rs7220151	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	BLMH	1
+rs4429345	rs9747395	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	BLMH	1
+rs4429345	rs11080114	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	BLMH	1
+rs4429345	rs8065261	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	BLMH	1
+rs4429345	rs11080121	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	BLMH	1
+rs4583306	rs7220151	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	RP11-354P11.3	1
+rs4583306	rs11080114	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	RP11-354P11.3	1
+rs4583306	rs8065261	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	RP11-354P11.3	1
+rs4583306	rs11080121	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	RP11-354P11.3	1
+rs4630591	rs63750417	COVID-19 (hospitalized covid vs population)	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs531934295	rs63750417	COVID-19 (hospitalized covid vs population)	CD8 Effector memory	LRRC37A2	1
+rs554899842	rs63750417	COVID-19 (hospitalized covid vs population)	Natural Killer Cell	RP11-669E14.6	1
+rs55657917	rs63750417	COVID-19 (hospitalized covid vs population)	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs55974014	rs63750417	COVID-19 (hospitalized covid vs population)	CD8 S100B T cell	KANSL1-AS1	2
+rs55974014	rs63750417	COVID-19 (hospitalized covid vs population)	CD4 Effector memory/TEMRA	KANSL1-AS1	2
+rs56194509	rs63750417	COVID-19 (hospitalized covid vs population)	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs56290582	rs63750417	COVID-19 (hospitalized covid vs population)	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56301633	rs63750417	COVID-19 (hospitalized covid vs population)	Natural Killer Cell	RP11-669E14.6	1
+rs56328224	rs63750417	COVID-19 (hospitalized covid vs population)	CD4 SOX4 T cell	KANSL1-AS1	5
+rs56328224	rs63750417	COVID-19 (hospitalized covid vs population)	Natural Killer Recruiting Cell	KANSL1-AS1	5
+rs56328224	rs63750417	COVID-19 (hospitalized covid vs population)	Plasma Cell	KANSL1-AS1	5
+rs56328224	rs63750417	COVID-19 (hospitalized covid vs population)	Classic Monocyte	KANSL1-AS1	5
+rs56328224	rs63750417	COVID-19 (hospitalized covid vs population)	Dendritic Cell	KANSL1-AS1	5
+rs56397077	rs63750417	COVID-19 (hospitalized covid vs population)	CD4 SOX4 T cell	KANSL1-AS1	1
+rs566002249	rs63750417	COVID-19 (hospitalized covid vs population)	Plasma Cell	KANSL1-AS1	1
+rs57213017	rs63750417	COVID-19 (hospitalized covid vs population)	Plasma Cell	KANSL1-AS1	1
+rs61182333	rs7225151	Alzheimer's disease or family history of Alzheimer's disease	Naïve/Immature B Cell	SCIMP	1
+rs62055947	rs63750417	COVID-19 (hospitalized covid vs population)	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62061733	rs63750417	COVID-19 (hospitalized covid vs population)	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62065453	rs63750417	COVID-19 (hospitalized covid vs population)	CD4 SOX4 T cell	KANSL1-AS1	3
+rs62065453	rs63750417	COVID-19 (hospitalized covid vs population)	Natural Killer Recruiting Cell	KANSL1-AS1	3
+rs62065453	rs63750417	COVID-19 (hospitalized covid vs population)	Plasma Cell	KANSL1-AS1	3
+rs67206808	rs62070270	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Naive/Central memory T cell	NSRP1	1
+rs67206808	rs7220151	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Naive/Central memory T cell	NSRP1	1
+rs7359623	rs35736272	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Memory B Cell	ORMDL3	1
+rs7359623	rs7359623	Hay fever and/or eczema	Memory B Cell	ORMDL3	1
+rs7359623	rs11078928	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Memory B Cell	ORMDL3	1
+rs75257002	rs63750417	COVID-19 (hospitalized covid vs population)	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs75511804	rs7225151	Alzheimer's disease or family history of Alzheimer's disease	Natural Killer Cell	SCIMP	1
+rs77684	rs196941	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Naive/Central memory T cell	ERN1	1
+rs77875796	rs63750417	COVID-19 (hospitalized covid vs population)	Natural Killer Cell	LRRC37A2	1
+rs79172804	rs63750417	COVID-19 (hospitalized covid vs population)	CD8 Naive/Central memory T cell	CRHR1	1
+rs79730878	rs63750417	COVID-19 (hospitalized covid vs population)	Naïve/Immature B Cell	ARL17B	1
+rs80028338	rs63750417	COVID-19 (hospitalized covid vs population)	CD4 Effector memory/TEMRA	LRRC37A2	1
+rs8067378	rs35736272	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Naïve/Immature B Cell	ORMDL3	1
+rs8067378	rs7359623	Hay fever and/or eczema	Naïve/Immature B Cell	ORMDL3	1
+rs8067378	rs11078928	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Naïve/Immature B Cell	ORMDL3	1
+rs8074437	rs7359623	Hay fever and/or eczema	Natural Killer Cell	ORMDL3	1
+rs8079000	rs196941	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Effector memory/TEMRA	ERN1	1
+rs9908132	rs35736272	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Naive/Central memory T cell	ORMDL3	1
+rs9908132	rs7359623	Hay fever and/or eczema	CD8 Naive/Central memory T cell	ORMDL3	1
+rs9908132	rs11078928	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8 Naive/Central memory T cell	ORMDL3	1
+rs1380257	rs7240948	Hay fever and/or eczema	CD4 Naive/Central memory T cell	POLI	1
+rs34163044	rs7240948	Hay fever and/or eczema	CD4 Effector memory/TEMRA	POLI	1
+rs11083840	rs11083840	Ulcerative colitis	CD4 Naive/Central memory T cell	PTGIR	1
+rs11666367	rs11083840	Ulcerative colitis	CD8 Naive/Central memory T cell	GNG8	1
+rs12462947	rs11083840	Ulcerative colitis	CD4 Naive/Central memory T cell	GNG8	2
+rs12462947	rs11083840	Ulcerative colitis	CD8 Naive/Central memory T cell	GNG8	2
+rs12463013	rs11083840	Ulcerative colitis	CD8 Naive/Central memory T cell	GNG8	1
+rs2251034	rs679574	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	FUT2	1
+rs2251034	rs679574	COVID-19 (hospitalized covid vs population)	CD4 Naive/Central memory T cell	FUT2	1
+rs3810143	rs12974942	Alzheimer's disease or family history of Alzheimer's disease	CD8 Naive/Central memory T cell	AC092301.3	1
+rs4452060	rs12974942	Alzheimer's disease or family history of Alzheimer's disease	CD8 Naive/Central memory T cell	AC092301.3	1
+rs4803775	rs9304644	Alzheimer's disease or family history of Alzheimer's disease	Natural Killer Cell	ZNF222	1
+rs4803986	rs11083840	Ulcerative colitis	CD8 Naive/Central memory T cell	GNG8	1
+rs4803988	rs11083840	Ulcerative colitis	CD8 Naive/Central memory T cell	GNG8	1
+rs4807569	rs2024092	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Naive/Central memory T cell	GPX4	1
+rs485186	rs679574	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	FUT2	1
+rs485186	rs679574	COVID-19 (hospitalized covid vs population)	CD4 Naive/Central memory T cell	FUT2	1
+rs55665939	rs4802307	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	PPP5C	1
+rs570794	rs679574	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	FUT2	1
+rs570794	rs679574	COVID-19 (hospitalized covid vs population)	CD4 Naive/Central memory T cell	FUT2	1
+rs571689	rs679574	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	FUT2	1
+rs571689	rs679574	COVID-19 (hospitalized covid vs population)	CD4 Naive/Central memory T cell	FUT2	1
+rs62136099	rs4802307	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Cell	PPP5C	1
+rs8106249	rs4802307	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Effector memory	PPP5C	1
+rs10194375	rs10194375	Alzheimer's disease or family history of Alzheimer's disease	CD8 Effector memory	BIN1	2
+rs10194375	rs10194375	Alzheimer's disease or family history of Alzheimer's disease	Natural Killer Cell	BIN1	2
+rs11682128	rs10194375	Alzheimer's disease or family history of Alzheimer's disease	CD4 Naive/Central memory T cell	BIN1	6
+rs11682128	rs10194375	Alzheimer's disease or family history of Alzheimer's disease	Natural Killer Recruiting Cell	BIN1	6
+rs11682128	rs10194375	Alzheimer's disease or family history of Alzheimer's disease	CD8 S100B T cell	BIN1	6
+rs11682128	rs10194375	Alzheimer's disease or family history of Alzheimer's disease	Memory B Cell	BIN1	6
+rs11682128	rs10194375	Alzheimer's disease or family history of Alzheimer's disease	CD4 Effector memory/TEMRA	BIN1	6
+rs11682128	rs10194375	Alzheimer's disease or family history of Alzheimer's disease	CD8 Naive/Central memory T cell	BIN1	6
+rs11694913	rs7601800	Hay fever and/or eczema	CD4 SOX4 T cell	AC013264.2	1
+rs12621129	rs7601800	Hay fever and/or eczema	CD4 SOX4 T cell	AC013264.2	1
+rs12987977	rs13020553	Hay fever and/or eczema	CD4 Naive/Central memory T cell	IL18R1	2
+rs12987977	rs13020553	Hay fever and/or eczema	CD8 S100B T cell	IL18R1	2
+rs12987977	rs12987977	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	IL18R1	2
+rs12987977	rs12987977	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 S100B T cell	IL18R1	2
+rs13010492	rs11571297	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8 Effector memory	CTLA4	1
+rs16858573	rs16858573	Hay fever and/or eczema	Natural Killer Cell	ARHGAP15	1
+rs231811	rs11571297	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8 Effector memory	CTLA4	1
+rs2564389	rs7601800	Hay fever and/or eczema	CD4 SOX4 T cell	AC013264.2	1
+rs3087243	rs11571297	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD4 Naive/Central memory T cell	CTLA4	4
+rs3087243	rs11571297	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD4 Effector memory/TEMRA	CTLA4	4
+rs3087243	rs11571297	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8 Effector memory	CTLA4	4
+rs3087243	rs11571297	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8 Naive/Central memory T cell	CTLA4	4
+rs34461055	rs11571297	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8 Effector memory	CTLA4	1
+rs4672507	rs4672505	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Effector memory	B3GNT2	1
+rs4676410	rs3749171	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 S100B T cell	ANKMY1	1
+rs4676410	rs3749171	Ulcerative colitis	CD8 S100B T cell	ANKMY1	1
+rs4685	rs7601800	Hay fever and/or eczema	CD4 SOX4 T cell	AC013264.2	1
+rs72838225	rs13031703	Alzheimer's disease or family history of Alzheimer's disease	Naïve/Immature B Cell	BIN1	1
+rs787975	rs7601800	Hay fever and/or eczema	CD4 SOX4 T cell	AC013264.2	1
+rs2315007	rs6062504	Ulcerative colitis	CD4 Naive/Central memory T cell	SLC2A4RG	1
+rs259956	rs259964	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	EDN3	1
+rs259956	rs259964	Ulcerative colitis	CD4 Naive/Central memory T cell	EDN3	1
+rs259958	rs259964	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	GNAS	1
+rs259958	rs259964	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	EDN3	1
+rs259958	rs259964	Ulcerative colitis	CD4 Naive/Central memory T cell	GNAS	1
+rs259958	rs259964	Ulcerative colitis	CD4 Naive/Central memory T cell	EDN3	1
+rs259960	rs259964	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Naive/Central memory T cell	EDN3	1
+rs259960	rs259964	Ulcerative colitis	CD8 Naive/Central memory T cell	EDN3	1
+rs259962	rs259964	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	EDN3	1
+rs259962	rs259964	Ulcerative colitis	CD4 Naive/Central memory T cell	EDN3	1
+rs259963	rs259964	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	EDN3	1
+rs259963	rs259964	Ulcerative colitis	CD4 Naive/Central memory T cell	EDN3	1
+rs259964	rs259964	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	EDN3	1
+rs259964	rs259964	Ulcerative colitis	CD4 Naive/Central memory T cell	EDN3	1
+rs259965	rs259964	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Naive/Central memory T cell	EDN3	1
+rs259965	rs259964	Ulcerative colitis	CD8 Naive/Central memory T cell	EDN3	1
+rs3761124	rs3787100	Hay fever and/or eczema	CD4 Effector memory/TEMRA	STMN3	1
+rs4809221	rs6062504	Ulcerative colitis	CD8 Naive/Central memory T cell	SLC2A4RG	1
+rs6010998	rs3787100	Hay fever and/or eczema	CD4 Naive/Central memory T cell	STMN3	1
+rs11702262	rs11701331	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	CBR1	1
+rs1893592	rs1893592	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	UBASH3A	3
+rs1893592	rs1893592	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Effector memory	UBASH3A	3
+rs1893592	rs1893592	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Naive/Central memory T cell	UBASH3A	3
+rs2835268	rs11701331	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Naive/Central memory T cell	CBR1	1
+rs131656	rs2266961	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Cell	UBE2L3	1
+rs165616	rs178046	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	SNAP29	1
+rs165616	rs165718	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	SNAP29	1
+rs165616	rs165902	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	SNAP29	1
+rs165616	rs165898	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	SNAP29	1
+rs165616	rs165691	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	SNAP29	1
+rs165616	rs178052	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	SNAP29	1
+rs165616	rs165850	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	SNAP29	1
+rs165825	rs178046	Resistance to COVID-19 infection (Exposed negative vs positive)	Classic Monocyte	SNAP29	1
+rs165825	rs165902	Resistance to COVID-19 infection (Exposed negative vs positive)	Classic Monocyte	SNAP29	1
+rs165825	rs178052	Resistance to COVID-19 infection (Exposed negative vs positive)	Classic Monocyte	SNAP29	1
+rs2038058	rs5758977	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	PACSIN2	1
+rs2038058	rs7291153	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	PACSIN2	1
+rs2038058	rs5759094	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	PACSIN2	1
+rs2069235	rs2069235	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8 S100B T cell	SYNGR1	2
+rs2069235	rs2069235	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Memory B Cell	SYNGR1	2
+rs5754100	rs2266961	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Naive/Central memory T cell	UBE2L3	1
+rs5757584	rs5757584	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Naïve/Immature B Cell	SYNGR1	1
+rs5998509	rs2266961	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Effector memory	UBE2L3	1
+rs6006987	rs1569414	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	FAM118A	1
+rs738397	rs5758977	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	PACSIN2	1
+rs738397	rs7291153	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	PACSIN2	1
+rs738397	rs5759094	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	PACSIN2	1
+rs909685	rs2069235	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8 S100B T cell	SYNGR1	5
+rs909685	rs2069235	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Memory B Cell	SYNGR1	5
+rs909685	rs2069235	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8 Effector memory	SYNGR1	5
+rs909685	rs2069235	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8 Naive/Central memory T cell	SYNGR1	5
+rs909685	rs2069235	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Natural Killer Cell	SYNGR1	5
+rs9611155	rs2069235	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8 S100B T cell	SYNGR1	1
+rs9619386	rs2266961	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	UBE2L3	1
+rs10510607	rs10510607	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 S100B T cell	CMC1	1
+rs112987689	rs59803194	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Naive/Central memory T cell	RP11-77P16.4	1
+rs11711485	rs3197999	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	GPX1	1
+rs11711485	rs3197999	Ulcerative colitis	CD4 Naive/Central memory T cell	GPX1	1
+rs12495527	rs59803194	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Naive/Central memory T cell	RP11-77P16.4	1
+rs13064576	rs3197999	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Effector memory/TEMRA	GPX1	1
+rs13064576	rs3197999	Ulcerative colitis	CD4 Effector memory/TEMRA	GPX1	1
+rs1606393	rs4585155	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	AZI2	1
+rs1606393	rs4680909	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	AZI2	1
+rs1606393	rs6763313	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	AZI2	1
+rs1606393	rs6807612	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	AZI2	1
+rs1606393	rs4680913	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	AZI2	1
+rs1606393	rs6803692	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	AZI2	1
+rs34638686	rs9868809	Ulcerative colitis	CD4 Naive/Central memory T cell	NCKIPSD	1
+rs4072146	rs59803194	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Naive/Central memory T cell	RP11-77P16.4	1
+rs4585155	rs4585155	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Effector memory	AZI2	1
+rs4585155	rs4680909	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Effector memory	AZI2	1
+rs4585155	rs6763313	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Effector memory	AZI2	1
+rs4585155	rs6807612	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Effector memory	AZI2	1
+rs4585155	rs4680913	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Effector memory	AZI2	1
+rs4585155	rs6803692	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Effector memory	AZI2	1
+rs61192126	rs61192126	Hay fever and/or eczema	CD4 Naive/Central memory T cell	RYBP	1
+rs6809088	rs59803194	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Naive/Central memory T cell	RP11-77P16.4	1
+rs7432233	rs59803194	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Naive/Central memory T cell	RP11-77P16.4	1
+rs11721624	rs78740643	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	ANTXR2	1
+rs11721624	rs77331798	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	ANTXR2	1
+rs11721624	rs11098964	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	ANTXR2	1
+rs11721624	rs10027407	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	ANTXR2	1
+rs11721624	rs11098983	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	ANTXR2	1
+rs11721624	rs76275007	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	ANTXR2	1
+rs17616434	rs5743604	Hay fever and/or eczema	CD4 Naive/Central memory T cell	TLR1	1
+rs13176348	rs4143335	COVID-19 (hospitalized covid vs population)	Natural Killer Cell	C5orf56	1
+rs2269821	rs4143335	COVID-19 (hospitalized covid vs population)	Natural Killer Cell	IRF1	1
+rs2548525	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Effector memory	CTD-2260A17.2	1
+rs2548540	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Dendritic Cell	ERAP2	1
+rs2549782	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Dendritic Cell	ERAP2	1
+rs2549783	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Recruiting Cell	ERAP2	2
+rs2549783	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Non-classic Monocyte	ERAP2	2
+rs2549783	rs1363907	Ulcerative colitis	Natural Killer Recruiting Cell	ERAP2	2
+rs2549783	rs1363907	Ulcerative colitis	Non-classic Monocyte	ERAP2	2
+rs27289	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 SOX4 T cell	ERAP2	1
+rs27289	rs1363907	Ulcerative colitis	CD4 SOX4 T cell	ERAP2	1
+rs27295	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 SOX4 T cell	ERAP2	1
+rs27295	rs1363907	Ulcerative colitis	CD4 SOX4 T cell	ERAP2	1
+rs27436	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 SOX4 T cell	ERAP2	2
+rs27436	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 S100B T cell	ERAP2	2
+rs27436	rs1363907	Ulcerative colitis	CD4 SOX4 T cell	ERAP2	2
+rs27436	rs1363907	Ulcerative colitis	CD8 S100B T cell	ERAP2	2
+rs27711	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 SOX4 T cell	ERAP2	1
+rs27711	rs1363907	Ulcerative colitis	CD4 SOX4 T cell	ERAP2	1
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	ERAP2	7
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Memory B Cell	ERAP2	7
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Effector memory/TEMRA	ERAP2	7
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Naïve/Immature B Cell	ERAP2	7
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Effector memory	ERAP2	7
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Naive/Central memory T cell	ERAP2	7
+rs2927608	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Cell	ERAP2	7
+rs2927608	rs1363907	Ulcerative colitis	CD4 Naive/Central memory T cell	ERAP2	7
+rs2927608	rs1363907	Ulcerative colitis	Memory B Cell	ERAP2	7
+rs2927608	rs1363907	Ulcerative colitis	CD4 Effector memory/TEMRA	ERAP2	7
+rs2927608	rs1363907	Ulcerative colitis	Naïve/Immature B Cell	ERAP2	7
+rs2927608	rs1363907	Ulcerative colitis	CD8 Effector memory	ERAP2	7
+rs2927608	rs1363907	Ulcerative colitis	CD8 Naive/Central memory T cell	ERAP2	7
+rs2927608	rs1363907	Ulcerative colitis	Natural Killer Cell	ERAP2	7
+rs35377719	rs4143335	COVID-19 (hospitalized covid vs population)	CD8 Effector memory	C5orf56	1
+rs35426692	rs4143335	COVID-19 (hospitalized covid vs population)	CD8 Effector memory	IRF1	1
+rs38029	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 SOX4 T cell	ERAP2	1
+rs38029	rs1363907	Ulcerative colitis	CD4 SOX4 T cell	ERAP2	1
+rs3846731	rs13165038	Hay fever and/or eczema	CD4 Naive/Central memory T cell	IRF1	1
+rs3846731	rs13165038	Hay fever and/or eczema	Natural Killer Cell	RAD50	1
+rs469758	rs469758	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Effector memory	ERAP1	1
+rs6556943	rs2910686	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Dendritic Cell	ERAP2	1
+rs71624119	rs71624119	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	CTD-2031P19.5	1
+rs72797303	rs17622378	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Cell	UQCRQ	1
+rs72797303	rs17622378	Ulcerative colitis	Natural Killer Cell	UQCRQ	1
+rs7731626	rs7731626	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD4 Naive/Central memory T cell	ANKRD55	3
+rs7731626	rs7731626	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD4 Naive/Central memory T cell	IL6ST	2
+rs7731626	rs7731626	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD4 Effector memory/TEMRA	ANKRD55	3
+rs7731626	rs7731626	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8 Naive/Central memory T cell	ANKRD55	3
+rs7731626	rs7731626	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8 Naive/Central memory T cell	IL6ST	2
+rs1040803	rs7752672	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	HDDC2	1
+rs10944479	rs72928038	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Naive/Central memory T cell	BACH2	1
+rs10946917	rs2092121	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Recruiting Cell	HIST1H2BN	1
+rs10946917	rs2092122	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Recruiting Cell	HIST1H2BN	1
+rs10946917	rs1883216	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Recruiting Cell	HIST1H2BN	1
+rs10946917	rs7743465	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Recruiting Cell	HIST1H2BN	1
+rs10946917	rs7748366	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Recruiting Cell	HIST1H2BN	1
+rs10946917	rs10946920	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Recruiting Cell	HIST1H2BN	1
+rs112420503	rs143334143	COVID-19 (hospitalized covid vs population)	CD4 Naive/Central memory T cell	TCF19	1
+rs1130034	rs9272545	Hay fever and/or eczema	Naïve/Immature B Cell	HLA-DQB1	1
+rs12212247	rs2301436	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 S100B T cell	RNASET2	1
+rs13220817	rs13220817	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	ZNF391	1
+rs13220817	rs13220817	Resistance to COVID-19 infection (Exposed negative vs positive)	Plasma Cell	HIST1H2AJ	1
+rs1431403	rs9277554	Sjögren's syndrome	CD4 Naive/Central memory T cell	HLA-DPB1	1
+rs1480383	rs7749543	Hay fever and/or eczema	Plasma Cell	ZBTB22	1
+rs1571878	rs3093017	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Naïve/Immature B Cell	CCR6	1
+rs1854853	rs3093017	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Memory B Cell	CCR6	1
+rs1883403	rs13220817	Resistance to COVID-19 infection (Exposed negative vs positive)	Plasma Cell	HIST1H2AJ	1
+rs2275623	rs7752672	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Effector memory	HDDC2	1
+rs2325258	rs207270	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 S100B T cell	MAP3K7	1
+rs2621380	rs9276643	Hay fever and/or eczema	CD8 Effector memory	PSMB9	1
+rs28366319	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	CD4 Naive/Central memory T cell	HLA-DRB5	4
+rs28366319	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Memory B Cell	HLA-DRB5	4
+rs28366319	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Naïve/Immature B Cell	HLA-DRB5	4
+rs28366319	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	CD8 Effector memory	HLA-DRB5	4
+rs28366319	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	CD4 Naive/Central memory T cell	HLA-DRB5	4
+rs28366319	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Memory B Cell	HLA-DRB5	4
+rs28366319	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Naïve/Immature B Cell	HLA-DRB5	4
+rs28366319	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	CD8 Effector memory	HLA-DRB5	4
+rs2857201	rs9276643	Hay fever and/or eczema	Dendritic Cell	SYNGAP1	1
+rs2857201	rs9276796	Hay fever and/or eczema	Dendritic Cell	SYNGAP1	1
+rs2857209	rs2621363	Hay fever and/or eczema	CD8 Effector memory	HLA-DOB	1
+rs28752871	rs380852	Hay fever and/or eczema	CD4 SOX4 T cell	NEU1	1
+rs2894221	rs2894221	Resistance to COVID-19 infection (Exposed negative vs positive)	Dendritic Cell	ATAT1	1
+rs34004019	rs28407950	Hay fever and/or eczema	CD8 Naive/Central memory T cell	TAPSAR1	1
+rs35095850	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Plasma Cell	HLA-DRB5	1
+rs35095850	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Plasma Cell	HLA-DRB5	1
+rs380852	rs380852	Hay fever and/or eczema	CD4 Naive/Central memory T cell	NOTCH4	1
+rs3828790	rs9272545	Hay fever and/or eczema	CD8 S100B T cell	HLA-DQB1	1
+rs41546314	rs28749131	Hay fever and/or eczema	Naïve/Immature B Cell	GTF2H4	1
+rs4311543	rs4946717	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Recruiting Cell	QRSL1	1
+rs4349854	rs4946717	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Recruiting Cell	QRSL1	1
+rs4711889	rs9395288	Alzheimer's disease or family history of Alzheimer's disease	Naïve/Immature B Cell	RP11-385F7.1	1
+rs5002178	rs9272545	Hay fever and/or eczema	Naïve/Immature B Cell	HLA-DQA1	1
+rs6913166	rs13220817	Resistance to COVID-19 infection (Exposed negative vs positive)	Plasma Cell	HIST1H2AJ	1
+rs72853130	rs143334143	COVID-19 (hospitalized covid vs population)	Classic Monocyte	CCHCR1	1
+rs72861369	rs143334143	COVID-19 (hospitalized covid vs population)	Classic Monocyte	CCHCR1	1
+rs764284	rs13220817	Resistance to COVID-19 infection (Exposed negative vs positive)	Plasma Cell	HIST1H2AJ	1
+rs7747343	rs4946717	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Recruiting Cell	QRSL1	1
+rs7751376	rs9272545	Hay fever and/or eczema	Dendritic Cell	HLA-DQB1	1
+rs7752672	rs7752672	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	HDDC2	1
+rs7761376	rs4946717	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Recruiting Cell	QRSL1	1
+rs7766634	rs4946717	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Recruiting Cell	QRSL1	1
+rs9260043	rs28749131	Hay fever and/or eczema	CD8 Effector memory	HLA-A	2
+rs9260043	rs28749131	Hay fever and/or eczema	Natural Killer Cell	HLA-A	2
+rs9268846	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	CD4 SOX4 T cell	VARS	1
+rs9268846	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	CD4 SOX4 T cell	VARS	1
+rs9270824	rs9271192	Alzheimer's disease or family history of Alzheimer's disease	Natural Killer Cell	HLA-DRB1	1
+rs9270824	rs9271209	Ulcerative colitis	Natural Killer Cell	HLA-DRB1	1
+rs9270907	rs9271192	Alzheimer's disease or family history of Alzheimer's disease	Memory B Cell	HLA-DQB2	1
+rs9271006	rs9271192	Alzheimer's disease or family history of Alzheimer's disease	CD8 S100B T cell	HLA-DRB1	1
+rs9271006	rs9271209	Ulcerative colitis	CD8 S100B T cell	HLA-DRB1	1
+rs9271112	rs9271192	Alzheimer's disease or family history of Alzheimer's disease	CD4 SOX4 T cell	SYNGAP1	1
+rs9271112	rs9271209	Ulcerative colitis	CD4 SOX4 T cell	SYNGAP1	1
+rs9271411	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	CD8 Naive/Central memory T cell	HLA-DRB5	1
+rs9271411	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	CD8 Naive/Central memory T cell	HLA-DRB5	1
+rs9271503	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Dendritic Cell	GPSM3	1
+rs9271503	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Dendritic Cell	GPSM3	1
+rs9271573	rs9271573	Sjögren's syndrome	Natural Killer Recruiting Cell	HLA-DRB1	1
+rs9271573	rs9271573	Sjögren's syndrome	Dendritic Cell	HLA-DQB2	1
+rs9271573	rs9271573	Sjögren's syndrome	Natural Killer Recruiting Cell	HLA-DRB1	1
+rs9271573	rs9271573	Sjögren's syndrome	Dendritic Cell	HLA-DQB2	1
+rs9272441	rs9272545	Hay fever and/or eczema	Classic Monocyte	VPS52	1
+rs9272492	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Classic Monocyte	HLA-DRB1	1
+rs9272492	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Classic Monocyte	HLA-DRB1	1
+rs9272553	rs9272545	Hay fever and/or eczema	Natural Killer Recruiting Cell	HLA-DQA1	1
+rs9272553	rs9272545	Hay fever and/or eczema	Memory B Cell	HLA-DQB1	2
+rs9272553	rs9272545	Hay fever and/or eczema	Classic Monocyte	HLA-DQB1	2
+rs9272613	rs9272545	Hay fever and/or eczema	Classic Monocyte	HLA-DQB2	1
+rs9276640	rs9276643	Hay fever and/or eczema	Dendritic Cell	SYNGAP1	1
+rs9276640	rs9276796	Hay fever and/or eczema	Dendritic Cell	SYNGAP1	1
+rs9276642	rs9276643	Hay fever and/or eczema	Dendritic Cell	SYNGAP1	1
+rs9276642	rs9276796	Hay fever and/or eczema	Dendritic Cell	SYNGAP1	1
+rs9277472	rs9277554	Sjögren's syndrome	CD8 Naive/Central memory T cell	HLA-DPB1	1
+rs9277477	rs9277554	Sjögren's syndrome	Dendritic Cell	HLA-DPA1	1
+rs928976	rs9277554	Sjögren's syndrome	CD8 Effector memory	HLA-DPB1	1
+rs9393813	rs13220817	Resistance to COVID-19 infection (Exposed negative vs positive)	Plasma Cell	HIST1H2AJ	1
+rs10226151	rs7805776	Alzheimer's disease or family history of Alzheimer's disease	Non-classic Monocyte	EPHA1-AS1	1
+rs10228407	rs7805776	Alzheimer's disease or family history of Alzheimer's disease	Non-classic Monocyte	EPHA1-AS1	1
+rs10265814	rs7805776	Alzheimer's disease or family history of Alzheimer's disease	Non-classic Monocyte	EPHA1-AS1	1
+rs10486478	rs28550029	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Naive/Central memory T cell	HOTAIRM1	1
+rs1052482	rs866500	Alzheimer's disease or family history of Alzheimer's disease	Naïve/Immature B Cell	GATS	1
+rs1138417	rs866500	Alzheimer's disease or family history of Alzheimer's disease	Naïve/Immature B Cell	GATS	1
+rs11769980	rs7805776	Alzheimer's disease or family history of Alzheimer's disease	Non-classic Monocyte	EPHA1-AS1	1
+rs11771145	rs11771145	Alzheimer's disease or family history of Alzheimer's disease	Classic Monocyte	EPHA1-AS1	1
+rs1636978	rs866500	Alzheimer's disease or family history of Alzheimer's disease	Naïve/Immature B Cell	GATS	1
+rs1636988	rs866500	Alzheimer's disease or family history of Alzheimer's disease	Naïve/Immature B Cell	GATS	1
+rs1727134	rs866500	Alzheimer's disease or family history of Alzheimer's disease	Naïve/Immature B Cell	GATS	1
+rs17323934	rs28550029	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Naive/Central memory T cell	SKAP2	4
+rs17323934	rs28550029	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Naïve/Immature B Cell	SKAP2	4
+rs17323934	rs28550029	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Effector memory	SKAP2	4
+rs17323934	rs28550029	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD8 Naive/Central memory T cell	SKAP2	4
+rs3779046	rs866500	Alzheimer's disease or family history of Alzheimer's disease	CD4 Naive/Central memory T cell	GAL3ST4	1
+rs4722758	rs9648346	Hay fever and/or eczema	CD4 Naive/Central memory T cell	JAZF1	1
+rs62472731	rs62472729	Alzheimer's disease or family history of Alzheimer's disease	Non-classic Monocyte	EPHA1-AS1	1
+rs6979218	rs866500	Alzheimer's disease or family history of Alzheimer's disease	CD8 Effector memory	CNPY4	1
+rs73069539	rs28550029	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	CD4 Effector memory/TEMRA	SKAP2	2
+rs73069539	rs28550029	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	Natural Killer Cell	SKAP2	2
+rs13277113	rs2409780	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Naïve/Immature B Cell	FAM167A	1
+rs1478901	rs2409780	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Naïve/Immature B Cell	FAM167A	1
+rs2061831	rs2409780	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Memory B Cell	FAM167A	1
+rs2409780	rs2409780	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Naïve/Immature B Cell	BLK	1
+rs2409780	rs2409780	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Naïve/Immature B Cell	FAM167A	1
+rs2618444	rs2409780	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Naïve/Immature B Cell	FAM167A	1
+rs2618473	rs2409780	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Memory B Cell	FAM167A	1
+rs2736332	rs2409780	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Memory B Cell	FAM167A	1
+rs2736336	rs2409780	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Memory B Cell	BLK	1
+rs2736336	rs2409780	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Memory B Cell	FAM167A	1
+rs2981277	rs2875974	COVID-19 (hospitalized covid vs population)	CD4 Naive/Central memory T cell	RAB2A	1
+rs3857933	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	1
+rs3857933	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	1
+rs3857933	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	1
+rs3857933	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	1
+rs3857933	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	1
+rs3909640	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	1
+rs3909640	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	1
+rs3909640	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	1
+rs3909640	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	1
+rs3931023	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	1
+rs3931023	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	1
+rs3931023	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	1
+rs3931023	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	1
+rs3931023	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	1
+rs4081780	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	1
+rs4081780	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	1
+rs4081780	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	1
+rs4081780	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	1
+rs4081780	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	1
+rs4081781	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	1
+rs4081781	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	1
+rs4081781	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	1
+rs4081781	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	1
+rs4081781	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	1
+rs4840568	rs2409780	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Memory B Cell	FAM167A	1
+rs62489069	rs2409780	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD4 Naive/Central memory T cell	BLK	1
+rs6471091	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	2
+rs6471091	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	2
+rs6471091	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	2
+rs6471091	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	2
+rs6471091	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	2
+rs6471091	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	2
+rs6471091	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	2
+rs6471091	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	2
+rs6471091	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	2
+rs6471091	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	2
+rs7018303	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	1
+rs7018303	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	1
+rs7018303	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	1
+rs7018303	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	1
+rs7018303	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	1
+rs7816501	rs13261357	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	RP11-809O17.1	1
+rs7827081	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	2
+rs7827081	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	2
+rs7827081	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	2
+rs7827081	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	2
+rs7827081	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	2
+rs7827081	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	2
+rs7827081	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	2
+rs7827081	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	2
+rs7827081	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	CD4 Naive/Central memory T cell	LRRC6	2
+rs7827081	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	Natural Killer Cell	LRRC6	2
+rs922483	rs2409780	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	CD8 Naive/Central memory T cell	BLK	1
+rs9693589	rs2409780	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	Naïve/Immature B Cell	FAM167A	1
+rs4744855	rs10870005	Resistance to COVID-19 infection (Exposed negative vs positive)	CD8 Effector memory	GNAQ	1

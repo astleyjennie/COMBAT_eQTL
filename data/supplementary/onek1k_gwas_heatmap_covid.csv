@@ -1,0 +1,1054 @@
+QUERY_SNP	GWAS_SNP	GWAS_TRAIT	GWAS_STUDY	EQTL_CELL_TYPE	EQTL_GENE_NAME	EQTL_CELL_count
+rs1076556	rs11264349	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	SCAMP3	3
+rs1076556	rs11264349	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Effector memory/TEMRA	SCAMP3	3
+rs1076556	rs11264349	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	SCAMP3	3
+rs10902704	rs11247791	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Effector memory/TEMRA	PHACTR4	2
+rs10902704	rs11247791	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	PHACTR4	2
+rs11121242	rs2065603	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Recruiting Cell	ENO1	2
+rs11121242	rs2065603	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	ENO1	2
+rs11264352	rs11264349	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Natural Killer Cell	SCAMP3	1
+rs12139364	rs2036021	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	MUTYH	1
+rs12141053	rs11247791	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	TRNAU1AP	1
+rs1467513	rs4646093	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	DNAJC16	1
+rs1980476	rs12040737	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Naïve/Immature B Cell	TCEB3	1
+rs2242576	rs11264349	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Naive/Central memory T cell	SCAMP3	1
+rs2502989	rs6658703	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	HMGCL	1
+rs4660731	rs34464308	COVID-19	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	CD4 Naive/Central memory T cell	MED8	1
+rs481762	rs481762	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	KCNAB2	1
+rs4844539	rs4844539	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RP11-534L20.5	1
+rs4908411	rs11247791	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	PHACTR4	1
+rs4908414	rs11247791	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Naïve/Immature B Cell	PHACTR4	1
+rs519202	rs12040737	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Memory B Cell	TCEB3	1
+rs519202	rs12040737	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Naïve/Immature B Cell	RPL11	1
+rs610367	rs610367	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Classic Monocyte	RNASEL	1
+rs6577536	rs2065603	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Naïve/Immature B Cell	ENO1	1
+rs6679229	rs4646093	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Naïve/Immature B Cell	DNAJC16	1
+rs6684681	rs4844539	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RP11-534L20.5	1
+rs868937	rs4844539	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RP11-534L20.5	1
+rs871782	rs4844539	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RP11-534L20.5	1
+rs9426652	rs12035087	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	EIF4G3	1
+rs944769	rs4844539	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RP11-534L20.5	1
+rs9660549	rs11247791	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	PHACTR4	1
+rs12414280	rs2270550	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	VCL	1
+rs12783632	rs1248633	COVID-19 (severe vs population)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	CD8 Effector memory	DLG5	1
+rs12783632	rs1248633	COVID-19 (severe vs tested, not severe)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	CD8 Effector memory	DLG5	1
+rs1874151	rs2270550	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Effector memory/TEMRA	VCL	2
+rs1874151	rs2270550	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	VCL	2
+rs2579139	rs1248633	COVID-19 (severe vs population)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Natural Killer Cell	DLG5	1
+rs2579139	rs1248633	COVID-19 (severe vs tested, not severe)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Natural Killer Cell	DLG5	1
+rs10437583	rs10437608	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	HTATIP2	1
+rs10437583	rs11025535	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	HTATIP2	1
+rs10437583	rs10833313	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	HTATIP2	1
+rs11021318	rs666398	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	CEP57	1
+rs11603111	rs28759035	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	KRTAP5-2	1
+rs11604635	rs28759035	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	KRTAP5-2	1
+rs11821432	rs28759035	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	KRTAP5-2	1
+rs1982827	rs28759035	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	KRTAP5-2	1
+rs2316521	rs2742478	Morbidity in COVID-19 (deceased vs asymptomatic)	First report on genome wide association study in western Indian population reveals host genetic factors for COVID-19 severity and outcome.	CD4 Naive/Central memory T cell	TMEM9B-AS1	1
+rs59483236	rs28759035	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	KRTAP5-2	1
+rs61867536	rs28759035	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Memory B Cell	KRTAP5-AS1	1
+rs61869668	rs28759035	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Memory B Cell	KRTAP5-AS1	1
+rs10784771	rs7135092	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Classic Monocyte	YEATS4	1
+rs11066451	rs10774671	COVID-19 (critical illness vs population)	Mapping the human genetic architecture of COVID-19.	Non-classic Monocyte	OAS1	1
+rs11066451	rs10774671	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	Non-classic Monocyte	OAS1	1
+rs11066451	rs10774671	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	Non-classic Monocyte	OAS1	1
+rs11066451	rs10774671	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Non-classic Monocyte	OAS1	1
+rs11066451	rs10774671	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	Non-classic Monocyte	OAS1	1
+rs11066451	rs2660	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Non-classic Monocyte	OAS1	1
+rs11066451	rs2660	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Non-classic Monocyte	OAS1	1
+rs11066451	rs6489867	COVID-19 (critical illness vs population)	Genetic mechanisms of critical illness in Covid-19.	Non-classic Monocyte	OAS1	1
+rs11066451	rs10774679	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	Non-classic Monocyte	OAS1	1
+rs11066451	rs10774679	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	Non-classic Monocyte	OAS1	1
+rs11066451	rs10774679	SARS-CoV-2 infection	A first update on mapping the human genetic architecture of COVID-19.	Non-classic Monocyte	OAS1	1
+rs11066451	rs2269899	COVID-19 with respiratory failure requiring mechanical ventilation	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	Non-classic Monocyte	OAS1	1
+rs11177615	rs2249093	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	YEATS4	1
+rs11561378	rs2249093	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	YEATS4	1
+rs1670737	rs2249093	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Classic Monocyte	RP11-1143G9.4	3
+rs1670737	rs2249093	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Dendritic Cell	RP11-1143G9.4	3
+rs1670737	rs2249093	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Non-classic Monocyte	RP11-1143G9.4	3
+rs2285934	rs10774671	COVID-19 (critical illness vs population)	Mapping the human genetic architecture of COVID-19.	CD8 Effector memory	OAS1	1
+rs2285934	rs10774671	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD8 Effector memory	OAS1	1
+rs2285934	rs10774671	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD8 Effector memory	OAS1	1
+rs2285934	rs10774671	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	OAS1	1
+rs2285934	rs10774671	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD8 Effector memory	OAS1	1
+rs2285934	rs2660	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	OAS1	1
+rs2285934	rs2660	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	OAS1	1
+rs2285934	rs6489867	COVID-19 (critical illness vs population)	Genetic mechanisms of critical illness in Covid-19.	CD8 Effector memory	OAS1	1
+rs2285934	rs10774679	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Effector memory	OAS1	1
+rs2285934	rs10774679	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Effector memory	OAS1	1
+rs2285934	rs10774679	SARS-CoV-2 infection	A first update on mapping the human genetic architecture of COVID-19.	CD8 Effector memory	OAS1	1
+rs2285934	rs2269899	COVID-19 with respiratory failure requiring mechanical ventilation	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD8 Effector memory	OAS1	1
+rs35908046	rs2417187	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Effector memory/TEMRA	DUSP16	1
+rs35908046	rs10772563	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Effector memory/TEMRA	DUSP16	1
+rs4767029	rs10774671	COVID-19 (critical illness vs population)	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	OAS1	1
+rs4767029	rs10774671	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	OAS1	1
+rs4767029	rs10774671	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	OAS1	1
+rs4767029	rs10774671	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	OAS1	1
+rs4767029	rs10774671	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4 Naive/Central memory T cell	OAS1	1
+rs4767029	rs2660	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	OAS1	1
+rs4767029	rs2660	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	OAS1	1
+rs4767029	rs6489867	COVID-19 (critical illness vs population)	Genetic mechanisms of critical illness in Covid-19.	CD4 Naive/Central memory T cell	OAS1	1
+rs4767029	rs10774679	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	OAS1	1
+rs4767029	rs10774679	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	OAS1	1
+rs4767029	rs10774679	SARS-CoV-2 infection	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	OAS1	1
+rs4767029	rs2269899	COVID-19 with respiratory failure requiring mechanical ventilation	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4 Naive/Central memory T cell	OAS1	1
+rs531095	rs2686378	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	P2RX7	1
+rs57954211	rs2249093	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Memory B Cell	YEATS4	2
+rs57954211	rs2249093	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	YEATS4	2
+rs685934	rs2249093	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Non-classic Monocyte	YEATS4	1
+rs7136238	rs2249093	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Naïve/Immature B Cell	YEATS4	1
+rs1028770	rs7336581	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Memory B Cell	RBM26	1
+rs4885625	rs7336581	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Naïve/Immature B Cell	RBM26	1
+rs943709	rs7336581	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	RBM26	1
+rs9567948	rs9591123	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LINC00562	1
+rs11156667	rs11845830	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Memory B Cell	RP11-596D21.1	1
+rs11622544	rs11845830	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Memory B Cell	RP11-596D21.1	1
+rs11625148	rs11845830	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	RP11-596D21.1	1
+rs2094130	rs11845830	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Memory B Cell	RP11-596D21.1	1
+rs34247115	rs11845830	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Memory B Cell	RP11-596D21.1	1
+rs60106058	rs11850949	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Memory B Cell	PLD4	1
+rs61980863	rs7569	Mortality in COVID-19	First report on genome wide association study in western Indian population reveals host genetic factors for COVID-19 severity and outcome.	CD8 Effector memory	NPC2	1
+rs66871576	rs10140801	COVID-19 severity	Genome-wide association study of hospitalized COVID-19 patients in the United Arab Emirates.	CD4 Naive/Central memory T cell	LGALS3	1
+rs8005942	rs11845830	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Memory B Cell	RP11-596D21.1	1
+rs955256	rs998871	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	LGALS3	1
+rs11631331	rs12903154	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	ZWILCH	1
+rs1053871	rs1053997	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RP11-473M20.14	1
+rs11639743	rs11641087	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	MAF	1
+rs11647815	rs1053997	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	RP11-473M20.9	1
+rs11649450	rs1053997	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	RP11-473M20.14	1
+rs1554999	rs1554999	COVID-19	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	CD4 Naive/Central memory T cell	IL32	5
+rs1554999	rs1554999	COVID-19	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	CD4 SOX4 T cell	IL32	5
+rs1554999	rs1554999	COVID-19	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Natural Killer Recruiting Cell	IL32	5
+rs1554999	rs1554999	COVID-19	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	CD8 Naive/Central memory T cell	IL32	5
+rs1554999	rs1554999	COVID-19	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Natural Killer Cell	IL32	5
+rs2194337	rs1053997	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	RP11-473M20.9	1
+rs2735537	rs1053997	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RP11-473M20.9	1
+rs35379058	rs117169628	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	SLC22A31	1
+rs35379058	rs117169628	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	SLC22A31	1
+rs35379058	rs117169628	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	SLC22A31	1
+rs35379058	rs117169628	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	SLC22A31	1
+rs35379058	rs117169628	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	CD4 Naive/Central memory T cell	SLC22A31	1
+rs35379058	rs117169628	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	CD4 Naive/Central memory T cell	SLC22A31	1
+rs8043697	rs117169628	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	SLC22A31	1
+rs8043697	rs117169628	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	SLC22A31	1
+rs8043697	rs117169628	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	SLC22A31	1
+rs8043697	rs117169628	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	SLC22A31	1
+rs8043697	rs117169628	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	CD4 Naive/Central memory T cell	SLC22A31	1
+rs8043697	rs117169628	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	CD4 Naive/Central memory T cell	SLC22A31	1
+rs9924928	rs1053997	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	RP11-473M20.14	1
+rs12604031	rs10153257	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Non-classic Monocyte	ABCC3	1
+rs12946093	rs892964	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RP11-936I5.1	1
+rs12946093	rs2898645	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RP11-936I5.1	1
+rs1378358	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Memory B Cell	KANSL1-AS1	1
+rs1378358	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	Memory B Cell	KANSL1-AS1	1
+rs1378358	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	Memory B Cell	KANSL1-AS1	1
+rs1378358	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Memory B Cell	KANSL1-AS1	1
+rs1378358	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Memory B Cell	KANSL1-AS1	1
+rs1378358	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Memory B Cell	KANSL1-AS1	1
+rs1378358	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Memory B Cell	KANSL1-AS1	1
+rs1378358	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Memory B Cell	KANSL1-AS1	1
+rs1378358	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Memory B Cell	KANSL1-AS1	1
+rs1378358	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	Memory B Cell	KANSL1-AS1	1
+rs1378358	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	Memory B Cell	KANSL1-AS1	1
+rs1378358	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	Memory B Cell	KANSL1-AS1	1
+rs1378358	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Memory B Cell	KANSL1-AS1	1
+rs1378358	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Memory B Cell	KANSL1-AS1	1
+rs1724390	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	LRRC37A2	1
+rs1724390	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs1724390	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	LRRC37A2	1
+rs1724390	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	1
+rs1724390	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	LRRC37A2	1
+rs1724390	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	1
+rs1724390	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	LRRC37A2	1
+rs1724390	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs1724390	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	LRRC37A2	1
+rs1724390	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs1724390	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	LRRC37A2	1
+rs1724390	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Plasma Cell	KANSL1-AS1	1
+rs1724390	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	LRRC37A2	1
+rs1724390	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs1724390	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	LRRC37A2	1
+rs1724390	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Plasma Cell	KANSL1-AS1	1
+rs1724390	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	LRRC37A2	1
+rs1724390	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs1724390	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	LRRC37A2	1
+rs1724390	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	1
+rs1724390	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	LRRC37A2	1
+rs1724390	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	1
+rs1724390	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4 Naive/Central memory T cell	LRRC37A2	1
+rs1724390	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	Plasma Cell	KANSL1-AS1	1
+rs1724390	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	LRRC37A2	1
+rs1724390	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs1724390	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	LRRC37A2	1
+rs1724390	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs17425752	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17425752	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs17425752	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs17425752	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17425752	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17425752	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs17425752	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17425752	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs17425752	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17425752	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs17425752	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs17425752	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD8 Effector memory	RP11-669E14.6	1
+rs17425752	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17425752	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17426195	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17426195	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs17426195	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs17426195	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17426195	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17426195	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs17426195	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17426195	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs17426195	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17426195	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs17426195	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs17426195	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD8 Effector memory	RP11-669E14.6	1
+rs17426195	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17426195	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17688916	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	CRHR1	1
+rs17688916	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	CRHR1	1
+rs17688916	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	CRHR1	1
+rs17688916	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	CRHR1	1
+rs17688916	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	CRHR1	1
+rs17688916	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	CRHR1	1
+rs17688916	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	CRHR1	1
+rs17688916	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	CRHR1	1
+rs17688916	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	CRHR1	1
+rs17688916	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	CRHR1	1
+rs17688916	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	CRHR1	1
+rs17688916	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4 Naive/Central memory T cell	CRHR1	1
+rs17688916	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	CRHR1	1
+rs17689882	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17689882	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs17689882	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs17689882	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17689882	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17689882	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs17689882	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17689882	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs17689882	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17689882	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs17689882	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs17689882	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD8 Effector memory	RP11-669E14.6	1
+rs17689882	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs17689882	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs199441	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-669E14.6	1
+rs199441	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-669E14.6	1
+rs199441	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-669E14.6	1
+rs199441	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-669E14.6	1
+rs199441	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-669E14.6	1
+rs199441	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	RP11-669E14.6	1
+rs199441	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-669E14.6	1
+rs199441	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	RP11-669E14.6	1
+rs199441	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-669E14.6	1
+rs199441	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-669E14.6	1
+rs199441	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-669E14.6	1
+rs199441	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4 Naive/Central memory T cell	RP11-669E14.6	1
+rs199441	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-669E14.6	1
+rs199441	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-669E14.6	1
+rs199528	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	KANSL1	1
+rs199528	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	KANSL1	1
+rs199528	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	KANSL1	1
+rs199528	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	KANSL1	1
+rs199528	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	KANSL1	1
+rs199528	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	KANSL1	1
+rs199528	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	KANSL1	1
+rs199528	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	KANSL1	1
+rs199528	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	KANSL1	1
+rs199528	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	KANSL1	1
+rs199528	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4 Naive/Central memory T cell	KANSL1	1
+rs199528	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	KANSL1	1
+rs199528	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	KANSL1	1
+rs2106785	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	LRRC37A2	1
+rs2106785	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	LRRC37A2	1
+rs2106785	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	LRRC37A2	1
+rs2106785	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	LRRC37A2	1
+rs2106785	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	LRRC37A2	1
+rs2106785	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Naive/Central memory T cell	LRRC37A2	1
+rs2106785	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	LRRC37A2	1
+rs2106785	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Naive/Central memory T cell	LRRC37A2	1
+rs2106785	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	LRRC37A2	1
+rs2106785	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	LRRC37A2	1
+rs2106785	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	LRRC37A2	1
+rs2106785	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD8 Naive/Central memory T cell	LRRC37A2	1
+rs2106785	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	LRRC37A2	1
+rs2106785	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	LRRC37A2	1
+rs2435204	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs2435204	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs2435204	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs2435204	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs2435204	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs2435204	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs2435204	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs2435204	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs2435204	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs2435204	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs2435204	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs2435204	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD8 Effector memory	RP11-669E14.6	1
+rs2435204	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs2435204	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs2665405	rs1292055	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RNFT1	1
+rs2665405	rs1292054	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RNFT1	1
+rs2665405	rs1292051	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RNFT1	1
+rs2883071	rs1030827	COVID-19 (severe vs non-severe with positive test)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Dendritic Cell	JUP	1
+rs2883071	rs1030827	COVID-19 (severe vs tested, not severe)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Dendritic Cell	JUP	1
+rs2883071	rs6503665	COVID-19 (severe vs non-severe with positive test)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Dendritic Cell	JUP	1
+rs2957297	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	RP11-669E14.6	1
+rs3097118	rs62070270	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	EFCAB5	1
+rs3097118	rs7220151	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	EFCAB5	1
+rs3097118	rs9747395	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	EFCAB5	1
+rs34503528	rs34452291	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	ST6GALNAC1	1
+rs34503528	rs7210577	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	ST6GALNAC1	1
+rs34835035	rs34452291	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Effector memory/TEMRA	ST6GALNAC1	1
+rs34835035	rs7210577	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Effector memory/TEMRA	ST6GALNAC1	1
+rs35631660	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs35631660	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs35631660	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs35631660	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs35631660	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs35631660	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs35631660	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs35631660	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs35631660	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs35631660	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs35631660	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD8 Effector memory	RP11-669E14.6	1
+rs35631660	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD8 Effector memory	RP11-669E14.6	1
+rs35631660	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs35631660	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	RP11-669E14.6	1
+rs383241	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	KANSL1-AS1	1
+rs383241	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	KANSL1-AS1	1
+rs383241	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	KANSL1-AS1	1
+rs383241	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	KANSL1-AS1	1
+rs383241	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	KANSL1-AS1	1
+rs383241	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Naive/Central memory T cell	KANSL1-AS1	1
+rs383241	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	KANSL1-AS1	1
+rs383241	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Naive/Central memory T cell	KANSL1-AS1	1
+rs383241	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	KANSL1-AS1	1
+rs383241	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	KANSL1-AS1	1
+rs383241	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	KANSL1-AS1	1
+rs383241	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD8 Naive/Central memory T cell	KANSL1-AS1	1
+rs383241	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	KANSL1-AS1	1
+rs383241	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	KANSL1-AS1	1
+rs4327090	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4327090	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4327090	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4327090	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4327090	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4327090	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4327090	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4327090	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4327090	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4327090	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs440778	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs440778	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs440778	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs440778	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs440778	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs440778	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs440778	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs440778	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs440778	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs440778	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs440778	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs440778	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs440778	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs440778	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4429345	rs62070270	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	BLMH	1
+rs4429345	rs7220151	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	BLMH	1
+rs4429345	rs9747395	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	BLMH	1
+rs4429345	rs11080114	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	BLMH	1
+rs4429345	rs8065261	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	BLMH	1
+rs4429345	rs11080121	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	BLMH	1
+rs4583306	rs7220151	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RP11-354P11.3	1
+rs4583306	rs11080114	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RP11-354P11.3	1
+rs4583306	rs8065261	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RP11-354P11.3	1
+rs4583306	rs11080121	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RP11-354P11.3	1
+rs4630591	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4630591	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4630591	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4630591	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4630591	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4630591	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4630591	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4630591	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4630591	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4630591	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4630591	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD8 Naive/Central memory T cell	RP11-669E14.6	1
+rs4793665	rs10153257	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Classic Monocyte	ABCC3	1
+rs4796703	rs1030827	COVID-19 (severe vs non-severe with positive test)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Naïve/Immature B Cell	JUP	1
+rs4796703	rs1030827	COVID-19 (severe vs tested, not severe)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Naïve/Immature B Cell	JUP	1
+rs4796703	rs6503665	COVID-19 (severe vs non-severe with positive test)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Naïve/Immature B Cell	JUP	1
+rs531934295	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	LRRC37A2	1
+rs531934295	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Effector memory	LRRC37A2	1
+rs531934295	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Effector memory	LRRC37A2	1
+rs531934295	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	LRRC37A2	1
+rs531934295	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	LRRC37A2	1
+rs531934295	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	LRRC37A2	1
+rs531934295	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	LRRC37A2	1
+rs531934295	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	LRRC37A2	1
+rs531934295	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	LRRC37A2	1
+rs531934295	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD8 Effector memory	LRRC37A2	1
+rs531934295	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD8 Effector memory	LRRC37A2	1
+rs531934295	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD8 Effector memory	LRRC37A2	1
+rs531934295	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	LRRC37A2	1
+rs543659018	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	RP11-669E14.6	1
+rs554899842	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	RP11-669E14.6	1
+rs554899842	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	Natural Killer Cell	RP11-669E14.6	1
+rs554899842	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	Natural Killer Cell	RP11-669E14.6	1
+rs554899842	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	RP11-669E14.6	1
+rs554899842	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	RP11-669E14.6	1
+rs554899842	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Natural Killer Cell	RP11-669E14.6	1
+rs554899842	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	RP11-669E14.6	1
+rs554899842	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Natural Killer Cell	RP11-669E14.6	1
+rs554899842	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	RP11-669E14.6	1
+rs554899842	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	Natural Killer Cell	RP11-669E14.6	1
+rs554899842	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	Natural Killer Cell	RP11-669E14.6	1
+rs554899842	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	Natural Killer Cell	RP11-669E14.6	1
+rs554899842	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	RP11-669E14.6	1
+rs556130006	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	RP11-669E14.6	1
+rs55657917	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs55657917	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs55657917	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs55657917	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs55657917	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs55657917	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs55657917	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs55657917	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs55657917	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs55657917	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs55657917	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs55657917	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs55657917	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs55657917	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs55974014	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 S100B T cell	KANSL1-AS1	2
+rs55974014	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Effector memory/TEMRA	KANSL1-AS1	2
+rs55974014	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 S100B T cell	KANSL1-AS1	2
+rs55974014	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Effector memory/TEMRA	KANSL1-AS1	2
+rs55974014	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 S100B T cell	KANSL1-AS1	2
+rs55974014	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Effector memory/TEMRA	KANSL1-AS1	2
+rs55974014	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 S100B T cell	KANSL1-AS1	2
+rs55974014	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Effector memory/TEMRA	KANSL1-AS1	2
+rs55974014	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 S100B T cell	KANSL1-AS1	2
+rs55974014	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Effector memory/TEMRA	KANSL1-AS1	2
+rs55974014	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 S100B T cell	KANSL1-AS1	2
+rs55974014	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Effector memory/TEMRA	KANSL1-AS1	2
+rs55974014	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 S100B T cell	KANSL1-AS1	2
+rs55974014	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Effector memory/TEMRA	KANSL1-AS1	2
+rs55974014	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 S100B T cell	KANSL1-AS1	2
+rs55974014	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Effector memory/TEMRA	KANSL1-AS1	2
+rs55974014	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 S100B T cell	KANSL1-AS1	2
+rs55974014	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Effector memory/TEMRA	KANSL1-AS1	2
+rs55974014	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD8 S100B T cell	KANSL1-AS1	2
+rs55974014	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD4 Effector memory/TEMRA	KANSL1-AS1	2
+rs55974014	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD8 S100B T cell	KANSL1-AS1	2
+rs55974014	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD4 Effector memory/TEMRA	KANSL1-AS1	2
+rs55974014	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD8 S100B T cell	KANSL1-AS1	2
+rs55974014	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4 Effector memory/TEMRA	KANSL1-AS1	2
+rs55974014	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 S100B T cell	KANSL1-AS1	2
+rs55974014	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Effector memory/TEMRA	KANSL1-AS1	2
+rs55974014	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 S100B T cell	KANSL1-AS1	2
+rs55974014	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Effector memory/TEMRA	KANSL1-AS1	2
+rs56194509	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs56194509	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs56194509	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs56194509	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs56194509	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs56194509	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs56194509	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs56194509	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs56194509	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs56194509	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs56194509	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs56194509	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs56194509	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs56194509	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs56290582	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56290582	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56290582	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56290582	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56290582	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56290582	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56290582	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56290582	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56290582	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56290582	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56290582	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56290582	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56290582	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56290582	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56301633	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	RP11-669E14.6	1
+rs56301633	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	Natural Killer Cell	RP11-669E14.6	1
+rs56301633	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	Natural Killer Cell	RP11-669E14.6	1
+rs56301633	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	RP11-669E14.6	1
+rs56301633	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	RP11-669E14.6	1
+rs56301633	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Natural Killer Cell	RP11-669E14.6	1
+rs56301633	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	RP11-669E14.6	1
+rs56301633	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Natural Killer Cell	RP11-669E14.6	1
+rs56301633	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	RP11-669E14.6	1
+rs56301633	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	Natural Killer Cell	RP11-669E14.6	1
+rs56301633	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	Natural Killer Cell	RP11-669E14.6	1
+rs56301633	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	Natural Killer Cell	RP11-669E14.6	1
+rs56301633	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	RP11-669E14.6	1
+rs56301633	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	RP11-669E14.6	1
+rs56328224	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	5
+rs56328224	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Recruiting Cell	KANSL1-AS1	5
+rs56328224	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	5
+rs56328224	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Classic Monocyte	KANSL1-AS1	5
+rs56328224	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Dendritic Cell	KANSL1-AS1	5
+rs56328224	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	5
+rs56328224	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	Natural Killer Recruiting Cell	KANSL1-AS1	5
+rs56328224	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	5
+rs56328224	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	Classic Monocyte	KANSL1-AS1	5
+rs56328224	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	Dendritic Cell	KANSL1-AS1	5
+rs56328224	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	5
+rs56328224	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	Natural Killer Recruiting Cell	KANSL1-AS1	5
+rs56328224	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	5
+rs56328224	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	Classic Monocyte	KANSL1-AS1	5
+rs56328224	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	Dendritic Cell	KANSL1-AS1	5
+rs56328224	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	5
+rs56328224	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Recruiting Cell	KANSL1-AS1	5
+rs56328224	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	5
+rs56328224	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Classic Monocyte	KANSL1-AS1	5
+rs56328224	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Dendritic Cell	KANSL1-AS1	5
+rs56328224	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	5
+rs56328224	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Recruiting Cell	KANSL1-AS1	5
+rs56328224	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	5
+rs56328224	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Classic Monocyte	KANSL1-AS1	5
+rs56328224	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Dendritic Cell	KANSL1-AS1	5
+rs56328224	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	5
+rs56328224	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Natural Killer Recruiting Cell	KANSL1-AS1	5
+rs56328224	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Plasma Cell	KANSL1-AS1	5
+rs56328224	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Classic Monocyte	KANSL1-AS1	5
+rs56328224	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Dendritic Cell	KANSL1-AS1	5
+rs56328224	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	5
+rs56328224	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Recruiting Cell	KANSL1-AS1	5
+rs56328224	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	5
+rs56328224	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Classic Monocyte	KANSL1-AS1	5
+rs56328224	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Dendritic Cell	KANSL1-AS1	5
+rs56328224	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	5
+rs56328224	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Natural Killer Recruiting Cell	KANSL1-AS1	5
+rs56328224	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Plasma Cell	KANSL1-AS1	5
+rs56328224	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Classic Monocyte	KANSL1-AS1	5
+rs56328224	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Dendritic Cell	KANSL1-AS1	5
+rs56328224	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	5
+rs56328224	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Recruiting Cell	KANSL1-AS1	5
+rs56328224	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	5
+rs56328224	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Classic Monocyte	KANSL1-AS1	5
+rs56328224	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Dendritic Cell	KANSL1-AS1	5
+rs56328224	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	5
+rs56328224	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	Natural Killer Recruiting Cell	KANSL1-AS1	5
+rs56328224	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	5
+rs56328224	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	Classic Monocyte	KANSL1-AS1	5
+rs56328224	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	Dendritic Cell	KANSL1-AS1	5
+rs56328224	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	5
+rs56328224	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	Natural Killer Recruiting Cell	KANSL1-AS1	5
+rs56328224	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	5
+rs56328224	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	Classic Monocyte	KANSL1-AS1	5
+rs56328224	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	Dendritic Cell	KANSL1-AS1	5
+rs56328224	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4 SOX4 T cell	KANSL1-AS1	5
+rs56328224	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	Natural Killer Recruiting Cell	KANSL1-AS1	5
+rs56328224	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	Plasma Cell	KANSL1-AS1	5
+rs56328224	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	Classic Monocyte	KANSL1-AS1	5
+rs56328224	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	Dendritic Cell	KANSL1-AS1	5
+rs56328224	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	5
+rs56328224	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Recruiting Cell	KANSL1-AS1	5
+rs56328224	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	5
+rs56328224	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Classic Monocyte	KANSL1-AS1	5
+rs56328224	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Dendritic Cell	KANSL1-AS1	5
+rs56328224	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	5
+rs56328224	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Recruiting Cell	KANSL1-AS1	5
+rs56328224	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	5
+rs56328224	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Classic Monocyte	KANSL1-AS1	5
+rs56328224	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Dendritic Cell	KANSL1-AS1	5
+rs56397077	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56397077	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56397077	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56397077	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56397077	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56397077	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56397077	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56397077	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56397077	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56397077	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56397077	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56397077	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56397077	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs56397077	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	1
+rs566002249	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs566002249	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	1
+rs566002249	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	1
+rs566002249	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs566002249	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs566002249	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Plasma Cell	KANSL1-AS1	1
+rs566002249	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs566002249	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Plasma Cell	KANSL1-AS1	1
+rs566002249	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs566002249	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	1
+rs566002249	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	1
+rs566002249	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	Plasma Cell	KANSL1-AS1	1
+rs566002249	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs566002249	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs57213017	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs57213017	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	1
+rs57213017	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	1
+rs57213017	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs57213017	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs57213017	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Plasma Cell	KANSL1-AS1	1
+rs57213017	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs57213017	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Plasma Cell	KANSL1-AS1	1
+rs57213017	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs57213017	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	1
+rs57213017	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	1
+rs57213017	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	Plasma Cell	KANSL1-AS1	1
+rs57213017	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs57213017	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	1
+rs62055947	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62055947	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62055947	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62055947	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62055947	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62055947	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62055947	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62055947	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62055947	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62055947	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62055947	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62055947	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62055947	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62055947	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62061733	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62061733	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62061733	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62061733	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62061733	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62061733	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62061733	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62061733	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62061733	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62061733	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62061733	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62061733	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62061733	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62061733	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs62065453	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	3
+rs62065453	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Recruiting Cell	KANSL1-AS1	3
+rs62065453	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	3
+rs62065453	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	3
+rs62065453	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	Natural Killer Recruiting Cell	KANSL1-AS1	3
+rs62065453	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	3
+rs62065453	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	3
+rs62065453	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	Natural Killer Recruiting Cell	KANSL1-AS1	3
+rs62065453	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	3
+rs62065453	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	3
+rs62065453	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Recruiting Cell	KANSL1-AS1	3
+rs62065453	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	3
+rs62065453	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	3
+rs62065453	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Recruiting Cell	KANSL1-AS1	3
+rs62065453	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	3
+rs62065453	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	3
+rs62065453	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Natural Killer Recruiting Cell	KANSL1-AS1	3
+rs62065453	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Plasma Cell	KANSL1-AS1	3
+rs62065453	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	3
+rs62065453	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Recruiting Cell	KANSL1-AS1	3
+rs62065453	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	3
+rs62065453	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	3
+rs62065453	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Natural Killer Recruiting Cell	KANSL1-AS1	3
+rs62065453	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Plasma Cell	KANSL1-AS1	3
+rs62065453	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	3
+rs62065453	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Recruiting Cell	KANSL1-AS1	3
+rs62065453	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	3
+rs62065453	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	3
+rs62065453	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	Natural Killer Recruiting Cell	KANSL1-AS1	3
+rs62065453	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	3
+rs62065453	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD4 SOX4 T cell	KANSL1-AS1	3
+rs62065453	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	Natural Killer Recruiting Cell	KANSL1-AS1	3
+rs62065453	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	Plasma Cell	KANSL1-AS1	3
+rs62065453	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4 SOX4 T cell	KANSL1-AS1	3
+rs62065453	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	Natural Killer Recruiting Cell	KANSL1-AS1	3
+rs62065453	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	Plasma Cell	KANSL1-AS1	3
+rs62065453	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	3
+rs62065453	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Recruiting Cell	KANSL1-AS1	3
+rs62065453	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	3
+rs62065453	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 SOX4 T cell	KANSL1-AS1	3
+rs62065453	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Recruiting Cell	KANSL1-AS1	3
+rs62065453	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Plasma Cell	KANSL1-AS1	3
+rs6503665	rs1030827	COVID-19 (severe vs non-severe with positive test)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Memory B Cell	JUP	1
+rs6503665	rs1030827	COVID-19 (severe vs tested, not severe)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Memory B Cell	JUP	1
+rs6503665	rs6503665	COVID-19 (severe vs non-severe with positive test)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Memory B Cell	JUP	1
+rs67206808	rs62070270	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	NSRP1	1
+rs67206808	rs7220151	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	NSRP1	1
+rs75257002	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs75257002	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs75257002	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs75257002	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs75257002	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs75257002	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs75257002	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs75257002	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs75257002	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs75257002	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs75257002	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs75257002	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs75257002	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs75257002	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	RP11-798G7.5	1
+rs77875796	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	LRRC37A2	1
+rs77875796	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	Natural Killer Cell	LRRC37A2	1
+rs77875796	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	Natural Killer Cell	LRRC37A2	1
+rs77875796	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	LRRC37A2	1
+rs77875796	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	LRRC37A2	1
+rs77875796	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Natural Killer Cell	LRRC37A2	1
+rs77875796	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	LRRC37A2	1
+rs77875796	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Natural Killer Cell	LRRC37A2	1
+rs77875796	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	LRRC37A2	1
+rs77875796	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	Natural Killer Cell	LRRC37A2	1
+rs77875796	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	Natural Killer Cell	LRRC37A2	1
+rs77875796	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	Natural Killer Cell	LRRC37A2	1
+rs77875796	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	LRRC37A2	1
+rs77875796	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	LRRC37A2	1
+rs79172804	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	CRHR1	1
+rs79172804	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	CRHR1	1
+rs79172804	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	CRHR1	1
+rs79172804	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	CRHR1	1
+rs79172804	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	CRHR1	1
+rs79172804	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Naive/Central memory T cell	CRHR1	1
+rs79172804	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	CRHR1	1
+rs79172804	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Naive/Central memory T cell	CRHR1	1
+rs79172804	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	CRHR1	1
+rs79172804	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	CRHR1	1
+rs79172804	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD8 Naive/Central memory T cell	CRHR1	1
+rs79172804	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD8 Naive/Central memory T cell	CRHR1	1
+rs79172804	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Naive/Central memory T cell	CRHR1	1
+rs79730878	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Naïve/Immature B Cell	ARL17B	1
+rs79730878	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	Naïve/Immature B Cell	ARL17B	1
+rs79730878	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	Naïve/Immature B Cell	ARL17B	1
+rs79730878	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Naïve/Immature B Cell	ARL17B	1
+rs79730878	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Naïve/Immature B Cell	ARL17B	1
+rs79730878	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Naïve/Immature B Cell	ARL17B	1
+rs79730878	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Naïve/Immature B Cell	ARL17B	1
+rs79730878	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Naïve/Immature B Cell	ARL17B	1
+rs79730878	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Naïve/Immature B Cell	ARL17B	1
+rs79730878	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	Naïve/Immature B Cell	ARL17B	1
+rs79730878	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	Naïve/Immature B Cell	ARL17B	1
+rs79730878	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	Naïve/Immature B Cell	ARL17B	1
+rs79730878	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Naïve/Immature B Cell	ARL17B	1
+rs80028338	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Effector memory/TEMRA	LRRC37A2	1
+rs80028338	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Effector memory/TEMRA	LRRC37A2	1
+rs80028338	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Effector memory/TEMRA	LRRC37A2	1
+rs80028338	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Effector memory/TEMRA	LRRC37A2	1
+rs80028338	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Effector memory/TEMRA	LRRC37A2	1
+rs80028338	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Effector memory/TEMRA	LRRC37A2	1
+rs80028338	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Effector memory/TEMRA	LRRC37A2	1
+rs80028338	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Effector memory/TEMRA	LRRC37A2	1
+rs80028338	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Effector memory/TEMRA	LRRC37A2	1
+rs80028338	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD4 Effector memory/TEMRA	LRRC37A2	1
+rs80028338	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD4 Effector memory/TEMRA	LRRC37A2	1
+rs80028338	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4 Effector memory/TEMRA	LRRC37A2	1
+rs80028338	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Effector memory/TEMRA	LRRC37A2	1
+rs80028338	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Effector memory/TEMRA	LRRC37A2	1
+rs9910080	rs1030827	COVID-19 (severe vs non-severe with positive test)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Non-classic Monocyte	JUP	1
+rs9910080	rs1030827	COVID-19 (severe vs tested, not severe)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Non-classic Monocyte	JUP	1
+rs9910080	rs6503665	COVID-19 (severe vs non-severe with positive test)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Non-classic Monocyte	JUP	1
+rs9911745	rs1030827	COVID-19 (severe vs non-severe with positive test)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Classic Monocyte	JUP	1
+rs9911745	rs1030827	COVID-19 (severe vs tested, not severe)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Classic Monocyte	JUP	1
+rs9911745	rs6503665	COVID-19 (severe vs non-severe with positive test)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Classic Monocyte	JUP	1
+rs2251034	rs679574	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	FUT2	1
+rs2251034	rs516246	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	FUT2	1
+rs485186	rs679574	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	FUT2	1
+rs485186	rs516246	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	FUT2	1
+rs570794	rs679574	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	FUT2	1
+rs570794	rs516246	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	FUT2	1
+rs571689	rs679574	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	FUT2	1
+rs571689	rs516246	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	FUT2	1
+rs12471849	rs12471804	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	MAPRE3	1
+rs13000543	rs13000543	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Effector memory/TEMRA	PTPN4	2
+rs13000543	rs13000543	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	PTPN4	2
+rs2312549	rs13420511	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Memory B Cell	ANXA4	1
+rs2312549	rs7424572	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Memory B Cell	ANXA4	1
+rs3771273	rs4452202	COVID-19	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	CD8 Effector memory	KCNK12	1
+rs879722	rs4452202	COVID-19	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Natural Killer Cell	KCNK12	1
+rs6046446	rs59953878	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	C20orf96	1
+rs11088269	rs11702230	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Natural Killer Cell	MRPS6	1
+rs11702262	rs11701331	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	CBR1	1
+rs12627171	rs11702230	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8 Effector memory	MRPS6	1
+rs2835268	rs11701331	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	CBR1	1
+rs139843	rs6000905	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	GCAT	1
+rs139843	rs5756845	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	GCAT	1
+rs139843	rs6000926	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	GCAT	1
+rs139843	rs5995518	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	GCAT	1
+rs165616	rs178046	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	SNAP29	1
+rs165616	rs165718	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	SNAP29	1
+rs165616	rs165902	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	SNAP29	1
+rs165616	rs165898	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	SNAP29	1
+rs165616	rs165691	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	SNAP29	1
+rs165616	rs178052	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	SNAP29	1
+rs165616	rs165850	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	SNAP29	1
+rs165825	rs178046	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Classic Monocyte	SNAP29	1
+rs165825	rs165902	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Classic Monocyte	SNAP29	1
+rs165825	rs178052	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Classic Monocyte	SNAP29	1
+rs2038058	rs5758977	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	PACSIN2	1
+rs2038058	rs7291153	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	PACSIN2	1
+rs2038058	rs5759094	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	PACSIN2	1
+rs5759225	rs5759225	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	TSPO	1
+rs738397	rs5758977	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	PACSIN2	1
+rs738397	rs7291153	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	PACSIN2	1
+rs738397	rs5759094	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	PACSIN2	1
+rs112987689	rs59803194	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	RP11-77P16.4	1
+rs12495527	rs59803194	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	RP11-77P16.4	1
+rs1606393	rs4585155	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	AZI2	1
+rs1606393	rs4680909	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	AZI2	1
+rs1606393	rs6763313	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	AZI2	1
+rs1606393	rs6807612	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	AZI2	1
+rs1606393	rs4680913	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	AZI2	1
+rs1606393	rs6803692	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	AZI2	1
+rs2811491	rs2712371	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RPN1	2
+rs2811491	rs2712371	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	RPN1	2
+rs2811491	rs11717399	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RPN1	2
+rs2811491	rs11717399	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	RPN1	2
+rs2811491	rs7650156	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RPN1	2
+rs2811491	rs7650156	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	RPN1	2
+rs28590359	rs2034870	COVID-19 (severe vs population)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Natural Killer Cell	AC069277.2	1
+rs4072146	rs59803194	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	RP11-77P16.4	1
+rs4585155	rs4585155	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	AZI2	1
+rs4585155	rs4680909	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	AZI2	1
+rs4585155	rs6763313	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	AZI2	1
+rs4585155	rs6807612	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	AZI2	1
+rs4585155	rs4680913	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	AZI2	1
+rs4585155	rs6803692	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	AZI2	1
+rs6800939	rs2034870	COVID-19 (severe vs population)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Natural Killer Cell	AC069277.2	1
+rs6808513	rs4241512	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	UBE2E2	1
+rs6808513	rs716457	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	UBE2E2	1
+rs6808513	rs778484	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	UBE2E2	1
+rs6808513	rs3104244	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	UBE2E2	1
+rs6809088	rs59803194	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	RP11-77P16.4	1
+rs6810107	rs2034870	COVID-19 (severe vs population)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Natural Killer Cell	AC069277.2	1
+rs7432233	rs59803194	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	RP11-77P16.4	1
+rs9834048	rs2034870	COVID-19 (severe vs population)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Natural Killer Cell	AC069277.2	1
+rs9870079	rs2034870	COVID-19 (severe vs population)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Natural Killer Cell	AC069277.2	1
+rs11721624	rs78740643	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	ANTXR2	1
+rs11721624	rs77331798	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	ANTXR2	1
+rs11721624	rs10027407	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	ANTXR2	1
+rs11721624	rs11098983	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	ANTXR2	1
+rs11721624	rs76275007	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	ANTXR2	1
+rs6814602	rs13134168	COVID-19 (severe vs non-severe with positive test)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	Naïve/Immature B Cell	MAML3	1
+rs9637624	rs9760422	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	C4orf3	1
+rs13176348	rs2269821	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Natural Killer Cell	C5orf56	1
+rs13176348	rs4143335	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Natural Killer Cell	C5orf56	1
+rs2269821	rs2269821	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Natural Killer Cell	IRF1	1
+rs2269821	rs4143335	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Natural Killer Cell	IRF1	1
+rs35377719	rs2269821	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	C5orf56	1
+rs35377719	rs4143335	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	C5orf56	1
+rs35426692	rs2269821	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	IRF1	1
+rs35426692	rs4143335	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8 Effector memory	IRF1	1
+rs4867360	rs4867360	Mortality in COVID-19	Genetic variants are identified to increase risk of COVID-19 related mortality from UK Biobank data.	CD4 Naive/Central memory T cell	ZFR	1
+rs1029237	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	Classic Monocyte	TCF19	2
+rs1029237	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	Non-classic Monocyte	TCF19	2
+rs1040803	rs7752672	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	HDDC2	1
+rs10946917	rs2092121	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Recruiting Cell	HIST1H2BN	1
+rs10946917	rs2092122	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Recruiting Cell	HIST1H2BN	1
+rs10946917	rs1883216	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Recruiting Cell	HIST1H2BN	1
+rs10946917	rs7743465	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Recruiting Cell	HIST1H2BN	1
+rs10946917	rs7748366	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Recruiting Cell	HIST1H2BN	1
+rs10946917	rs10946920	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Recruiting Cell	HIST1H2BN	1
+rs11155699	rs73001674	COVID-19 (hospitalized covid vs population)	Trans-ancestry analysis reveals genetic and nongenetic associations with COVID-19 susceptibility and severity.	CD8 S100B T cell	PPIL4	1
+rs112420503	rs111837807	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	TCF19	1
+rs112420503	rs111837807	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	TCF19	1
+rs112420503	rs111837807	SARS-CoV-2 infection	A first update on mapping the human genetic architecture of COVID-19.	CD4 Naive/Central memory T cell	TCF19	1
+rs112420503	rs111837807	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	TCF19	1
+rs112420503	rs111837807	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4 Naive/Central memory T cell	TCF19	1
+rs112420503	rs143334143	COVID-19 (critical illness vs population)	Genetic mechanisms of critical illness in Covid-19.	CD4 Naive/Central memory T cell	TCF19	1
+rs112420503	rs143334143	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	TCF19	1
+rs112420503	rs143334143	COVID-19 with respiratory failure requiring mechanical ventilation	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4 Naive/Central memory T cell	TCF19	1
+rs1267941	rs666046	COVID-19 (hospitalized vs not hospitalized)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	CD4 Naive/Central memory T cell	SERINC1	1
+rs13194768	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	Classic Monocyte	TCF19	2
+rs13194768	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	Non-classic Monocyte	TCF19	2
+rs13220817	rs13220817	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	ZNF391	1
+rs13220817	rs13220817	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Plasma Cell	HIST1H2AJ	1
+rs1612904	rs2858305	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Memory B Cell	HCG25	1
+rs17194607	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	Classic Monocyte	HCG27	1
+rs1883403	rs13220817	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Plasma Cell	HIST1H2AJ	1
+rs2239530	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	Classic Monocyte	TCF19	2
+rs2239530	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	Non-classic Monocyte	TCF19	2
+rs2275623	rs7752672	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	HDDC2	1
+rs2285795	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	Non-classic Monocyte	NRM	1
+rs2325258	rs207270	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 S100B T cell	MAP3K7	1
+rs2516401	rs2246871	COVID-19 (hospitalized vs not hospitalized)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	CD4 Effector memory/TEMRA	MSH5	1
+rs2516401	rs2246871	COVID-19 (hospitalized vs population)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	CD4 Effector memory/TEMRA	MSH5	1
+rs2516401	rs2246871	COVID-19 (hospitalized vs tested, not hospitalized)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	CD4 Effector memory/TEMRA	MSH5	1
+rs2516479	rs2071590	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	POU5F1	1
+rs2517520	rs2517523	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 S100B T cell	ZNRD1-AS1	1
+rs2517606	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	CD8 S100B T cell	HCG27	2
+rs2517606	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	Classic Monocyte	HCG27	2
+rs2517607	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	CD8 S100B T cell	HCG27	2
+rs2517607	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	Classic Monocyte	HCG27	2
+rs2517653	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	CD4 Naive/Central memory T cell	TRIM31	1
+rs2523500	rs2071590	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Effector memory/TEMRA	PRRT1	1
+rs2523890	rs2517523	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Non-classic Monocyte	RPP21	1
+rs2647040	rs2858305	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 SOX4 T cell	DXO	1
+rs2647040	rs2858305	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Memory B Cell	HCG25	1
+rs28366319	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	CD4 Naive/Central memory T cell	HLA-DRB5	4
+rs28366319	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	Memory B Cell	HLA-DRB5	4
+rs28366319	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	Naïve/Immature B Cell	HLA-DRB5	4
+rs28366319	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	CD8 Effector memory	HLA-DRB5	4
+rs28366319	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	CD4 Naive/Central memory T cell	HLA-DRB5	4
+rs28366319	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	Memory B Cell	HLA-DRB5	4
+rs28366319	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	Naïve/Immature B Cell	HLA-DRB5	4
+rs28366319	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	CD8 Effector memory	HLA-DRB5	4
+rs2844775	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	CD8 S100B T cell	HCG27	1
+rs2856723	rs2858305	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	VWA7	1
+rs2856723	rs2858305	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 SOX4 T cell	DXO	1
+rs2858310	rs2858305	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 SOX4 T cell	DXO	1
+rs2894221	rs2894221	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Dendritic Cell	ATAT1	1
+rs3129721	rs2858305	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Memory B Cell	HCG25	1
+rs35095850	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	Plasma Cell	HLA-DRB5	1
+rs35095850	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	Plasma Cell	HLA-DRB5	1
+rs4713589	rs2858305	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 SOX4 T cell	DXO	1
+rs6913166	rs13220817	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Plasma Cell	HIST1H2AJ	1
+rs72853130	rs111837807	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	Classic Monocyte	CCHCR1	1
+rs72853130	rs111837807	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	Classic Monocyte	CCHCR1	1
+rs72853130	rs111837807	SARS-CoV-2 infection	A first update on mapping the human genetic architecture of COVID-19.	Classic Monocyte	CCHCR1	1
+rs72853130	rs111837807	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Classic Monocyte	CCHCR1	1
+rs72853130	rs111837807	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Classic Monocyte	CCHCR1	1
+rs72853130	rs143334143	COVID-19 (critical illness vs population)	Genetic mechanisms of critical illness in Covid-19.	Classic Monocyte	CCHCR1	1
+rs72853130	rs143334143	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Classic Monocyte	CCHCR1	1
+rs72853130	rs143334143	COVID-19 with respiratory failure requiring mechanical ventilation	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	Classic Monocyte	CCHCR1	1
+rs72861369	rs111837807	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	Classic Monocyte	CCHCR1	1
+rs72861369	rs111837807	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	Classic Monocyte	CCHCR1	1
+rs72861369	rs111837807	SARS-CoV-2 infection	A first update on mapping the human genetic architecture of COVID-19.	Classic Monocyte	CCHCR1	1
+rs72861369	rs111837807	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Classic Monocyte	CCHCR1	1
+rs72861369	rs111837807	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	Classic Monocyte	CCHCR1	1
+rs72861369	rs143334143	COVID-19 (critical illness vs population)	Genetic mechanisms of critical illness in Covid-19.	Classic Monocyte	CCHCR1	1
+rs72861369	rs143334143	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Classic Monocyte	CCHCR1	1
+rs72861369	rs143334143	COVID-19 with respiratory failure requiring mechanical ventilation	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	Classic Monocyte	CCHCR1	1
+rs72867695	rs2071351	SARS-CoV-2 infection	A first update on mapping the human genetic architecture of COVID-19.	Non-classic Monocyte	HLA-DPB1	1
+rs72867695	rs2071351	SARS-CoV-2 infection	A first update on mapping the human genetic architecture of COVID-19.	Non-classic Monocyte	HLA-DRB1	1
+rs764284	rs13220817	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Plasma Cell	HIST1H2AJ	1
+rs7752672	rs7752672	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	HDDC2	1
+rs7843	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	Classic Monocyte	TCF19	1
+rs9261433	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	Naïve/Immature B Cell	ZFP57	1
+rs9261503	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	CD4 Naive/Central memory T cell	TRIM31	1
+rs9261519	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	CD4 Naive/Central memory T cell	TRIM31	1
+rs9261524	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	CD4 Naive/Central memory T cell	TRIM31	1
+rs9261535	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	Non-classic Monocyte	TCF19	1
+rs9262515	rs9262508	COVID-19 (severe vs non-severe with positive test)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	CD4 Effector memory/TEMRA	PRRC2A	1
+rs9262515	rs9262508	COVID-19 (severe vs non-severe with positive test)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	CD4 Effector memory/TEMRA	PRRC2A	1
+rs9262625	rs2517523	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 S100B T cell	ZNRD1-AS1	1
+rs9262625	rs2517523	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	LY6G5B	1
+rs9262628	rs2517523	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 S100B T cell	ZNRD1-AS1	1
+rs9268846	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	CD4 SOX4 T cell	VARS	1
+rs9268846	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	CD4 SOX4 T cell	VARS	1
+rs9271411	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	CD8 Naive/Central memory T cell	HLA-DRB5	1
+rs9271411	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	CD8 Naive/Central memory T cell	HLA-DRB5	1
+rs9271503	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	Dendritic Cell	GPSM3	1
+rs9271503	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	Dendritic Cell	GPSM3	1
+rs9272492	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	Classic Monocyte	HLA-DRB1	1
+rs9272492	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	Classic Monocyte	HLA-DRB1	1
+rs9275109	rs2858305	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	VWA7	1
+rs9275109	rs2858305	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Memory B Cell	HCG25	1
+rs9275596	rs2858305	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	Memory B Cell	HCG25	1
+rs9357094	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	Natural Killer Cell	HCG27	2
+rs9357094	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	Classic Monocyte	HCG27	2
+rs9380159	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	Classic Monocyte	HCG27	1
+rs9393813	rs13220817	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Plasma Cell	HIST1H2AJ	1
+rs9469325	rs2071351	SARS-CoV-2 infection	A first update on mapping the human genetic architecture of COVID-19.	Memory B Cell	HLA-DPA1	2
+rs9469325	rs2071351	SARS-CoV-2 infection	A first update on mapping the human genetic architecture of COVID-19.	Naïve/Immature B Cell	HLA-DPA1	2
+rs9501257	rs9501257	COVID-19 with respiratory failure requiring mechanical ventilation	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD8 Effector memory	HLA-DPA1	1
+rs957765	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	CD8 Effector memory	POU5F1	1
+rs957765	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	Classic Monocyte	TCF19	2
+rs957765	rs9261521	COVID-19 (critical illness vs population)	A genetic variant in IL-6 lowering its expression is protective for critical patients with COVID-19.	Non-classic Monocyte	TCF19	2
+rs10808245	rs10808245	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Memory B Cell	RP11-138A9.1	1
+rs11766326	rs214456	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	IMMP2L	1
+rs11766326	rs214468	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	IMMP2L	1
+rs11766326	rs37735	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	IMMP2L	1
+rs11766326	rs253373	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	IMMP2L	1
+rs11766326	rs37667	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	IMMP2L	1
+rs11766326	rs4141271	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	IMMP2L	1
+rs2240728	rs4719715	COVID-19 (hospitalized covid vs population)	Trans-ancestry analysis reveals genetic and nongenetic associations with COVID-19 susceptibility and severity.	CD4 Naive/Central memory T cell	TOMM7	13
+rs2240728	rs4719715	COVID-19 (hospitalized covid vs population)	Trans-ancestry analysis reveals genetic and nongenetic associations with COVID-19 susceptibility and severity.	CD4 SOX4 T cell	TOMM7	13
+rs2240728	rs4719715	COVID-19 (hospitalized covid vs population)	Trans-ancestry analysis reveals genetic and nongenetic associations with COVID-19 susceptibility and severity.	Natural Killer Recruiting Cell	TOMM7	13
+rs2240728	rs4719715	COVID-19 (hospitalized covid vs population)	Trans-ancestry analysis reveals genetic and nongenetic associations with COVID-19 susceptibility and severity.	CD8 S100B T cell	TOMM7	13
+rs2240728	rs4719715	COVID-19 (hospitalized covid vs population)	Trans-ancestry analysis reveals genetic and nongenetic associations with COVID-19 susceptibility and severity.	Memory B Cell	TOMM7	13
+rs2240728	rs4719715	COVID-19 (hospitalized covid vs population)	Trans-ancestry analysis reveals genetic and nongenetic associations with COVID-19 susceptibility and severity.	CD4 Effector memory/TEMRA	TOMM7	13
+rs2240728	rs4719715	COVID-19 (hospitalized covid vs population)	Trans-ancestry analysis reveals genetic and nongenetic associations with COVID-19 susceptibility and severity.	Naïve/Immature B Cell	TOMM7	13
+rs2240728	rs4719715	COVID-19 (hospitalized covid vs population)	Trans-ancestry analysis reveals genetic and nongenetic associations with COVID-19 susceptibility and severity.	CD8 Effector memory	TOMM7	13
+rs2240728	rs4719715	COVID-19 (hospitalized covid vs population)	Trans-ancestry analysis reveals genetic and nongenetic associations with COVID-19 susceptibility and severity.	CD8 Naive/Central memory T cell	TOMM7	13
+rs2240728	rs4719715	COVID-19 (hospitalized covid vs population)	Trans-ancestry analysis reveals genetic and nongenetic associations with COVID-19 susceptibility and severity.	Natural Killer Cell	TOMM7	13
+rs2240728	rs4719715	COVID-19 (hospitalized covid vs population)	Trans-ancestry analysis reveals genetic and nongenetic associations with COVID-19 susceptibility and severity.	Classic Monocyte	TOMM7	13
+rs2240728	rs4719715	COVID-19 (hospitalized covid vs population)	Trans-ancestry analysis reveals genetic and nongenetic associations with COVID-19 susceptibility and severity.	Dendritic Cell	TOMM7	13
+rs2240728	rs4719715	COVID-19 (hospitalized covid vs population)	Trans-ancestry analysis reveals genetic and nongenetic associations with COVID-19 susceptibility and severity.	Non-classic Monocyte	TOMM7	13
+rs2293750	rs10808245	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RP11-138A9.1	1
+rs40372	rs214456	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	IMMP2L	1
+rs40372	rs214468	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	IMMP2L	1
+rs40372	rs37735	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	IMMP2L	1
+rs40372	rs253373	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	IMMP2L	1
+rs40372	rs37667	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	IMMP2L	1
+rs40372	rs4141271	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	IMMP2L	1
+rs4730483	rs214456	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	IMMP2L	1
+rs4730483	rs214468	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	IMMP2L	1
+rs4730483	rs253373	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	IMMP2L	1
+rs4730483	rs37667	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Naive/Central memory T cell	IMMP2L	1
+rs4730488	rs214456	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	IMMP2L	1
+rs4730488	rs214468	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	IMMP2L	1
+rs4730488	rs37735	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	IMMP2L	1
+rs4730488	rs253373	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	IMMP2L	1
+rs4730488	rs37667	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	IMMP2L	1
+rs4730488	rs4141271	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	IMMP2L	1
+rs2981277	rs2875974	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	RAB2A	1
+rs2981277	rs13276831	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4 Naive/Central memory T cell	RAB2A	1
+rs3857933	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	1
+rs3857933	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	1
+rs3857933	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	1
+rs3857933	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	1
+rs3857933	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	1
+rs3909640	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	1
+rs3909640	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	1
+rs3909640	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	1
+rs3909640	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	1
+rs3931023	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	1
+rs3931023	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	1
+rs3931023	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	1
+rs3931023	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	1
+rs3931023	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	1
+rs4081780	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	1
+rs4081780	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	1
+rs4081780	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	1
+rs4081780	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	1
+rs4081780	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	1
+rs4081781	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	1
+rs4081781	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	1
+rs4081781	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	1
+rs4081781	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	1
+rs4081781	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	1
+rs6471091	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	2
+rs6471091	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	2
+rs6471091	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	2
+rs6471091	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	2
+rs6471091	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	2
+rs6471091	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	2
+rs6471091	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	2
+rs6471091	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	2
+rs6471091	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	2
+rs6471091	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	2
+rs7018303	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	1
+rs7018303	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	1
+rs7018303	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	1
+rs7018303	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	1
+rs7018303	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	1
+rs7816501	rs13261357	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	RP11-809O17.1	1
+rs7827081	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	2
+rs7827081	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	2
+rs7827081	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	2
+rs7827081	rs6651261	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	2
+rs7827081	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	2
+rs7827081	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	2
+rs7827081	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	2
+rs7827081	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	2
+rs7827081	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4 Naive/Central memory T cell	LRRC6	2
+rs7827081	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	Natural Killer Cell	LRRC6	2
+rs4744855	rs11145634	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	GNAQ	1
+rs4744855	rs35297051	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	GNAQ	1
+rs4744855	rs10870005	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	GNAQ	1
+rs4744855	rs11145656	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8 Effector memory	GNAQ	1

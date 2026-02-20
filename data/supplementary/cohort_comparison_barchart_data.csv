@@ -1,0 +1,12 @@
+dataset,phenotype,count
+COMBAT,healthy,8
+COMBAT,asymptomatic COVID-19,11
+COMBAT,mild COVID-19,17
+COMBAT,critical COVID-19,13
+COMBAT,severe COVID-19,32
+COMBAT,sepsis,19
+WANG,most severe COVID-19,501
+WANG,severe COVID-19,494
+WANG,mild COVID-19,332
+WANG,asymptomatic COVID-19,78
+ONEK1K,healthy,982

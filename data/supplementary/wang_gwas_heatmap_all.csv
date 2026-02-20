@@ -1,0 +1,309 @@
+QUERY_SNP	GWAS_SNP	GWAS_TRAIT	EQTL_CELL_TYPE	EQTL_GENE_NAME	EQTL_CELL_count
+rs12117927	rs12117927	Hypothyroidism	bulk_whole_blood	EDARADD	1
+rs12117927	rs12117927	Hypothyroidism	bulk_whole_blood	EDARADD	1
+rs12117927	rs12117927	Autoimmune thyroid disease	bulk_whole_blood	EDARADD	1
+rs2070901	rs4233366	Asthma	bulk_whole_blood	NR1I3	1
+rs2070901	rs4233366	Asthma	bulk_whole_blood	FCER1G	1
+rs2070901	rs4233366	Asthma	bulk_whole_blood	APOA2	1
+rs2070901	rs4233366	Asthma	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070901	Eczema	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070901	Eczema	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070901	Eczema	bulk_whole_blood	APOA2	1
+rs2070901	rs2070901	Eczema	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070901	Allergic rhinitis	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070901	Allergic rhinitis	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070901	Allergic rhinitis	bulk_whole_blood	APOA2	1
+rs2070901	rs2070901	Allergic rhinitis	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070901	Hay fever and/or eczema	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070901	Hay fever and/or eczema	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070901	Hay fever and/or eczema	bulk_whole_blood	APOA2	1
+rs2070901	rs2070901	Hay fever and/or eczema	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070901	Asthma	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070901	Asthma	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070901	Asthma	bulk_whole_blood	APOA2	1
+rs2070901	rs2070901	Asthma	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070901	Atopic asthma	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070901	Atopic asthma	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070901	Atopic asthma	bulk_whole_blood	APOA2	1
+rs2070901	rs2070901	Atopic asthma	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070901	Asthma	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070901	Asthma	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070901	Asthma	bulk_whole_blood	APOA2	1
+rs2070901	rs2070901	Asthma	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070901	Asthma (childhood onset)	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070901	Asthma (childhood onset)	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070901	Asthma (childhood onset)	bulk_whole_blood	APOA2	1
+rs2070901	rs2070901	Asthma (childhood onset)	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070901	Allergic disease (asthma, hay fever or eczema)	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070901	Allergic disease (asthma, hay fever or eczema)	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070901	Allergic disease (asthma, hay fever or eczema)	bulk_whole_blood	APOA2	1
+rs2070901	rs2070901	Allergic disease (asthma, hay fever or eczema)	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070901	Asthma (childhood onset)	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070901	Asthma (childhood onset)	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070901	Asthma (childhood onset)	bulk_whole_blood	APOA2	1
+rs2070901	rs2070901	Asthma (childhood onset)	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070902	Allergy	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070902	Allergy	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070902	Allergy	bulk_whole_blood	APOA2	1
+rs2070901	rs2070902	Allergy	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070902	Allergic rhinitis	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070902	Allergic rhinitis	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070902	Allergic rhinitis	bulk_whole_blood	APOA2	1
+rs2070901	rs2070902	Allergic rhinitis	bulk_whole_blood	TOMM40L	1
+rs2974929	rs4072037	Parkinson disease	bulk_whole_blood	GBAP1	1
+rs2974929	rs28445596	Parkinson disease	bulk_whole_blood	GBAP1	1
+rs2974929	rs2049805	Parkinson disease	bulk_whole_blood	GBAP1	1
+rs4090311	rs7552167	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	bulk_whole_blood	IFNLR1	1
+rs4090311	rs7552167	Psoriasis vulgaris	bulk_whole_blood	IFNLR1	1
+rs873458	rs28718032	Autoimmune neurological syndromes with anti-GAD65 autoantibodies	bulk_whole_blood	MFN2	1
+rs873458	rs28718032	Autoimmune neurological syndromes with anti-GAD65 autoantibodies	bulk_whole_blood	MIIP	1
+rs2568091	rs2742478	Morbidity in COVID-19 (deceased vs asymptomatic)	bulk_whole_blood	TMEM9B	1
+rs479777	rs694739	Multiple sclerosis	bulk_whole_blood	AP003774.4	1
+rs479777	rs694739	Sarcoidosis	bulk_whole_blood	AP003774.4	1
+rs479777	rs694739	Psoriasis vulgaris	bulk_whole_blood	AP003774.4	1
+rs479777	rs694739	Primary biliary cirrhosis	bulk_whole_blood	AP003774.4	1
+rs479777	rs11231757	Hypothyroidism	bulk_whole_blood	AP003774.4	1
+rs479777	rs479777	Rheumatoid arthritis	bulk_whole_blood	AP003774.4	1
+rs479777	rs663743	Primary sclerosing cholangitis	bulk_whole_blood	AP003774.4	1
+rs479777	rs663743	Primary sclerosing cholangitis (MTAG)	bulk_whole_blood	AP003774.4	1
+rs479777	rs11601860	Primary biliary cholangitis	bulk_whole_blood	AP003774.4	1
+rs78196394	rs7122539	HIV-1 susceptibility	bulk_whole_blood	LRFN4	1
+rs79145843	rs79145843	Rheumatoid arthritis	bulk_whole_blood	ARAP1	1
+rs79145843	rs79145843	Rheumatoid arthritis	bulk_whole_blood	ARAP1-AS1	1
+rs10876864	rs705699	Allergic disease (asthma, hay fever and/or eczema) (multivariate analysis)	bulk_whole_blood	RPS26	1
+rs10876864	rs705699	Atopic asthma	bulk_whole_blood	RPS26	1
+rs10876864	rs705699	Asthma (childhood onset)	bulk_whole_blood	RPS26	1
+rs10876864	rs705699	Atopic dermatitis	bulk_whole_blood	RPS26	1
+rs10876864	rs705700	Asthma (adult onset)	bulk_whole_blood	RPS26	1
+rs10876864	rs705700	Nonatopic asthma	bulk_whole_blood	RPS26	1
+rs10876864	rs705700	Asthma	bulk_whole_blood	RPS26	1
+rs10876864	rs705700	Asthma (childhood onset)	bulk_whole_blood	RPS26	1
+rs10876864	rs705700	Asthma in any disease	bulk_whole_blood	RPS26	1
+rs10876864	rs10876864	Asthma or allergic disease (pleiotropy)	bulk_whole_blood	RPS26	1
+rs10876864	rs2017445	Vitiligo	bulk_whole_blood	RPS26	1
+rs10876864	rs1131017	Inflammatory skin disease	bulk_whole_blood	RPS26	1
+rs10876864	rs4622308	Rheumatoid arthritis	bulk_whole_blood	RPS26	1
+rs10876864	rs11171739	Allergic disease (asthma, hay fever or eczema)	bulk_whole_blood	RPS26	1
+rs10876864	rs11171739	Autoimmune traits (pleiotropy)	bulk_whole_blood	RPS26	1
+rs10876864	rs11171739	Type 1 diabetes	bulk_whole_blood	RPS26	1
+rs10876864	rs2271194	Autoimmune thyroid disease	bulk_whole_blood	RPS26	1
+rs112234619	rs1635168	Vitiligo	bulk_whole_blood	HERC2	1
+rs2289702	rs34593439	Autoimmune traits (pleiotropy)	bulk_whole_blood	CTSH	1
+rs2289702	rs34593439	Celiac disease	bulk_whole_blood	CTSH	1
+rs2289702	rs34593439	Type 1 diabetes	bulk_whole_blood	CTSH	1
+rs12444189	rs12444183	Alzheimer's disease	bulk_whole_blood	AC099524.1	1
+rs7187776	rs8049439	Inflammatory bowel disease (early onset)	bulk_whole_blood	TUFM	1
+rs7187776	rs12928404	Pediatric autoimmune diseases	bulk_whole_blood	TUFM	1
+rs7187776	rs62037363	Inflammatory bowel disease	bulk_whole_blood	TUFM	1
+rs199501	rs199453	Parkinson's disease or first degree relation to individual with Parkinson's disease	bulk_whole_blood	LRRC37A	1
+rs199501	rs199525	COVID-19 severity	bulk_whole_blood	LRRC37A	1
+rs61759532	rs61759532	Hypothyroidism	bulk_whole_blood	ACAP1	1
+rs61759532	rs61759532	Hypothyroidism	bulk_whole_blood	ACAP1	1
+rs61759532	rs61759532	Autoimmune thyroid disease	bulk_whole_blood	ACAP1	1
+rs7503199	rs3027247	Parkinson's disease (motor and cognition)	bulk_whole_blood	CTC1	1
+rs79436576	rs72835061	Alzheimer's disease	bulk_whole_blood	CHRNE	1
+rs79436576	rs72835061	Alzheimer's disease	bulk_whole_blood	C17orf107	1
+rs11086029	rs2362475	Systemic lupus erythematosus	bulk_whole_blood	KLF2	1
+rs11086029	rs2362475	Systemic lupus erythematosus	bulk_whole_blood	KLF2	1
+rs11435987	rs103294	Takayasu arteritis	bulk_whole_blood	LILRP1	1
+rs11671925	rs11671925	Allergic rhinitis	bulk_whole_blood	SLC7A10	1
+rs11878377	rs12979495	Psoriasis or coronary artery disease	bulk_whole_blood	CARM1	1
+rs313839	rs60652743	Primary sclerosing cholangitis	bulk_whole_blood	PRKD2	1
+rs313839	rs60652743	Primary sclerosing cholangitis (MTAG)	bulk_whole_blood	PRKD2	1
+rs34215622	rs760136	Alzheimer's disease or family history of Alzheimer's disease	bulk_whole_blood	AC011481.1	1
+rs34215622	rs1038026	Severe COVID-19 infection	bulk_whole_blood	AC011481.1	1
+rs1057258	rs9247	Eczema	bulk_whole_blood	RN7SL32P	1
+rs1057258	rs9247	Hay fever and/or eczema	bulk_whole_blood	RN7SL32P	1
+rs1057258	rs1057258	Allergic disease (asthma, hay fever or eczema)	bulk_whole_blood	RN7SL32P	1
+rs11682128	rs10194375	Alzheimer's disease or family history of Alzheimer's disease	bulk_whole_blood	BIN1	1
+rs62191977	rs7370843	Atopic asthma	bulk_whole_blood	D2HGDH	1
+rs913678	rs913678	Inflammatory bowel disease	bulk_whole_blood	SMIM25	1
+rs913678	rs913678	Inflammatory bowel disease	bulk_whole_blood	SMIM25	1
+rs913678	rs913678	Ulcerative colitis	bulk_whole_blood	SMIM25	1
+rs1893592	rs1893592	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	bulk_whole_blood	UBASH3A	1
+rs1893592	rs1893592	Rheumatoid arthritis	bulk_whole_blood	UBASH3A	1
+rs1893592	rs1893592	Primary sclerosing cholangitis	bulk_whole_blood	UBASH3A	1
+rs1893592	rs1893592	Rheumatoid arthritis (ACPA-positive)	bulk_whole_blood	UBASH3A	1
+rs1893592	rs1893592	Autoimmune traits (pleiotropy)	bulk_whole_blood	UBASH3A	1
+rs1893592	rs1893592	Celiac disease	bulk_whole_blood	UBASH3A	1
+rs1893592	rs1893592	Type 1 diabetes	bulk_whole_blood	UBASH3A	1
+rs4821544	rs4821544	Crohn's disease	bulk_whole_blood	PVALB	1
+rs147398495	rs2087726	Behcet's disease	bulk_whole_blood	CCR1	1
+rs147398495	rs2087726	Vasculitis (pleiotropy)	bulk_whole_blood	CCR1	1
+rs1684466	rs1684466	Asthma	bulk_whole_blood	LINC01063	1
+rs1684466	rs1684466	Asthma	bulk_whole_blood	LINC01063	1
+rs11724804	rs13101828	Systemic seropositive rheumatic diseases (Systemic sclerosis or systemic lupus erythematosus or rheumatoid arthritis or idiopathic inflammatory myopathies)	bulk_whole_blood	DGKQ	1
+rs11724804	rs11724804	Limited cutaneous systemic scleroderma	bulk_whole_blood	DGKQ	1
+rs11724804	rs11724804	Systemic lupus erythematosus (MTAG)	bulk_whole_blood	DGKQ	1
+rs11724804	rs4690220	Polymyositis	bulk_whole_blood	DGKQ	1
+rs7731626	rs7731626	Rheumatoid arthritis	bulk_whole_blood	ANKRD55	1
+rs7731626	rs7731626	Pediatric autoimmune diseases	bulk_whole_blood	ANKRD55	1
+rs7731626	rs7731626	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	bulk_whole_blood	ANKRD55	1
+rs7731626	rs7731626	Rheumatoid arthritis (rheumatoid factor and anti-cyclic citrullinated peptide seronegative)	bulk_whole_blood	ANKRD55	1
+rs7731626	rs7731626	Rheumatoid arthritis	bulk_whole_blood	ANKRD55	1
+rs7731626	rs7731626	Rheumatoid arthritis	bulk_whole_blood	ANKRD55	1
+rs1040803	rs7752672	Resistance to COVID-19 infection (Exposed negative vs positive)	bulk_whole_blood	HDDC2	1
+rs40372	rs214456	Severe COVID-19 infection	bulk_whole_blood	IMMP2L	1
+rs40372	rs214468	Severe COVID-19 infection	bulk_whole_blood	IMMP2L	1
+rs40372	rs37735	Severe COVID-19 infection	bulk_whole_blood	IMMP2L	1
+rs40372	rs253373	Severe COVID-19 infection	bulk_whole_blood	IMMP2L	1
+rs40372	rs37667	Severe COVID-19 infection	bulk_whole_blood	IMMP2L	1
+rs40372	rs4141271	Severe COVID-19 infection	bulk_whole_blood	IMMP2L	1
+rs61756142	rs367545586	Eosinophilic esophagitis	bulk_whole_blood	OSBPL3	1
+rs74601708	rs77992257	Crohn's disease	bulk_whole_blood	ADAP1	1
+rs7825928	rs7830776	Severe COVID-19 infection	bulk_whole_blood	CASC8	1
+rs117137535	rs117137535	Eczema	bulk_whole_blood	ARRDC1	1
+rs117137535	rs117137535	Eczema	bulk_whole_blood	ARRDC1	1
+rs117137535	rs117137535	Atopic asthma	bulk_whole_blood	ARRDC1	1
+rs117137535	rs117137535	Asthma (childhood onset)	bulk_whole_blood	ARRDC1	1
+rs117137535	rs117137535	Atopic dermatitis	bulk_whole_blood	ARRDC1	1
+rs12117927	rs12117927	Hypothyroidism	bulk_whole_blood	EDARADD	1
+rs12117927	rs12117927	Hypothyroidism	bulk_whole_blood	EDARADD	1
+rs12117927	rs12117927	Autoimmune thyroid disease	bulk_whole_blood	EDARADD	1
+rs2070901	rs4233366	Asthma	bulk_whole_blood	NR1I3	1
+rs2070901	rs4233366	Asthma	bulk_whole_blood	FCER1G	1
+rs2070901	rs4233366	Asthma	bulk_whole_blood	APOA2	1
+rs2070901	rs4233366	Asthma	bulk_whole_blood	TOMM40L	1
+rs2070901	rs33941127	Asthma	bulk_whole_blood	NR1I3	1
+rs2070901	rs33941127	Asthma	bulk_whole_blood	FCER1G	1
+rs2070901	rs33941127	Asthma	bulk_whole_blood	APOA2	1
+rs2070901	rs33941127	Asthma	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070901	Eczema	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070901	Eczema	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070901	Eczema	bulk_whole_blood	APOA2	1
+rs2070901	rs2070901	Eczema	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070901	Allergic rhinitis	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070901	Allergic rhinitis	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070901	Allergic rhinitis	bulk_whole_blood	APOA2	1
+rs2070901	rs2070901	Allergic rhinitis	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070901	Hay fever and/or eczema	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070901	Hay fever and/or eczema	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070901	Hay fever and/or eczema	bulk_whole_blood	APOA2	1
+rs2070901	rs2070901	Hay fever and/or eczema	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070901	Asthma	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070901	Asthma	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070901	Asthma	bulk_whole_blood	APOA2	1
+rs2070901	rs2070901	Asthma	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070901	Atopic asthma	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070901	Atopic asthma	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070901	Atopic asthma	bulk_whole_blood	APOA2	1
+rs2070901	rs2070901	Atopic asthma	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070901	Asthma	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070901	Asthma	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070901	Asthma	bulk_whole_blood	APOA2	1
+rs2070901	rs2070901	Asthma	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070901	Asthma (childhood onset)	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070901	Asthma (childhood onset)	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070901	Asthma (childhood onset)	bulk_whole_blood	APOA2	1
+rs2070901	rs2070901	Asthma (childhood onset)	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070901	Allergic disease (asthma, hay fever or eczema)	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070901	Allergic disease (asthma, hay fever or eczema)	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070901	Allergic disease (asthma, hay fever or eczema)	bulk_whole_blood	APOA2	1
+rs2070901	rs2070901	Allergic disease (asthma, hay fever or eczema)	bulk_whole_blood	TOMM40L	1
+rs2070901	rs2070901	Asthma (childhood onset)	bulk_whole_blood	NR1I3	1
+rs2070901	rs2070901	Asthma (childhood onset)	bulk_whole_blood	FCER1G	1
+rs2070901	rs2070901	Asthma (childhood onset)	bulk_whole_blood	APOA2	1
+rs2070901	rs2070901	Asthma (childhood onset)	bulk_whole_blood	TOMM40L	1
+rs2974929	rs4072037	Parkinson disease	bulk_whole_blood	GBAP1	1
+rs2974929	rs28445596	Parkinson disease	bulk_whole_blood	GBAP1	1
+rs2974929	rs2049805	Parkinson disease	bulk_whole_blood	GBAP1	1
+rs544151552	rs115045402	Allergic disease (asthma, hay fever and/or eczema) (multivariate analysis)	bulk_whole_blood	AUNIP	1
+rs544151552	rs115045402	Asthma	bulk_whole_blood	AUNIP	1
+rs670876	rs490608	Inflammatory bowel disease	bulk_whole_blood	DAP3	1
+rs873458	rs28718032	Autoimmune neurological syndromes with anti-GAD65 autoantibodies	bulk_whole_blood	MFN2	1
+rs873458	rs28718032	Autoimmune neurological syndromes with anti-GAD65 autoantibodies	bulk_whole_blood	MIIP	1
+rs67594352	rs2270550	Resistance to COVID-19 infection (Exposed negative vs positive)	bulk_whole_blood	ADK	1
+rs2568091	rs2742478	Morbidity in COVID-19 (deceased vs asymptomatic)	bulk_whole_blood	TMEM9B	1
+rs3750996	rs3750996	Urticaria	bulk_whole_blood	STIM1	1
+rs479777	rs694739	Multiple sclerosis	bulk_whole_blood	AP003774.4	1
+rs479777	rs694739	Sarcoidosis	bulk_whole_blood	AP003774.4	1
+rs479777	rs694739	Psoriasis vulgaris	bulk_whole_blood	AP003774.4	1
+rs479777	rs694739	Primary biliary cirrhosis	bulk_whole_blood	AP003774.4	1
+rs479777	rs11231757	Hypothyroidism	bulk_whole_blood	AP003774.4	1
+rs479777	rs479777	Rheumatoid arthritis	bulk_whole_blood	AP003774.4	1
+rs479777	rs663743	Primary sclerosing cholangitis	bulk_whole_blood	AP003774.4	1
+rs479777	rs663743	Primary sclerosing cholangitis (MTAG)	bulk_whole_blood	AP003774.4	1
+rs479777	rs11601860	Primary biliary cholangitis	bulk_whole_blood	AP003774.4	1
+rs79145843	rs79145843	Rheumatoid arthritis	bulk_whole_blood	ARAP1	1
+rs79145843	rs79145843	Rheumatoid arthritis	bulk_whole_blood	ARAP1-AS1	1
+rs10876864	rs1689510	Pediatric autoimmune diseases	bulk_whole_blood	RPS26	1
+rs10876864	rs1689510	Hay fever and/or eczema	bulk_whole_blood	RPS26	1
+rs10876864	rs1689510	Asthma	bulk_whole_blood	RPS26	1
+rs10876864	rs10876864	Asthma or allergic disease (pleiotropy)	bulk_whole_blood	RPS26	1
+rs10876864	rs2017445	Vitiligo	bulk_whole_blood	RPS26	1
+rs10876864	rs1702877	Asthma	bulk_whole_blood	RPS26	1
+rs10876864	rs1702877	Pediatric asthma	bulk_whole_blood	RPS26	1
+rs10876864	rs1702877	Asthma	bulk_whole_blood	RPS26	1
+rs10876864	rs1131017	Inflammatory skin disease	bulk_whole_blood	RPS26	1
+rs10876864	rs10876866	Asthma	bulk_whole_blood	RPS26	1
+rs10876864	rs10876866	Type 1 diabetes	bulk_whole_blood	RPS26	1
+rs10876864	rs61938962	Eczema	bulk_whole_blood	RPS26	1
+rs10876864	rs2640564	Allergic rhinitis	bulk_whole_blood	RPS26	1
+rs10876864	rs7312770	Hypothyroidism	bulk_whole_blood	RPS26	1
+rs10876864	rs7312770	Asthma-COPD overlap syndrome	bulk_whole_blood	RPS26	1
+rs10876864	rs11171739	Allergic disease (asthma, hay fever or eczema)	bulk_whole_blood	RPS26	1
+rs10876864	rs11171739	Autoimmune traits (pleiotropy)	bulk_whole_blood	RPS26	1
+rs10876864	rs11171739	Type 1 diabetes	bulk_whole_blood	RPS26	1
+rs4761234	rs7135092	Severe COVID-19 infection	bulk_whole_blood	LYZ	1
+rs4761234	rs7135092	Severe COVID-19 infection	bulk_whole_blood	AC020656.1	1
+rs4761234	rs2249093	Severe COVID-19 infection	bulk_whole_blood	LYZ	1
+rs4761234	rs2249093	Severe COVID-19 infection	bulk_whole_blood	AC020656.1	1
+rs112234619	rs1635168	Vitiligo	bulk_whole_blood	HERC2	1
+rs2289702	rs34593439	Autoimmune traits (pleiotropy)	bulk_whole_blood	CTSH	1
+rs2289702	rs34593439	Celiac disease	bulk_whole_blood	CTSH	1
+rs2289702	rs34593439	Type 1 diabetes	bulk_whole_blood	CTSH	1
+rs12444189	rs12444183	Alzheimer's disease	bulk_whole_blood	AC099524.1	1
+rs7187776	rs8049439	Inflammatory bowel disease (early onset)	bulk_whole_blood	TUFM	1
+rs61759532	rs61759532	Hypothyroidism	bulk_whole_blood	ACAP1	1
+rs61759532	rs61759532	Hypothyroidism	bulk_whole_blood	ACAP1	1
+rs61759532	rs61759532	Autoimmune thyroid disease	bulk_whole_blood	ACAP1	1
+rs7503199	rs3027247	Parkinson's disease (motor and cognition)	bulk_whole_blood	CTC1	1
+rs11086029	rs2362475	Systemic lupus erythematosus	bulk_whole_blood	KLF2	1
+rs11086029	rs2362475	Systemic lupus erythematosus	bulk_whole_blood	KLF2	1
+rs11671925	rs11671925	Allergic rhinitis	bulk_whole_blood	SLC7A10	1
+rs34215622	rs760136	Alzheimer's disease or family history of Alzheimer's disease	bulk_whole_blood	AC011481.1	1
+rs34215622	rs1038026	Severe COVID-19 infection	bulk_whole_blood	AC011481.1	1
+rs1057258	rs1057258	Allergic disease (asthma, hay fever or eczema)	bulk_whole_blood	RN7SL32P	1
+rs11678980	rs10930013	Hypothyroidism	bulk_whole_blood	LINC01806	1
+rs11682128	rs10194375	Alzheimer's disease or family history of Alzheimer's disease	bulk_whole_blood	BIN1	1
+rs62191977	rs7370843	Atopic asthma	bulk_whole_blood	D2HGDH	1
+rs6138678	rs6132905	Mumps	bulk_whole_blood	NOP56	1
+rs913678	rs913678	Inflammatory bowel disease	bulk_whole_blood	SMIM25	1
+rs913678	rs913678	Inflammatory bowel disease	bulk_whole_blood	SMIM25	1
+rs913678	rs913678	Ulcerative colitis	bulk_whole_blood	SMIM25	1
+rs1893592	rs1893592	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	bulk_whole_blood	UBASH3A	1
+rs1893592	rs1893592	Rheumatoid arthritis	bulk_whole_blood	UBASH3A	1
+rs1893592	rs1893592	Primary sclerosing cholangitis	bulk_whole_blood	UBASH3A	1
+rs1893592	rs1893592	Rheumatoid arthritis (ACPA-positive)	bulk_whole_blood	UBASH3A	1
+rs1893592	rs1893592	Autoimmune traits (pleiotropy)	bulk_whole_blood	UBASH3A	1
+rs1893592	rs1893592	Celiac disease	bulk_whole_blood	UBASH3A	1
+rs1893592	rs1893592	Type 1 diabetes	bulk_whole_blood	UBASH3A	1
+rs138785	rs138788	Inflammatory bowel disease	bulk_whole_blood	TOM1	1
+rs138785	rs138788	Ulcerative colitis	bulk_whole_blood	TOM1	1
+rs4821544	rs4821544	Crohn's disease	bulk_whole_blood	PVALB	1
+rs147398495	rs2087726	Behcet's disease	bulk_whole_blood	CCR1	1
+rs147398495	rs2087726	Vasculitis (pleiotropy)	bulk_whole_blood	CCR1	1
+rs1684466	rs1684466	Asthma	bulk_whole_blood	LINC01063	1
+rs1684466	rs1684466	Asthma	bulk_whole_blood	LINC01063	1
+rs28384382	rs1450522	Parkinson's disease or first degree relation to individual with Parkinson's disease	bulk_whole_blood	NMD3	1
+rs11724804	rs13101828	Systemic seropositive rheumatic diseases (Systemic sclerosis or systemic lupus erythematosus or rheumatoid arthritis or idiopathic inflammatory myopathies)	bulk_whole_blood	DGKQ	1
+rs11724804	rs11724804	Limited cutaneous systemic scleroderma	bulk_whole_blood	DGKQ	1
+rs11724804	rs11724804	Systemic lupus erythematosus (MTAG)	bulk_whole_blood	DGKQ	1
+rs11724804	rs4690220	Polymyositis	bulk_whole_blood	DGKQ	1
+rs7731626	rs7731626	Rheumatoid arthritis	bulk_whole_blood	ANKRD55	1
+rs7731626	rs7731626	Pediatric autoimmune diseases	bulk_whole_blood	ANKRD55	1
+rs7731626	rs7731626	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	bulk_whole_blood	ANKRD55	1
+rs7731626	rs7731626	Rheumatoid arthritis (rheumatoid factor and anti-cyclic citrullinated peptide seronegative)	bulk_whole_blood	ANKRD55	1
+rs7731626	rs7731626	Rheumatoid arthritis	bulk_whole_blood	ANKRD55	1
+rs7731626	rs7731626	Rheumatoid arthritis	bulk_whole_blood	ANKRD55	1
+rs1040803	rs7752672	Resistance to COVID-19 infection (Exposed negative vs positive)	bulk_whole_blood	HDDC2	1
+rs1202427	rs34264850	Severe COVID-19 infection	bulk_whole_blood	ZNF212	1
+rs1202427	rs10241873	Severe COVID-19 infection	bulk_whole_blood	ZNF212	1
+rs40372	rs37735	Severe COVID-19 infection	bulk_whole_blood	IMMP2L	1
+rs74601708	rs77992257	Crohn's disease	bulk_whole_blood	ADAP1	1
+rs7825928	rs7830776	Severe COVID-19 infection	bulk_whole_blood	CASC8	1
+rs117137535	rs117137535	Eczema	bulk_whole_blood	ARRDC1	1
+rs117137535	rs117137535	Eczema	bulk_whole_blood	ARRDC1	1
+rs117137535	rs117137535	Atopic asthma	bulk_whole_blood	ARRDC1	1
+rs117137535	rs117137535	Asthma (childhood onset)	bulk_whole_blood	ARRDC1	1
+rs117137535	rs117137535	Atopic dermatitis	bulk_whole_blood	ARRDC1	1

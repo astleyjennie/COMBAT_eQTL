@@ -1,0 +1,25 @@
+QUERY_SNP	GWAS_SNP	GWAS_TRAIT	GWAS_STUDY	EQTL_CELL_TYPE	EQTL_GENE_NAME	EQTL_CELL_count
+rs2568091	rs2742478	Morbidity in COVID-19 (deceased vs asymptomatic)	First report on genome wide association study in western Indian population reveals host genetic factors for COVID-19 severity and outcome.	bulk_whole_blood	TMEM9B	1
+rs199501	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	bulk_whole_blood	LRRC37A	1
+rs11878377	rs12979495	Psoriasis or coronary artery disease	Shared genetic risk factors and causal association between psoriasis and coronary artery disease.	bulk_whole_blood	CARM1	1
+rs34215622	rs1038026	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	AC011481.1	1
+rs1040803	rs7752672	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	HDDC2	1
+rs40372	rs214456	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	IMMP2L	1
+rs40372	rs214468	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	IMMP2L	1
+rs40372	rs37735	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	IMMP2L	1
+rs40372	rs253373	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	IMMP2L	1
+rs40372	rs37667	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	IMMP2L	1
+rs40372	rs4141271	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	IMMP2L	1
+rs7825928	rs7830776	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	CASC8	1
+rs67594352	rs2270550	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	ADK	1
+rs2568091	rs2742478	Morbidity in COVID-19 (deceased vs asymptomatic)	First report on genome wide association study in western Indian population reveals host genetic factors for COVID-19 severity and outcome.	bulk_whole_blood	TMEM9B	1
+rs4761234	rs7135092	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	LYZ	1
+rs4761234	rs7135092	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	AC020656.1	1
+rs4761234	rs2249093	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	LYZ	1
+rs4761234	rs2249093	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	AC020656.1	1
+rs34215622	rs1038026	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	AC011481.1	1
+rs1040803	rs7752672	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	HDDC2	1
+rs1202427	rs34264850	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	ZNF212	1
+rs1202427	rs10241873	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	ZNF212	1
+rs40372	rs37735	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	IMMP2L	1
+rs7825928	rs7830776	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	bulk_whole_blood	CASC8	1

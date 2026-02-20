@@ -1,0 +1,41 @@
+trait	hit_combat	hit_onek1k	hit_both	hit_neither	type	proportion	raw_value
+Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	5	21	14	185	COMBAT only	0.0223214285714286	5
+Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	5	21	14	185	OneK1K only	0.09375	21
+Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	5	21	14	185	COMBAT and OneK1K	0.0625	14
+Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	5	21	14	185	Neither	0.825892857142857	185
+Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	4	3	5	30	COMBAT only	0.0952380952380952	4
+Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	4	3	5	30	OneK1K only	0.0714285714285714	3
+Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	4	3	5	30	COMBAT and OneK1K	0.119047619047619	5
+Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	4	3	5	30	Neither	0.714285714285714	30
+COVID-19 (critical illness vs population or mild symptoms)	2	2	2	42	COMBAT only	0.0416666666666667	2
+COVID-19 (critical illness vs population or mild symptoms)	2	2	2	42	OneK1K only	0.0416666666666667	2
+COVID-19 (critical illness vs population or mild symptoms)	2	2	2	42	COMBAT and OneK1K	0.0416666666666667	2
+COVID-19 (critical illness vs population or mild symptoms)	2	2	2	42	Neither	0.875	42
+COVID-19 (hospitalized covid vs population)	2	6	1	38	COMBAT only	0.0425531914893617	2
+COVID-19 (hospitalized covid vs population)	2	6	1	38	OneK1K only	0.127659574468085	6
+COVID-19 (hospitalized covid vs population)	2	6	1	38	COMBAT and OneK1K	0.0212765957446809	1
+COVID-19 (hospitalized covid vs population)	2	6	1	38	Neither	0.808510638297872	38
+Hay fever and/or eczema	2	24	3	125	COMBAT only	0.012987012987013	2
+Hay fever and/or eczema	2	24	3	125	OneK1K only	0.155844155844156	24
+Hay fever and/or eczema	2	24	3	125	COMBAT and OneK1K	0.0194805194805195	3
+Hay fever and/or eczema	2	24	3	125	Neither	0.811688311688312	125
+Resistance to COVID-19 infection (Exposed negative vs positive)	2	14	9	230	COMBAT only	0.00784313725490196	2
+Resistance to COVID-19 infection (Exposed negative vs positive)	2	14	9	230	OneK1K only	0.0549019607843137	14
+Resistance to COVID-19 infection (Exposed negative vs positive)	2	14	9	230	COMBAT and OneK1K	0.0352941176470588	9
+Resistance to COVID-19 infection (Exposed negative vs positive)	2	14	9	230	Neither	0.901960784313726	230
+Sjögren's syndrome	2	2	0	2	COMBAT only	0.333333333333333	2
+Sjögren's syndrome	2	2	0	2	OneK1K only	0.333333333333333	2
+Sjögren's syndrome	2	2	0	2	COMBAT and OneK1K	0	0
+Sjögren's syndrome	2	2	0	2	Neither	0.333333333333333	2
+Ulcerative colitis	2	7	5	76	COMBAT only	0.0222222222222222	2
+Ulcerative colitis	2	7	5	76	OneK1K only	0.0777777777777778	7
+Ulcerative colitis	2	7	5	76	COMBAT and OneK1K	0.0555555555555556	5
+Ulcerative colitis	2	7	5	76	Neither	0.844444444444444	76
+Alzheimer's disease or family history of Alzheimer's disease	1	1	2	65	COMBAT only	0.0144927536231884	1
+Alzheimer's disease or family history of Alzheimer's disease	1	1	2	65	OneK1K only	0.0144927536231884	1
+Alzheimer's disease or family history of Alzheimer's disease	1	1	2	65	COMBAT and OneK1K	0.0289855072463768	2
+Alzheimer's disease or family history of Alzheimer's disease	1	1	2	65	Neither	0.942028985507246	65
+Amyotrophic lateral sclerosis	1	0	0	5	COMBAT only	0.166666666666667	1
+Amyotrophic lateral sclerosis	1	0	0	5	OneK1K only	0	0
+Amyotrophic lateral sclerosis	1	0	0	5	COMBAT and OneK1K	0	0
+Amyotrophic lateral sclerosis	1	0	0	5	Neither	0.833333333333333	5

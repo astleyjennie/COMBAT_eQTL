@@ -1,0 +1,149 @@
+QUERY_SNP	GWAS_SNP	GWAS_TRAIT	GWAS_STUDY	EQTL_CELL_TYPE	EQTL_GENE_NAME	EQTL_CELL_count
+rs4908400	rs11247791	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	cMono	PHACTR4	1
+rs4908405	rs11247791	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	PHACTR4	1
+rs71500084	rs2036021	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	MUTYH	1
+rs1874151	rs2270550	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	VCL	1
+rs11025535	rs10437608	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	cMono	HTATIP2	1
+rs11025535	rs11025535	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	cMono	HTATIP2	1
+rs11025535	rs10833313	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	cMono	HTATIP2	1
+rs10878953	rs7135092	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	YEATS4	1
+rs35938370	rs7135092	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8	YEATS4	1
+rs57954211	rs2249093	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	ncMono	LYZ	1
+rs7136238	rs2249093	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	cMono	YEATS4	1
+rs10140857	rs10140801	COVID-19 severity	Genome-wide association study of hospitalized COVID-19 patients in the United Arab Emirates.	CD4	LGALS3	1
+rs11547116	rs10140801	COVID-19 severity	Genome-wide association study of hospitalized COVID-19 patients in the United Arab Emirates.	CD4	FBXO34	1
+rs2286412	rs7569	Mortality in COVID-19	First report on genome wide association study in western Indian population reveals host genetic factors for COVID-19 severity and outcome.	CD4	NPC2	1
+rs1554999	rs1554999	COVID-19	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	CD4	IL32	1
+rs11080115	rs62070270	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	NSRP1	1
+rs11080115	rs7220151	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	NSRP1	1
+rs11080115	rs9747395	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	NSRP1	1
+rs11080115	rs11080114	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	NSRP1	1
+rs11080115	rs8065261	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	NSRP1	1
+rs11080115	rs11080121	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	NSRP1	1
+rs1724409	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4	LRRC37A2	1
+rs1724409	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4	LRRC37A2	1
+rs1724409	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4	LRRC37A2	1
+rs1724409	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4	LRRC37A2	1
+rs1724409	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4	LRRC37A2	1
+rs1724409	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4	LRRC37A2	1
+rs1724409	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4	LRRC37A2	1
+rs1724409	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4	LRRC37A2	1
+rs1724409	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD4	LRRC37A2	1
+rs1724409	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD4	LRRC37A2	1
+rs1724409	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4	LRRC37A2	1
+rs1724409	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4	LRRC37A2	1
+rs2286590	rs7212823	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	cMono	MXRA7	1
+rs2696531	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	NK	KANSL1	1
+rs2696531	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	NK	KANSL1	1
+rs2696531	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	NK	KANSL1	1
+rs2696531	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	NK	KANSL1	1
+rs2696531	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	NK	KANSL1	1
+rs2696531	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	NK	KANSL1	1
+rs2696531	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	NK	KANSL1	1
+rs2696531	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	NK	KANSL1	1
+rs2696531	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	NK	KANSL1	1
+rs2696531	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	NK	KANSL1	1
+rs2696531	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	NK	KANSL1	1
+rs2696531	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	NK	KANSL1	1
+rs2696531	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	NK	KANSL1	1
+rs2906009	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	NK	LRRC37A2	1
+rs2906009	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	NK	LRRC37A2	1
+rs2906009	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	NK	LRRC37A2	1
+rs2906009	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	NK	LRRC37A2	1
+rs2906009	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	NK	LRRC37A2	1
+rs2906009	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	NK	LRRC37A2	1
+rs2906009	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	NK	LRRC37A2	1
+rs2906009	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	NK	LRRC37A2	1
+rs2906009	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	NK	LRRC37A2	1
+rs2906009	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	NK	LRRC37A2	1
+rs2906009	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	NK	LRRC37A2	1
+rs2906009	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	NK	LRRC37A2	1
+rs2906009	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	NK	LRRC37A2	1
+rs2906009	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	NK	LRRC37A2	1
+rs4793665	rs10153257	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	ncMono	ABCC3	2
+rs4793665	rs10153257	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	cMono	ABCC3	2
+rs62063281	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4	LINC02210-CRHR1	1
+rs62063281	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4	LINC02210-CRHR1	1
+rs62063281	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD4	LINC02210-CRHR1	1
+rs62063281	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4	LINC02210-CRHR1	1
+rs62063281	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4	LINC02210-CRHR1	1
+rs62063281	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4	LINC02210-CRHR1	1
+rs62063281	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4	LINC02210-CRHR1	1
+rs62063281	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD4	LINC02210-CRHR1	1
+rs62063281	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4	LINC02210-CRHR1	1
+rs62063281	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD4	LINC02210-CRHR1	1
+rs62063281	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD4	LINC02210-CRHR1	1
+rs62063281	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD4	LINC02210-CRHR1	1
+rs62063281	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4	LINC02210-CRHR1	1
+rs62063281	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD4	LINC02210-CRHR1	1
+rs7216371	rs1030827	COVID-19 (severe vs non-severe with positive test)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	cMono	JUP	1
+rs7216371	rs1030827	COVID-19 (severe vs tested, not severe)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	cMono	JUP	1
+rs7216371	rs6503665	COVID-19 (severe vs non-severe with positive test)	A year of COVID-19 GWAS results from the GRASP portal reveals potential genetic risk factors.	cMono	JUP	1
+rs9891103	rs56328224	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8	LINC02210-CRHR1	1
+rs9891103	rs61667602	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8	LINC02210-CRHR1	1
+rs9891103	rs61667602	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	CD8	LINC02210-CRHR1	1
+rs9891103	rs61667602	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8	LINC02210-CRHR1	1
+rs9891103	rs17769552	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8	LINC02210-CRHR1	1
+rs9891103	rs63750417	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8	LINC02210-CRHR1	1
+rs9891103	rs112572874	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8	LINC02210-CRHR1	1
+rs9891103	rs8080583	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	CD8	LINC02210-CRHR1	1
+rs9891103	rs73984689	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8	LINC02210-CRHR1	1
+rs9891103	rs1819040	COVID-19 (hospitalized vs population)	Mapping the human genetic architecture of COVID-19.	CD8	LINC02210-CRHR1	1
+rs9891103	rs1819040	SARS-CoV-2 infection	Mapping the human genetic architecture of COVID-19.	CD8	LINC02210-CRHR1	1
+rs9891103	rs1819040	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	CD8	LINC02210-CRHR1	1
+rs9891103	rs2732631	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8	LINC02210-CRHR1	1
+rs9891103	rs199525	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	CD8	LINC02210-CRHR1	1
+rs12720356	rs73510898	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	cMono	ZGLP1	1
+rs12720356	rs73510898	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	cMono	ZGLP1	1
+rs12720356	rs142770866	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	cMono	ZGLP1	1
+rs12720356	rs142770866	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	cMono	ZGLP1	1
+rs583954	rs35463555	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	ncMono	NAPSA	2
+rs583954	rs35463555	COVID-19 (critical illness vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	cMono	NAPSA	2
+rs583954	rs1405655	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	ncMono	NAPSA	2
+rs583954	rs1405655	COVID-19 (hospitalized vs population)	A first update on mapping the human genetic architecture of COVID-19.	cMono	NAPSA	2
+rs583954	rs1405655	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	ncMono	NAPSA	2
+rs583954	rs1405655	COVID-19 (critical illness vs population)	A first update on mapping the human genetic architecture of COVID-19.	cMono	NAPSA	2
+rs583954	rs1405655	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	ncMono	NAPSA	2
+rs583954	rs1405655	COVID-19 (hospitalized covid vs population)	GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.	cMono	NAPSA	2
+rs583954	rs1405655	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	ncMono	NAPSA	2
+rs583954	rs1405655	COVID-19 severity	Genetic risk factors and COVID-19 severity in Brazil: results from BRACOVID study.	cMono	NAPSA	2
+rs583954	rs1405655	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	ncMono	NAPSA	2
+rs583954	rs1405655	COVID-19 with respiratory failure	Detailed stratified GWAS analysis for severe COVID-19 in four European populations.	cMono	NAPSA	2
+rs13384682	rs28374262	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	ARPC2	1
+rs13384682	rs6436047	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	ARPC2	1
+rs13384682	rs6436048	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	ARPC2	1
+rs13384682	rs13015410	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	ARPC2	1
+rs13384682	rs13015410	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	ARPC2	1
+rs61041183	rs6436047	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8	ARPC2	1
+rs61041183	rs6436048	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD8	ARPC2	1
+rs11702262	rs11701331	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	CBR1	1
+rs178088	rs178046	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	NK	SNAP29	1
+rs178088	rs165718	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	NK	SNAP29	1
+rs178088	rs165902	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	NK	SNAP29	1
+rs178088	rs165898	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	NK	SNAP29	1
+rs178088	rs165691	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	NK	SNAP29	1
+rs178088	rs178052	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	NK	SNAP29	1
+rs178088	rs165850	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	NK	SNAP29	1
+rs11946205	rs78740643	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	ANTXR2	1
+rs11946205	rs76275007	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	ANTXR2	1
+rs2715016	rs9760422	Severe COVID-19 infection	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	cMono	C4orf3	1
+rs1040803	rs7752672	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	cMono	HDDC2	1
+rs57588792	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	cMono	HLA-DRB1	1
+rs57588792	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	DP	HLA-DQA2	1
+rs57588792	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	cMono	HLA-DRB1	1
+rs57588792	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	DP	HLA-DQA2	1
+rs59350153	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	NK	HLA-DQA2	2
+rs59350153	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	DN	HLA-DQA2	2
+rs59350153	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	NK	HLA-DQA2	2
+rs59350153	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	DN	HLA-DQA2	2
+rs73739674	rs2071351	SARS-CoV-2 infection	A first update on mapping the human genetic architecture of COVID-19.	CD4	HLA-DPB1	1
+rs7752672	rs7752672	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	CD4	HDDC2	1
+rs9271589	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	CD8	HLA-DQA2	1
+rs9271589	rs9271609	COVID-19 (critical illness vs population or mild symptoms)	Whole genome sequencing reveals host factors underlying critical Covid-19.	CD8	HLA-DQA2	1
+rs2240727	rs4719715	COVID-19 (hospitalized covid vs population)	Trans-ancestry analysis reveals genetic and nongenetic associations with COVID-19 susceptibility and severity.	ncMono	TOMM7	2
+rs2240727	rs4719715	COVID-19 (hospitalized covid vs population)	Trans-ancestry analysis reveals genetic and nongenetic associations with COVID-19 susceptibility and severity.	cMono	TOMM7	2
+rs929464	rs4719715	COVID-19 (hospitalized covid vs population)	Trans-ancestry analysis reveals genetic and nongenetic associations with COVID-19 susceptibility and severity.	CD4	TOMM7	1
+rs4625013	rs3857933	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	cMono	DNAAF11	1
+rs4625013	rs7842007	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	cMono	DNAAF11	1
+rs4625013	rs10956677	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	cMono	DNAAF11	1
+rs4625013	rs1048490	Resistance to COVID-19 infection (Exposed negative vs positive)	Better safe than sorry-Whole-genome sequencing indicates that missense variants are significant in susceptibility to COVID-19.	cMono	DNAAF11	1
