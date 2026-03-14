@@ -1,14 +1,19 @@
 # Created 04/12/2025 by Jennifer Astley
 # Last modified 16/12/2025 by Jennifer Astley
 
-# Setup ####
-
+# Libraries ####
 library(pacman)
 p_load(tidyverse, png, data.table, patchwork, grid, UpSetR, cowplot, scales, viridis, colorspace)
 
-setwd('/gpfs3/well/combat/users/bsg751/projects/eqtl/runtensorqtl/october_2025/COMBAT_eQTL')
 # Set chosen working directory
-
+# setwd('~')
+# Should contain directories:
+# > figures
+#   > main 
+#   > supplementary
+# > data
+#   > main
+#   > supplementary
 
 # Colour schemes
 celltype_colors <- c(
@@ -30,7 +35,7 @@ celltype_colors <- c(
 # ============================
 #        MAIN FIGURE 2       #
 # ============================
-
+print.noquote("Main Figure 2")
 
 # Figure 2a ####
 # Bar plot showing the number of eQTLs found per cell type
@@ -39,27 +44,30 @@ cell_count <- fread('data/main/fig2a.csv') %>%
   mutate(cell_type = factor(cell_type, levels = cell_type))
 
 fig2a <- ggplot(cell_count, aes(x = cell_type,
-                                    y = num_cis_eQTLs,
-                                    fill = cell_type)) +
+                                y = num_cis_eQTLs,
+                                fill = cell_type)) +
   geom_bar(stat = "identity", width = 0.7, colour = "white") +
-  geom_text(aes(label = num_cis_eQTLs), vjust = -0.5, size = 4) +
+  geom_text(aes(label = num_cis_eQTLs), vjust = -0.5, size = 5) +
   scale_fill_manual(values = celltype_colors) +
-  theme_classic(base_size = 14) +
+  theme_classic(base_size = 18) +
   theme(
-    axis.text.x = element_text(angle = 45, hjust = 1),
+    axis.text.x = element_text(size = 14),
+    axis.text.y = element_text(size = 14),
+    axis.title = element_text(size = 18),
     legend.position = "none",
-    panel.grid.major.x = element_blank()
+    panel.grid.major.x = element_blank(),
+    plot.title = element_text(hjust = 0.5, size = 24),
+    plot.tag = element_text(size = 20, face = "plain", hjust = 0, vjust = 1)
   ) +
   labs(
     x = "",
     y = "Number of Independent cis-eQTLs",
-    title = "Independent cis-eQTLs per Cell Type"
+    title = "cis-eQTLs per Cell Type",
+    tag = "a"
   )
-
 
 # Figure 2b ####
 # UMAP showing cell types
-
 umap_count <- fread("data/main/fig2b.csv")
 
 fig2b <- ggplot(umap_count, aes(x = UMAP1,
@@ -76,15 +84,22 @@ fig2b <- ggplot(umap_count, aes(x = UMAP1,
         axis.text = element_blank(), 
         axis.ticks = element_blank(),
         panel.grid.major = element_blank(),
-        legend.position = "right"
+        legend.position = "right",
+        legend.text = element_text(size = 16),
+        legend.key.size = unit(1.2, "cm"),
+        axis.title.x = element_text(size = 18),
+        axis.title.y = element_text(size = 18),
+        plot.title = element_text(hjust = 0.5, size = 24),
+        plot.tag = element_text(size = 20, face = "plain", hjust = 0, vjust = 1)
     ) +
     labs(
         x = "UMAP1",
         y = "UMAP2",
         title = "UMAP Plot of Major Cell Clusters",
-        colour = NULL
+        colour = NULL,
+        tag = "b"
     ) +
-    guides(colour = guide_legend(override.aes = list(size = 6)))
+    guides(colour = guide_legend(override.aes = list(size = 8)))
 
 
 inset_df <- data.frame(
@@ -94,17 +109,17 @@ inset_df <- data.frame(
   plot_col = c("#6657EB", "#2EC4B6", "#FF6B6B", "#118AB2", "#EF476F", "#FFD166", "#9C96D9")
 )
 
-inset_plot <- ggplot(inset_df, aes(x = cells_assayed, y = eqtl_count, colour = plot_col)) +
+inset_plot <- ggplot(inset_df, aes(x = cells_assayed/1000, y = eqtl_count, colour = plot_col)) +
   geom_point(size = 4, alpha = 0.8) +
   scale_colour_identity() +
   theme_classic(base_size = 12) +
   theme(
-    axis.title = element_text(size = 8),
-    axis.text = element_text(size = 7),
+    axis.title = element_text(size = 16),
+    axis.text = element_text(size = 14),
     plot.margin = margin(2,2,2,2),
     legend.position = "none"
   ) +
-  labs(x = "Cells assayed", y = "eQTLs")
+  labs(x = "Cells assayed\n(thousands)", y = "Number of eQTLs")
 
 get_legend <- function(p) {
   g <- ggplotGrob(p)
@@ -113,10 +128,10 @@ get_legend <- function(p) {
 }
 
 legend_b <- get_legend(fig2b)
-legend_plot <- wrap_elements(full = legend_b)   # <-- FIXED
+legend_plot <- wrap_elements(full = legend_b)
 
 legend_column <- inset_plot / legend_plot +
-  plot_layout(heights = c(1, 1.3))
+  plot_layout(heights = c(1, 1))
 
 fig2b <- fig2b + theme(legend.position = "none")
 
@@ -124,11 +139,14 @@ final_fig2b <- fig2b + legend_column +
   plot_layout(widths = c(3, 1))
 
 
-
 # Figure 2c ####
 # eQTL plots of NAPSA, ZGLP1 and KANSL1
 
 eqtl_box <- fread('data/main/fig2c.csv')
+
+# Plot titles on two lines for readability
+eqtl_box <- eqtl_box %>%
+  mutate(plot_title = sub(" (monocytes)$", "\n\\1", plot_title))
 
 label_df <- eqtl_box %>%
   group_by(plot_title) %>%
@@ -143,55 +161,67 @@ label_df <- eqtl_box %>%
   mutate(
     x_pos = case_when(
       plot_title == "KANSL1 in CD4 cells" ~ 0.7,
-      plot_title == "NAPSA in classical monocytes" ~ 2.5,
-      plot_title == "NAPSA in non-classical monocytes" ~ 2.3,
-      plot_title == "ZGLP1 in classical monocytes" ~ 2.3
+      plot_title == "NAPSA in classical\nmonocytes" ~ 2.5,
+      plot_title == "NAPSA in non-classical\nmonocytes" ~ 2.3,
+      plot_title == "ZGLP1 in classical\nmonocytes" ~ 2.3
     ),
     y_pos = case_when(
-      plot_title == "KANSL1 in CD4 cells" ~ -2,
-      plot_title == "NAPSA in classical monocytes" ~ 1.5,
-      plot_title == "NAPSA in non-classical monocytes" ~ 1.5,
-      plot_title == "ZGLP1 in classical monocytes" ~ -1.5
+      plot_title == "KANSL1 in CD4 cells" ~ -1.5,
+      plot_title == "NAPSA in classical\nmonocytes" ~ 1.5,
+      plot_title == "NAPSA in non-classical\nmonocytes" ~ 1.5,
+      plot_title == "ZGLP1 in classical\nmonocytes" ~ -1.5
     )
   )
 
+
+
 eqtl_box$x_label <- paste0(eqtl_box$x_label1, "\nGRCh38: ", eqtl_box$x_label2)
 
-desired_order <- c("NAPSA in non-classical monocytes", "NAPSA in classical monocytes", "ZGLP1 in classical monocytes", "KANSL1 in CD4 cells")  # replace with your actual order
+desired_order <- c("NAPSA in non-classical\nmonocytes", 
+                   "NAPSA in classical\nmonocytes", 
+                   "ZGLP1 in classical\nmonocytes", 
+                   "KANSL1 in CD4 cells")
 
 plots <- eqtl_box %>%
   mutate(plot_title = factor(plot_title, levels = desired_order)) %>%
   arrange(plot_title) %>%
   group_split(plot_title)
 
+# Define tags for each plot
+plot_tags <- c("c", "d", "e", "f")
 
-plot_list <- lapply(plots, function(df) {
+plot_list <- lapply(seq_along(plots), function(i) {
+  df <- plots[[i]]
   xlab_text <- unique(df$x_label)
   title_text <- unique(df$plot_title)
+  tag_text <- plot_tags[i]
   
   ggplot(df, aes(x = genotype_label, y = Zscore)) +
     geom_boxplot(aes(fill = cell_type), outlier.shape = NA,  width = 0.4, size = 0.8) +
     geom_jitter(width = 0.2, size = 1.5, alpha = 0.8) +
-    # Top annotation with beta/p-values
+    # Top annotation with beta/p-values (increased size)
     geom_text(data = label_df %>% filter(plot_title == title_text),
               aes(x = x_pos, y = y_pos, label = label_text),
-              inherit.aes = FALSE, hjust = 0, vjust = 0.5, size = 4) +
+              inherit.aes = FALSE, hjust = 0, vjust = 0.5, size = 5) +
     scale_fill_manual(values = celltype_colors) +
     labs(
-      x = xlab_text,        # TRUE x-axis title
-      y = "Normalised Gene Expression",
-      title = title_text    # Plot title
+      x = xlab_text,
+      y = "Normalized Gene Expression",
+      title = title_text,
+      tag = tag_text
     ) +
-    theme_classic(base_size = 12) +
-    theme(axis.text.x = element_text(angle = 45, hjust = 1),
-          legend.position = "none",
-          plot.title = element_text(hjust = 0.5))
+    theme_classic(base_size = 16) +
+    ylim(-2.65, 2.65) +
+    theme(
+      axis.text.x = element_text(angle = 45, hjust = 1),
+      legend.position = "none",
+      plot.title = element_text(hjust = 0.5),
+      plot.tag = element_text(size = 20, face = "plain", hjust = 0, vjust = 1)
+    )
 })
 
 # Combine plots in a grid (2x2)
 fig2c <- wrap_plots(plot_list, ncol = 2)
-
-
 
 # Figure 2d ####
 # UMAP showing NAPSA expression
@@ -205,34 +235,46 @@ fig2d <- ggplot(umap_napsa, aes(x = UMAP1,
     geom_point() + 
     scale_color_gradient2(low = "#EBFAF9", mid = "#bbf0ebff", high = "#0e786dff", midpoint=0.5) +
     theme_classic(base_size = 14) + 
-    theme(axis.text = element_blank(), 
+    theme(
+          axis.text = element_blank(), 
           axis.ticks = element_blank(),
           panel.grid.major.x = element_blank(),
           panel.grid.major.y = element_blank(), 
-          legend.position = "none"
+          legend.position = "none",
+          axis.title.x = element_text(size = 18),
+          axis.title.y = element_text(size = 18),
+          plot.title = element_text(hjust = 0.5, size = 24),
+          plot.tag = element_text(size = 22, face = "plain", hjust = 0, vjust = 1)
     ) +
-    labs(x = "UMAP1", y = "UMAP2", title = "UMAP Plot of NAPSA Expression", colour = NULL) +
+    labs(x = "UMAP1", y = "UMAP2", title = "UMAP Plot of NAPSA Expression", colour = NULL, tag = 'g') +
     guides(colour = guide_legend(override.aes = list(size = 6)))
+
 
 
 # Figure 2 Combined
 
-fig2 <- (fig2a | wrap_elements(final_fig2b)) /
-        (fig2c | fig2d) +
-  plot_annotation(tag_levels = "a")
+layout_design <- "
+aabbbb
+aabbbb
+aabbbb
+cccddd
+cccddd
+cccddd
+"
 
-ggsave("figures/main/Fig2.png", fig2, width = 18, height = 14, dpi = 300)
+fig2 <- fig2a + final_fig2b + fig2c + fig2d +
+  plot_layout(design = layout_design)
 
-
+ggsave("figures/main/Fig2.png", fig2, width = 20, height = 18, dpi = 300)
 
 
 # ============================
 #        MAIN FIGURE 3       #
 # ============================
-
-
 # Figure 3a ####
 # Heatmap showing COMBAT eQTL and GWAS variant intersections
+print.noquote("Main Figure 3")
+
 
 combat_gwas <- fread('data/main/fig3a.csv')
 trait_order <- read_lines('data/main/fig3_trait_order.csv')
@@ -241,7 +283,6 @@ rename_traits <- c(
   "Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)" = "Chronic inflammatory diseases",
   "Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)" = "Rheumatoid arthritis"
 )
-
 
 # COMBAT GWAS all traits (filtered on top 10 traits with highest number of COMBAT-only hits)
 fig3a <- combat_gwas %>%
@@ -255,58 +296,61 @@ fig3a <- combat_gwas %>%
   ) +
   labs(
     title = "Heatmap of eQTL Cell Count - COMBAT All Traits",
-    x = "eQTL Gene", y = "GWAS Trait"
+    x = "eQTL Gene", y = "GWAS Trait",
+    tag = "a"  # <-- manual tag
   ) +
   theme_classic() +
   theme(
     axis.text.x = element_text(angle = 45, hjust = 1),
-    legend.position = "none"
+    axis.title.y = element_text(margin = margin(r = 20)),
+    legend.position = "none",
+    plot.title = element_text(hjust = 0.5, size = 18),
+    plot.tag = element_text(size = 14, face = "plain", hjust = 0, vjust = 1) 
   ) +
   scale_y_discrete(
     labels = ~ str_wrap(recode(., !!!rename_traits), width = 30)
   )
 
 
-
-
 # Figure 3b ####
 # COMBAT ONEK1K GWAS hits barplot
-
 top_combat_hits <- fread('data/main/combat_onek1k_gwas_barplot.csv')
 
 fig3b <- top_combat_hits %>%
   filter(type != 'Neither') %>%
-  
   mutate(type = factor(type,
                        levels = c("OneK1K only",
                                   "COMBAT and OneK1K",
                                   "COMBAT only"))) %>%
-  
-  # Define ordering metric per trait
   group_by(trait) %>%
   mutate(order_value = max(hit_combat)) %>%
   ungroup() %>%
   mutate(trait = factor(trait,
                         levels = unique(trait[order(-order_value)]))) %>%
-  
   ggplot(aes(x = raw_value, y = trait, fill = type)) +
   geom_col(position = "stack") +
   geom_text(aes(label = ifelse(raw_value == 0, "", raw_value)),
             position = position_stack(vjust = 0.5),
             size = 3.5, color = "white") +
-  labs(title = "GWAS Variants Found in eQTL Datasets by Trait",
-       y = "Trait",
-       x = "GWAS Variants in eQTL Datasets") +
+  labs(
+    title = "GWAS Variants Found in eQTL Datasets by Trait",
+    y = "GWAS Trait",
+    x = "GWAS Variants in eQTL Datasets",
+    tag = "b"  # <-- manual tag
+  ) +
   theme_classic() +
   theme(axis.text.y = element_text(hjust = 1),
-      legend.position = c(0.85, 0.85),
-      legend.text = element_text(size = 10),
-      legend.key.size = unit(1.2, "lines"),
-      legend.background = element_blank())    + 
+        axis.title.y = element_text(margin = margin(r = 20)),
+        legend.position = c(0.85, 0.85),
+        legend.text = element_text(size = 10),
+        legend.key.size = unit(1.2, "lines"),
+        legend.background = element_blank(),
+        plot.title = element_text(hjust = 0.5, size = 18),
+        plot.tag = element_text(size = 14, face = "plain", hjust = 0, vjust = 1)
+  ) +
   scale_y_discrete(
     labels = function(x) stringr::str_wrap(recode(x, !!!rename_traits), width = 30)
   ) +
-  
   scale_fill_manual(values = c(
     "COMBAT only" = "#60BC40",
     "OneK1K only" = "#2683C6",
@@ -315,9 +359,8 @@ fig3b <- top_combat_hits %>%
   name = NULL)
 
 
-# Figure 3c ####
+# Figure 3c-e ####
 # eQTL plots for COMBAT hit genes
-
 
 eqtl_box_fig3 <- fread('data/main/fig3c.csv')
 
@@ -338,9 +381,9 @@ label_df <- eqtl_box_fig3 %>%
       plot_title == "TRAF1 in CD8 cells" ~ 2.4
     ),
     y_pos = case_when(
-      plot_title == "REL in CD4 cells" ~ -2,
-      plot_title == "IRF5 in non-classical monocytes" ~ -2,
-      plot_title == "TRAF1 in CD8 cells" ~ -2.5
+      plot_title == "REL in CD4 cells" ~ -3,
+      plot_title == "IRF5 in non-classical monocytes" ~ -3,
+      plot_title == "TRAF1 in CD8 cells" ~ -3
     )
   )
 
@@ -353,41 +396,51 @@ plots3 <- eqtl_box_fig3 %>%
   arrange(plot_title) %>%
   group_split(plot_title)
 
+# Define tags for each panel
+tags <- c("c", "d", "e")
 
-plot_list3 <- lapply(plots3, function(df) {
+plot_list3 <- lapply(seq_along(plots3), function(i) {
+  df <- plots3[[i]]
   xlab_text <- unique(df$x_label)
-  title_text <- unique(df$plot_title)
+  title_raw <- unique(df$plot_title)
+  title_text <- gsub("IRF5 in non-classical monocytes",
+                     "IRF5 in non-classical\nmonocytes",
+                     title_raw)
   
   ggplot(df, aes(x = genotype_label, y = Zscore)) +
-    geom_boxplot(aes(fill = cell_type), outlier.shape = NA, width = 0.4, size = 0.8) +  # <- narrow boxes
+    geom_boxplot(aes(fill = cell_type), outlier.shape = NA, width = 0.4, size = 0.8) +
     geom_jitter(width = 0.2, size = 1.5, alpha = 0.8) +
-    geom_text(data = label_df %>% filter(plot_title == title_text),
+    geom_text(data = label_df %>% filter(plot_title == title_raw),
               aes(x = x_pos, y = y_pos, label = label_text),
               inherit.aes = FALSE, hjust = 0, vjust = 0.5, size = 4) +
     scale_fill_manual(values = celltype_colors) +
     labs(
       x = xlab_text,
-      y = "Normalised Gene Expression",
-      title = title_text
+      y = "Normalized Gene Expression",
+      title = title_text,
+      tag = tags[i] 
     ) +
     theme_classic(base_size = 14) +
+    ylim(-4, 2.7) +
     theme(axis.text.x = element_text(angle = 45, hjust = 1),
           legend.position = "none",
-          plot.title = element_text(hjust = 0.5))
+          plot.title = element_text(hjust = 0.5, size = 18),
+          plot.tag = element_text(size = 14, hjust = 0, vjust = 1))
 })
-
 
 fig3c <- wrap_plots(plot_list3, ncol = 3)
 
-
-# Figure 3d coloc plots for REL, IRF5 and TRAF1
-
+# Figure 3f-h coloc plots for REL, IRF5 and TRAF1
 gene_data_plot <- fread('data/main/fig3d_plot.csv')
 gene_data_plot$facet_title <- paste0(gene_data_plot$cell, ' (', gene_data_plot$dataset, ')')
 
 genes <- c('REL', 'IRF5', 'TRAF1')
+tags <- c("f", "g", "h")
 
-plot_list <- lapply(genes, function(gene_i) {
+plot_list <- lapply(seq_along(genes), function(i) {
+
+    gene_i <- genes[i]
+    tag_i  <- tags[i]
 
     df_plot  <- gene_data_plot  %>% filter(gene == gene_i)
 
@@ -400,7 +453,8 @@ plot_list <- lapply(genes, function(gene_i) {
         labs(
             x = "Position",
             y = "-log10(p-value)",
-            title = gene_i
+            title = gene_i,
+            tag = tag_i      # <-- manual tag
         ) +
         guides(color = guide_legend(override.aes = list(size = 5))) +
         ylim(0, ymax) +
@@ -409,7 +463,8 @@ plot_list <- lapply(genes, function(gene_i) {
         theme(
             legend.position = "none",
             strip.background = element_blank(),
-            plot.title = element_text(hjust = 0.5)
+            plot.title = element_text(hjust = 0.5, size = 18),
+            plot.tag = element_text(size = 14, hjust = 0, vjust = 1) 
         )
 
     p
@@ -418,14 +473,13 @@ plot_list <- lapply(genes, function(gene_i) {
 fig3d <- wrap_plots(plot_list, ncol = 3)
 
 
-
-# Figure 3e UMAP of REL, IRF5 and TRAF1
+# Figure 3i-k UMAP of REL, IRF5 and TRAF1
 
 umap_3gene <- fread('data/main/fig3e.csv') %>% select(-V1)
 
 umap_long3 <- umap_3gene %>%
   pivot_longer(
-    cols = c(REL, IRF5, TRAF1,),  # all gene columns
+    cols = c(REL, IRF5, TRAF1),  # all gene columns
     names_to = "GENE",
     values_to = "EXPRESSION"
   )
@@ -434,6 +488,7 @@ umap_long3$GENE <- factor(umap_long3$GENE, levels = c("REL", "IRF5", "TRAF1"))
 umap_long3 <- umap_long3[order(umap_long3$EXPRESSION), ]
 
 genes <- unique(umap_long3$GENE)
+tags <- c("i", "j", "k") 
 
 # Define three colour scales
 col_scales <- list(
@@ -449,43 +504,47 @@ plot_list <- lapply(seq_along(genes), function(i) {
     geom_point() +
     col_scales[[i]] +          # <-- different colour scale per gene
     theme_classic(base_size = 18) +
-    labs(title = genes[i]) +
+    labs(title = genes[i], tag = tags[i], x = "UMAP1", y = "UMAP2") +
     theme(
       axis.text = element_blank(),
       axis.ticks = element_blank(),
+      axis.title = element_text(size = 14),   # smaller axis labels
+      plot.title = element_text(size = 18, hjust = 0.5),  # centered
+      plot.tag = element_text(size = 14, hjust = 0, vjust = 1), 
       panel.grid.major = element_blank(),
       legend.position = "none",
       strip.background = element_blank(),
-      strip.text = element_text(face = "plain", size = 18)
+      strip.text = element_text(face = "plain", size = 14)
     )
 })
 
 fig3e <- plot_list[[3]] | plot_list[[1]] | plot_list[[2]]
 
+# Figure 3 combined 
 
-# Figure 3 combined
+fig3_top <- fig3a / fig3b
+fig3_bottom <- fig3c / fig3d / fig3e
 
-fig3 <- (fig3a) /
-        (fig3b) /
-        (fig3c) /
-        (fig3d) /
-        (fig3e) +
-  plot_annotation(tag_levels = "a")
+fig3 <- plot_grid(
+  fig3_top,
+  fig3_bottom,
+  ncol = 1,
+  rel_heights = c(2,3)
+)
 
 ggsave("figures/main/Fig3.png", fig3, width = 14, height = 20, dpi = 300)
-
 
 
 # ============================
 #        MAIN FIGURE 4       #
 # ============================
+print.noquote("Main Figure 4")
 
 
-# -------------------------------
 # Figure 4a - Interaction eQTL boxplots: cMono
-# -------------------------------
+
 rps26_sev <- fread('data/main/fig4c_sev.csv')
-hosp_colors <- c("Non-hospitalised" = "#60BC40", "Hospitalised" = "#DC320A")
+hosp_colors <- c("Non-hospitalized" = "#60BC40", "Hospitalized" = "#DC320A")
 
 label_df <- tibble(
   cell_type = c("cMono", "NK", "CD8"),
@@ -493,51 +552,66 @@ label_df <- tibble(
             "FDR = 0.0375\nβint = 0.238",
             "FDR = 0.0375\nβint = 0.889"),
   x = c(1, 1, 1),
-  y = c(-2, -2, -2)
+  y = c(-3, -3, -2.7)
 )
 
 plot_df <- rps26_sev %>% filter(cell_type == "cMono")
 plot_df$hosp <- factor(plot_df$hosp)
-label_plot <- label_df %>% filter(cell_type == "cMono")
+label_plot <- label_df %>% filter(cell_type == "cMono") %>%
+  mutate(hosp = "Non-hospitalized")
 
 p4a <- ggplot(plot_df, aes(x = genotype_label, y = Zscore, fill = hosp)) +
   geom_boxplot(outlier.shape = NA, position = position_dodge(width = 0.8)) +
   geom_jitter(colour = "black", size = 1.5, alpha = 0.8,
               position = position_jitterdodge(jitter.width = 0.5, dodge.width = 0.8)) +
   geom_text(data = label_plot, aes(x = x, y = y, label = label),
-            inherit.aes = FALSE, hjust = 0, vjust = 0, size = 4.5) +
+            inherit.aes = FALSE, hjust = 0, vjust = 0, size = 6) +
   scale_fill_manual(values = hosp_colors) +
-  labs(x = "rs1131017\nGRCh38: chr12:56,042,145", y = "Normalised Gene Expression",
+  labs(x = "rs1131017\nGRCh38: chr12:56,042,145", y = "Normalized Gene Expression",
        fill = "Infection Severity", title = "RPS26 in cMono (Infection Severity)") +
-  theme_classic(base_size = 14) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1),
-        plot.title = element_text(hjust = 0.5, vjust = 1.5),
-        legend.position = "bottom")
+  theme_classic(base_size = 18) +
+  facet_wrap(~hosp) +
+  ylim(-3.2, 2.8)+
+  theme(strip.background = element_blank(),
+        strip.text = element_text(size = 16),
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 16),
+        axis.text.y = element_text(size = 16),
+        axis.title = element_text(size = 18),
+        plot.title = element_text(hjust = 0.5, vjust = 1.5, size = 20),
+        legend.position = "none")
+        
 
-# -------------------------------
+
 # Figure 4b - Interaction eQTL boxplots: NK
-# -------------------------------
+
 plot_df <- rps26_sev %>% filter(cell_type == "NK")
 plot_df$hosp <- factor(plot_df$hosp)
-label_plot <- label_df %>% filter(cell_type == "NK")
+label_plot <- label_df %>% filter(cell_type == "NK") %>%
+  mutate(hosp = "Hospitalized")
 
 p4b <- ggplot(plot_df, aes(x = genotype_label, y = Zscore, fill = hosp)) +
   geom_boxplot(outlier.shape = NA, position = position_dodge(width = 0.8)) +
   geom_jitter(colour = "black", size = 1.5, alpha = 0.8,
               position = position_jitterdodge(jitter.width = 0.5, dodge.width = 0.8)) +
   geom_text(data = label_plot, aes(x = x, y = y, label = label),
-            inherit.aes = FALSE, hjust = 0, vjust = 0, size = 4.5) +
+            inherit.aes = FALSE, hjust = 0, vjust = 0, size = 6) +
   scale_fill_manual(values = hosp_colors) +
-  labs(x = "rs1131017\nGRCh38: chr12:56,042,145", y = "Normalised Gene Expression",
+  labs(x = "rs1131017\nGRCh38: chr12:56,042,145", y = "Normalized Gene Expression",
        fill = "Infection Severity", title = "RPS26 in NK (Infection Severity)") +
-  theme_classic(base_size = 14) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1),
-        plot.title = element_text(hjust = 0.5, vjust = 1.5),
-        legend.position = "bottom")
+  theme_classic(base_size = 18) +
+  facet_wrap(~hosp) +
+  ylim(-3.2, 2.8)+
+  theme(strip.background = element_blank(),
+        strip.text = element_text(size = 16),
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 16),
+        axis.text.y = element_text(size = 16),
+        axis.title = element_text(size = 18),
+        plot.title = element_text(hjust = 0.5, vjust = 1.5, size = 20),
+        legend.position = "none")
 
-# -------------------------------
+
 # Figure 4c - Beta plot
-# -------------------------------
+
 beta_comp <- fread('data/main/fig4a.csv')
 
 beta_plot <- beta_comp %>%
@@ -556,7 +630,7 @@ slopes <- tibble(
 
 facet_labels <- slopes %>%
   mutate(
-    label = paste0(cell_type, " interaction\nbeta: ", slope),
+    label = paste0(cell_type, " βint: ", slope),
     x = max(as.numeric(factor(beta_plot$inf_sev))),
     y = intercept - 0.05
   )
@@ -566,30 +640,36 @@ p4c <- ggplot(beta_plot, aes(x = factor(inf_sev), y = beta, color = cell_type)) 
   geom_errorbar(aes(ymin = beta - slope_se, ymax = beta + slope_se),
                 width = 0.2, size = 1, position = position_dodge(width = 0.5)) +
   geom_text(aes(label = sig, y = beta + slope_se + 0.1),
-            position = position_dodge(width = 0.5), size = 5) +
+            position = position_dodge(width = 0.5), size = 6) +
   geom_abline(data = slopes, aes(slope = slope, intercept = intercept),
-              color = "red", linetype = "dashed", size = 0.8) +
+              color = "red", linetype = "dashed", linewidth = 0.8) +
   geom_text(data = facet_labels,
-            aes(x = x, y = y, label = label),
+            aes(x = x, y = -2.6, label = label),
             inherit.aes = FALSE,
             hjust = 1, vjust = 1,
-            size = 4, color = "red") +
+            size = 6, color = "red") +
   facet_wrap(~cell_type) +
   scale_color_manual(values = celltype_colors) +
   labs(x = "Infection Severity", y = "Slope (beta)", color = "Cell Type",
-       title = "RPS26 eQTL Effect Size by Infection Severity") +
-  theme_classic(base_size = 14) +
+       title = "RPS26 eQTL Effect Size by\nInfection Severity") +
+  theme_classic(base_size = 18) +
   theme(strip.background = element_blank(),
-        strip.text = element_text(size = 12),
+        strip.text = element_text(size = 16),
+        axis.text = element_text(size = 16),
+        axis.title = element_text(size = 18),
+        plot.title = element_text(size = 20, hjust = 0.5),
         legend.position = "none")
 
-# -------------------------------
 # Figure 4d - Interaction eQTL boxplots: CD8
-# -------------------------------
+
 rps26_source <- fread('data/main/fig4c_source.csv')
 plot_df <- rps26_source %>% filter(cell_type == "CD8")
 plot_df$inf_source <- factor(plot_df$inf_source, levels = c("0","1"))
-label_plot <- label_df %>% filter(cell_type == "CD8")
+
+label_plot <- label_df %>% 
+  filter(cell_type == "CD8") %>%
+  mutate(inf_source = "1")
+
 source_colors <- c("0" = "#2683C6", "1" = "#C62683")
 source_labels <- c("0" = "Sepsis", "1" = "COVID-19")
 
@@ -598,100 +678,126 @@ p4d <- ggplot(plot_df, aes(x = genotype_label, y = Zscore, fill = inf_source)) +
   geom_jitter(colour = "black", size = 1.5, alpha = 0.8,
               position = position_jitterdodge(jitter.width = 0.5, dodge.width = 0.8)) +
   geom_text(data = label_plot, aes(x = x, y = y, label = label),
-            inherit.aes = FALSE, hjust = 0, vjust = 0, size = 4.5) +
+            inherit.aes = FALSE, hjust = 0, vjust = 0, size = 6) +
   scale_fill_manual(values = source_colors, labels = source_labels) +
-  labs(x = "rs1131017\nGRCh38: chr12:56,042,145", y = "Normalised Gene Expression",
+  labs(x = "rs1131017\nGRCh38: chr12:56,042,145", y = "Normalized Gene Expression",
        fill = "Infection Source", title = "RPS26 in CD8 (Infection Source)") +
-  theme_classic(base_size = 14) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1),
-        plot.title = element_text(hjust = 0.5, vjust = 1.5),
-        legend.position = "bottom")
+  theme_classic(base_size = 18) +
+  facet_wrap(~inf_source, labeller = labeller(inf_source = source_labels)) +
+  theme(strip.background = element_blank(),
+        strip.text = element_text(size = 16),
+        axis.text = element_text(size = 16),
+        axis.title = element_text(size = 18),
+        plot.title = element_text(size = 20, hjust = 0.5),
+        legend.position = "none")
 
-# -------------------------------
 # Figure 4e - Scatter plot: RPS26 / CD8
-# -------------------------------
+
 scatter <- fread('data/main/fig4b.csv')
 scatter_mean <- fread('data/main/fig4b_mean.csv')
+
 label_rps26 <- tibble(
   cell_type = "CD8",
   gene = "RPS26",
   x_title = "rs1131017\nGRCh38: chr12:56,042,145",
   label = "FDR = 0.0375\n βint = 0.889",
   x = 1.5,
-  y = 2.6
+  y = -2.5
 )
+
 scatter_rps26 <- scatter %>% filter(gene == "RPS26", cell_type == "CD8")
 mean_rps26 <- scatter_mean %>% filter(gene == "RPS26", cell_type == "CD8")
+
 geno_levels <- unique(scatter_rps26$genotype_label)
 geno_colors <- c("#046C9A", "#C641ED", "#5BBCD6")[seq_along(geno_levels)]
 
-p4e <- ggplot(scatter_rps26, aes(x = factor(inf_source), y = Zscore, colour = genotype_label)) +
-  geom_jitter(position = position_jitter(width = 0.2), size = 4) +
-  geom_line(data = mean_rps26, 
-            aes(x = factor(x), y = mean_Z, group = genotype_label, colour = genotype_label),
-            inherit.aes = FALSE, linetype = "solid", linewidth = 1.5) +
-  geom_text(data = label_rps26, aes(x = x-1, y = y, label = label),
-            inherit.aes = FALSE, hjust = -0.2, vjust = 0.5, size = 5) +
-  scale_colour_manual(values = geno_colors) +
-  scale_x_discrete(labels = c("0" = "Sepsis", "1" = "COVID-19")) +
-  labs(x = label_rps26$x_title, y = "Normalised Gene Expression",
-       colour = "Genotype", title = "RPS26 in CD8") +
-  theme_classic(base_size = 16) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1),
-        plot.title = element_text(hjust = 0.5),
-        legend.position = "bottom")
+label_mid <- mean_rps26 %>%
+  group_by(genotype_label) %>%
+  summarise(mean_Z = mean(mean_Z), .groups = "drop") %>%
+  mutate(x = 1.5)
 
-# -------------------------------
+p4e <- ggplot(scatter_rps26, aes(x = as.numeric(inf_source) + 1, y = Zscore, colour = genotype_label)) +
+  geom_jitter(position = position_jitter(width = 0.2), size = 4) +
+  geom_line(data = mean_rps26,
+            aes(x = x + 1, y = mean_Z, group = genotype_label, colour = genotype_label),
+            inherit.aes = FALSE, linetype = "solid", linewidth = 1.5) +
+  geom_text(data = label_mid,
+            aes(x = x, y = mean_Z, label = genotype_label, colour = genotype_label),
+            hjust = 0.5, vjust = -0.8, size = 6, show.legend = FALSE) +
+  geom_text(data = label_rps26, aes(x = x, y = y, label = label),
+            inherit.aes = FALSE, hjust = 0.45, vjust = 0.5, size = 6) +
+  scale_colour_manual(values = geno_colors) +
+  scale_x_continuous(breaks = c(1,2), labels = c("Sepsis", "COVID-19")) +
+  labs(x = label_rps26$x_title, y = "Normalized Gene Expression",
+       colour = "Genotype", title = "RPS26 in CD8") +
+  theme_classic(base_size = 18) +
+  theme(axis.text = element_text(size = 16),
+        axis.title = element_text(size = 18),
+        plot.title = element_text(size = 20, hjust = 0.5),
+        legend.position = "none")
+
+
 # Figure 4f - Scatter plot: ADAM10 / CD4
-# -------------------------------
+
 label_adam10 <- tibble(
   cell_type = "CD4",
   gene = "ADAM10",
   x_title = "rs7161799\nGRCh38: chr15:58,478,324",
   label = "FDR = 0.0457\n βint = 1.05",
   x = 1.5,
-  y = 2.6
+  y = -2.2
 )
+
 scatter_adam10 <- scatter %>% filter(gene == "ADAM10", cell_type == "CD4")
 mean_adam10 <- scatter_mean %>% filter(gene == "ADAM10", cell_type == "CD4")
+
 geno_levels <- unique(scatter_adam10$genotype_label)
 geno_colors <- c("#046C9A", "#C641ED", "#5BBCD6")[seq_along(geno_levels)]
 
-p4f <- ggplot(scatter_adam10, aes(x = factor(inf_source), y = Zscore, colour = genotype_label)) +
-  geom_jitter(position = position_jitter(width = 0.2), size = 4) +
-  geom_line(data = mean_adam10, 
-            aes(x = factor(x), y = mean_Z, group = genotype_label, colour = genotype_label),
-            inherit.aes = FALSE, linetype = "solid", linewidth = 1.5) +
-  geom_text(data = label_adam10, aes(x = x-1, y = y, label = label),
-            inherit.aes = FALSE, hjust = -0.2, vjust = 0.5, size = 5) +
-  scale_colour_manual(values = geno_colors) +
-  scale_x_discrete(labels = c("0" = "Sepsis", "1" = "COVID-19")) +
-  labs(x = label_adam10$x_title, y = "Normalised Gene Expression",
-       colour = "Genotype", title = "ADAM10 in CD4") +
-  theme_classic(base_size = 16) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1),
-        plot.title = element_text(hjust = 0.5),
-        legend.position = "bottom")
+label_mid <- mean_adam10 %>%
+  group_by(genotype_label) %>%
+  summarise(mean_Z = mean(mean_Z), .groups = "drop") %>%
+  mutate(x = 1.5)
 
-# -------------------------------
-# Combine all plots in final Figure 4 layout
-# -------------------------------
+p4f <- ggplot(scatter_adam10, aes(x = as.numeric(inf_source) + 1, y = Zscore, colour = genotype_label)) +
+  geom_jitter(position = position_jitter(width = 0.2), size = 4) +
+  geom_line(data = mean_adam10,
+            aes(x = x + 1, y = mean_Z, group = genotype_label, colour = genotype_label),
+            inherit.aes = FALSE, linetype = "solid", linewidth = 1.5) +
+  geom_text(data = label_mid,
+            aes(x = x, y = mean_Z, label = genotype_label, colour = genotype_label),
+            hjust = 0.5, vjust = -0.8, size = 6, show.legend = FALSE) +
+  geom_text(data = label_adam10, aes(x = x, y = y, label = label),
+            inherit.aes = FALSE, hjust = 0.45, vjust = 0.5, size = 6) +
+  scale_colour_manual(values = geno_colors) +
+  scale_x_continuous(breaks = c(1,2), labels = c("Sepsis", "COVID-19")) +
+  labs(x = label_adam10$x_title, y = "Normalized Gene Expression",
+       colour = "Genotype", title = "ADAM10 in CD4") +
+  theme_classic(base_size = 18) +
+  theme(axis.text = element_text(size = 16),
+        axis.title = element_text(size = 18),
+        plot.title = element_text(size = 20, hjust = 0.5),
+        legend.position = "none")
+
+
+# Figure 4 combined
+
 fig4 <- (p4a | p4b | p4c) /
         (p4d | p4e | p4f) +
   plot_annotation(tag_levels = "a")
 
-# Save final figure
-ggsave("figures/main/Fig4.png", fig4, width = 18, height = 18, dpi = 300)
+ggsave("figures/main/Fig4.png", fig4, width = 20, height = 20, dpi = 300)
 
 
 
 # Supplementary
 
-
 # ============================
 #   SUPPLEMENTARY FIGURE 1   #
 # ============================
 # eGene jaccard index heatmap
+print.noquote("Supplementary Figure 1")
+
 
 egene_overlap <- fread('data/supplementary/eqtl_overlap_heatmap_data.csv')
 
@@ -734,6 +840,7 @@ ggsave(
 #   SUPPLEMENTARY FIGURE 2   #
 # ============================
 # eGene upset
+print.noquote("Supplementary Figure 2")
 
 # Read the data
 upset_input <- fread('data/supplementary/egene_celltype_upset_data.csv')
@@ -751,8 +858,8 @@ png("figures/supplementary/Supplementary_Fig2.png",
 # Make the UpSet plot
 UpSetR::upset(
   upset_matrix,
-  sets = c("CD4", "cMono", "CD8", "NK", "B", "ncMono"),           # explicitly provide all sets
-  keep.order = TRUE,     # preserve the column order
+  sets = c("CD4", "cMono", "CD8", "NK", "B", "ncMono"),
+  keep.order = TRUE,
   nintersects = 90,
   text.scale = 1.5,
   set_size.show = TRUE,
@@ -778,6 +885,7 @@ dev.off()
 #   SUPPLEMENTARY FIGURE 3   #
 # ============================
 # UMAP showing ZGLP1, KANSL1, ADAM10, RPS26 expression
+print.noquote("Supplementary Figure 3")
 
 umap_4gene <- fread('data/supplementary/4gene_umap.csv') %>% select(-V1)
 
@@ -854,6 +962,8 @@ ggsave(
 
 # Bar plot showing cohort composition across three studies
 
+print.noquote("Supplementary Figure 4")
+
 # Data on cohort
 sample_counts <- tribble(
   ~dataset, ~phenotype, ~count,
@@ -872,7 +982,7 @@ sample_counts <- tribble(
   "ONEK1K", "healthy", 982
 )
 
-# --- Define phenotype order (mild → severe) ---
+# Define phenotype order (mild → severe)
 sample_counts <- sample_counts %>%
   mutate(
     phenotype = factor(
@@ -890,7 +1000,7 @@ sample_counts <- sample_counts %>%
     )
   )
 
-# --- Define color palette ---
+
 phenotype_colors <- c(
   "healthy" = "#a6cee3",
   "asymptomatic COVID-19" = "#b2df8a",
@@ -901,7 +1011,7 @@ phenotype_colors <- c(
   "sepsis" = "#ff7f00"
 )
 
-# --- Plot ---
+
 p_cohort <- ggplot(sample_counts, aes(x = dataset, y = count, fill = phenotype)) +
   geom_bar(stat = "identity", position = "stack",  linewidth = 0.2) +
   scale_fill_manual(values = phenotype_colors, drop = FALSE) +
@@ -917,7 +1027,6 @@ p_cohort <- ggplot(sample_counts, aes(x = dataset, y = count, fill = phenotype))
     axis.text.x = element_text(angle = 45, hjust = 1)
   )
 
-# --- Save outputs ---
 write_csv(sample_counts, "data/supplementary/cohort_comparison_barchart_data.csv")
 
 
@@ -994,16 +1103,15 @@ scatter_compare_onek1k <- ggplot(scatter_compare %>% filter(other_dataset=='ONEK
   ) +
   theme_classic() +
   theme(
-    #axis.text.x = element_blank(),
     axis.title = element_text(size = 14),
     legend.title = element_text(size = 16),
-    strip.background = element_blank(),            # remove facet background
-    strip.text = element_text(size = 14),
-    #axis.ticks.x = element_blank()
+    strip.background = element_blank(),
+    strip.text = element_text(size = 14)
   )
 
+
 # COMBAT-WANG slope comparison plot
-scatter_compare_wang <- ggplot(scatter_compare %>% filter(other_dataset=='ONEK1K'),
+scatter_compare_wang <- ggplot(scatter_compare %>% filter(other_dataset=='WANG'),
                  aes(x = COMBAT_slope, y = other_slope,
                      color = COMBAT_cell)) +
   geom_point(alpha = 0.7) +
@@ -1022,12 +1130,10 @@ scatter_compare_wang <- ggplot(scatter_compare %>% filter(other_dataset=='ONEK1K
   ) +
   theme_classic() +
   theme(
-    #axis.text.x = element_blank(),
     axis.title = element_text(size = 14),
     legend.title = element_text(size = 16),
-    strip.background = element_blank(),            # remove facet background
-    strip.text = element_text(size = 14),
-    #axis.ticks.x = element_blank()
+    strip.background = element_blank(),
+    strip.text = element_text(size = 14)
   )
 
 # WANG-ONEK1K slope comparison plot
@@ -1051,12 +1157,10 @@ scatter_compare_wang_onek1k <- ggplot(scatter_compare_wang_onek,
   ) +
   theme_classic() +
   theme(
-    #axis.text.x = element_blank(),
     axis.title = element_text(size = 14),
     legend.title = element_text(size = 16),
-    strip.background = element_blank(),            # remove facet background
-    strip.text = element_text(size = 14),
-    #axis.ticks.x = element_blank()
+    strip.background = element_blank(),
+    strip.text = element_text(size = 14)
   )
 
 
@@ -1108,12 +1212,12 @@ left_col <- p_cohort / upset_plot / rep_plot
 right_col <- scatter_compare_onek1k / scatter_compare_wang / scatter_compare_wang_onek1k
 
 final_layout <- (
-  (p_cohort / upset_plot / rep_plot) |             # left column
-  (scatter_compare_onek1k / scatter_compare_wang / scatter_compare_wang_onek1k) # right column
+  (p_cohort / upset_plot / rep_plot) | 
+  (scatter_compare_onek1k / scatter_compare_wang / scatter_compare_wang_onek1k)
 ) + 
   plot_layout(
     widths = c(1, 1),
-    heights = c(1, 1.5, 1) # middle-left taller
+    heights = c(1, 1.5, 1) 
   ) +
   plot_annotation(tag_levels = 'a')
 
@@ -1131,6 +1235,8 @@ ggsave(
 # ============================
 #   SUPPLEMENTARY FIGURE 5   #
 # ============================
+
+print.noquote("Supplementary Figure 5")
 
 # --- Load processed data ---
 plot_data <- readRDS("data/supplementary/coloc_plot_data.rds")
@@ -1164,16 +1270,12 @@ for (combat in names(combat_to_onek1k)) {
   main_col <- celltype_colors[combat]
   
   if (n == 1) {
-    # Single subtype: just use the main color
     onek1k_colors[[combat]] <- setNames(main_col, subtypes)
   } else {
-    # Generate visually distinct shades around the main color
-    # Convert main color to HCL to get its hue
     hcl_main <- as(hex2RGB(main_col), "polarLUV")@coords
     hue_main <- hcl_main[1, "H"]  # hue in degrees
     
-    # Generate colors evenly spaced in lightness, keeping same hue and chroma
-    lightness_vals <- seq(40, 80, length.out = n)  # adjust min/max lightness
+    lightness_vals <- seq(40, 80, length.out = n)
     chroma_val <- 50  # adjust chroma to taste
     cols <- hcl(h = hue_main, c = chroma_val, l = lightness_vals)
     
@@ -1188,7 +1290,7 @@ names(onek1k_colors_vec) <- sub("^[^.]+\\.", "", names(onek1k_colors_vec))
 
 coloc_ok_filtered[, onek1k_cell := as.character(onek1k_cell)]
 
-# --- Create individual plots per facet for coloc_ok_filtered ---
+# Create individual plots per facet for coloc_ok_filtered
 p_list_ok <- lapply(unique(coloc_ok_filtered$combat_cell), function(facet){
   df <- subset(coloc_ok_filtered, combat_cell == facet)
   highlight_df <- subset(highlight_rows, combat_cell == facet)
@@ -1200,7 +1302,7 @@ p_list_ok <- lapply(unique(coloc_ok_filtered$combat_cell), function(facet){
     labs(x = "PP.H4",
          y = "Density",
          title = paste("", facet),
-         color = "OneK1K Cell Type",  # <-- new legend title
+         color = "OneK1K Cell Type",
          fill = "OneK1K Cell Type" ) +
     theme_classic(base_size = 14) +
     theme(axis.text.x = element_text(angle = 45, hjust = 1),
@@ -1227,7 +1329,7 @@ p_list_ok <- lapply(unique(coloc_ok_filtered$combat_cell), function(facet){
 # Combine all per-facet plots into one patchwork for coloc_ok_filtered
 p_coloc_ok_patch <- wrap_plots(p_list_ok, ncol = 3)
 
-# --- Create individual plots per facet for Wang dataset ---
+# Create individual plots per facet for Wang dataset
 p_list_wang <- lapply(unique(coloc_wang_filtered$combat_cell), function(facet){
   df <- subset(coloc_wang_filtered, combat_cell == facet)
   
@@ -1246,7 +1348,7 @@ p_list_wang <- lapply(unique(coloc_wang_filtered$combat_cell), function(facet){
 p_coloc_wang_patch <- wrap_plots(p_list_wang, ncol = 3)
 
 
-# --- Combine patchwork plots ---
+# Combine patchwork plots
 final_plot <- p_coloc_ok_patch / p_coloc_wang_patch + 
   plot_layout(heights = c(1,1)) +
   plot_annotation(tag_levels = "a")
@@ -1258,6 +1360,8 @@ ggsave("figures/supplementary/Supplementary_Fig5.png",
 # ============================
 #   SUPPLEMENTARY FIGURE 6   #
 # ============================
+
+print.noquote("Supplementary Figure 6")
 
 # Combat GWAS heatmap COVID-19 traits
 combat_gwas_covid <- fread('data/supplementary/combat_gwas_heatmap_covid.csv')
@@ -1295,6 +1399,7 @@ ggsave(
 #   SUPPLEMENTARY FIGURE 7   #
 # ============================
 
+print.noquote("Supplementary Figure 7")
 
 # Onek1k GWAS all traits
 onek1k_gwas_all <- fread('data/supplementary/onek1k_gwas_heatmap_all.csv')
@@ -1302,7 +1407,6 @@ onek1k_gwas_all <- fread('data/supplementary/onek1k_gwas_heatmap_all.csv')
 # ONEK1K GWAS all traits (filtered on above studies)
 onek1k_gwas_heatmap <- onek1k_gwas_all %>%
   arrange(EQTL_GENE_NAME) %>%
-  #mutate(GWAS_TRAIT = factor(GWAS_TRAIT, levels = trait_order)) %>%
   mutate(gene_group = if_else(
     dense_rank(EQTL_GENE_NAME) <= max(dense_rank(EQTL_GENE_NAME)) / 2,
     "Group 1",
@@ -1318,7 +1422,6 @@ onek1k_gwas_heatmap <- onek1k_gwas_all %>%
   theme_classic() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   theme(strip.text = element_blank()) +
-  #scale_y_discrete(labels = function(x) str_wrap(x, width = 30))# Rotate x-axis labels for better visibility
   scale_y_discrete(
     labels = function(x) stringr::str_wrap(recode(x, !!!rename_traits), width = 30)
   ) +
@@ -1340,13 +1443,14 @@ ggsave(
 #   SUPPLEMENTARY FIGURE 8   #
 # ============================
 
+print.noquote("Supplementary Figure 8")
+
 # Onek1k GWAS covid traits
 
 onek1k_gwas_covid <- fread('data/supplementary/onek1k_gwas_heatmap_covid.csv')
 
 onek1k_covid_heatmap <- onek1k_gwas_covid %>%
   arrange(EQTL_GENE_NAME) %>%
-  #mutate(GWAS_TRAIT = factor(GWAS_TRAIT, levels = trait_order)) %>%
   mutate(gene_group = if_else(
     dense_rank(EQTL_GENE_NAME) <= max(dense_rank(EQTL_GENE_NAME)) / 2,
     "Group 1",
@@ -1362,7 +1466,6 @@ onek1k_covid_heatmap <- onek1k_gwas_covid %>%
   theme_classic() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   theme(strip.text = element_blank()) +
-  #scale_y_discrete(labels = function(x) str_wrap(x, width = 30))
   scale_y_discrete(
     labels = function(x) stringr::str_wrap(recode(x, !!!rename_traits), width = 30)
   ) +
@@ -1381,6 +1484,8 @@ ggsave(
 #   SUPPLEMENTARY FIGURE 9   #
 # ============================
 
+print.noquote("Supplementary Figure 9")
+
 # COMBAT WANG GWAS BAR PLOT
 
 combat_wang_gwas <- fread('data/supplementary/combat_wang_gwas_barplot.csv')
@@ -1395,7 +1500,7 @@ combat_wang_barplot <- combat_wang_gwas %>%
  
   # Define ordering metric per trait
   group_by(trait) %>%
-  mutate(order_value = max(hit_combat)) %>%   # or sum(hit_combat)
+  mutate(order_value = max(hit_combat)) %>% 
   ungroup() %>%
   
   # Reorder trait factor levels BEFORE plotting
@@ -1418,9 +1523,9 @@ combat_wang_barplot <- combat_wang_gwas %>%
        x = "GWAS Variants in eQTL Datasets") +
   theme_classic() +
   theme(axis.text.y = element_text(hjust = 1),
-      legend.position = c(0.85, 0.85),  # inside top-right
-      legend.text = element_text(size = 14),   # increase text size
-      legend.key.size = unit(1.6, "lines"),    # increase colour box size
+      legend.position = c(0.85, 0.85), 
+      legend.text = element_text(size = 14),
+      legend.key.size = unit(1.6, "lines"),
       legend.background = element_blank())   +
   theme(strip.text = element_blank()) +
   # Apply readable pretty trait names here (wrapped)
@@ -1448,6 +1553,8 @@ ggsave(
 # ============================
 #   SUPPLEMENTARY FIGURE 10  #
 # ============================
+
+print.noquote("Supplementary Figure 10")
 
 # Wang 
 
@@ -1481,7 +1588,6 @@ wang_heatmap_all <- wang_gwas_filter %>%
   theme_classic() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   theme(strip.text = element_blank()) +
-  #scale_y_discrete(labels = function(x) str_wrap(x, width = 30))# Rotate x-axis labels for better visibility
   scale_y_discrete(
     labels = function(x) stringr::str_wrap(recode(x, !!!rename_traits_wang), width = 30)
   ) +
@@ -1499,6 +1605,8 @@ ggsave(
 # ============================
 #   SUPPLEMENTARY FIGURE 11  #
 # ============================
+
+print.noquote("Supplementary Figure 11")
 
 # WANG GWAS COVID HEATMAP
 
@@ -1535,19 +1643,19 @@ ggsave(
 # ============================
 # FGSEA
 
+print.noquote("Supplementary Figure 12")
+
 fgsea_data <- fread('data/supplementary/fgsea_heatmap_data.csv')
 
 fgsea_heatmap <- ggplot(fgsea_data,
-                        aes(x = cell, y = pathway, color = NES, size = -log10(pval))) +  # size mapped to p-value
+                        aes(x = cell, y = pathway, color = NES, size = -log10(pval))) + 
     geom_point() +
-    #facet_grid(context ~ NES_sign, scales = "free") +  # NES_sign rows, context columns
     facet_wrap(~description) +
-    scale_color_gradient2(low = "blue", mid = "white", high = "red", midpoint = 0) +  # NES still color
-    theme_classic() +
+    scale_color_gradient2(low = "blue", mid = "white", high = "red", midpoint = 0) +
     labs(
       x = "COMBAT cell type",
       y = "Pathway",
-      fill = "NES",  # still keeping label as NES for legend
+      fill = "NES",
       title = "FGSEA Significant Pathways (Signed Analysis)"
     ) +
     theme(
@@ -1569,18 +1677,63 @@ ggsave(
 #   SUPPLEMENTARY FIGURE 13  #
 # ============================
 
-# Made by others. Figures stored in figures/supplementary
+# Genetic principal component analysis and ancestry assignments
+
+print.noquote("Supplementary Figure 13")
+
+genetic_pcs <- fread('data/supplementary/PCA_assignments.csv', sep = '\t')
+
+genetic_pca <- ggplot(genetic_pcs, aes(x = PC1, y = PC2)) +
+  geom_point(
+    data = subset(genetic_pcs, group == "1000G_EUR"),
+    aes(color = Population),
+    shape = 19, size = 2
+  ) +
+  geom_point(
+    data = subset(genetic_pcs, group == "1000G_nonEUR"),
+    aes(x = PC1, y = PC2),
+    color = "lightgrey",
+    shape = 19, size = 2
+  ) +
+  geom_point(
+    data = subset(genetic_pcs, group == "COMBAT_EUR"),
+    aes(x = PC1, y = PC2),
+    color = "black", fill = "black",
+    shape = 21, size = 2, stroke = 0.5
+  ) +
+  geom_point(
+    data = subset(genetic_pcs, group == "COMBAT_nonEUR"),
+    aes(x = PC1, y = PC2),
+    color = "black", fill = NA,
+    shape = 21, size = 2, stroke = 0.5
+  ) +
+  theme_minimal() +
+  labs(
+    title = "",
+    x = "PC1", y = "PC2",
+    color = "Population\n(1000G EUR)"
+  ) +
+  theme(legend.position = "right")
+
+ggsave("figures/supplementary/Supplementary_Fig13.png",
+       genetic_pca,
+       width = 6, height = 4, units = "in", dpi = 300)
+
+# Figures stored in figures/supplementary
 
 # ============================
 #   SUPPLEMENTARY FIGURE 14  #
 # ============================
 
-# Made by others. Figures stored in figures/supplementary
+# Figures stored in figures/supplementary
+print.noquote("Supplementary Figure 14 stored in figures/supplementary")
 
 # ============================
 #   SUPPLEMENTARY FIGURE 15  #
 # ============================
 # CELL TYPE MARKERS UMAP
+
+print.noquote("Supplementary Figure 15")
 
 marker_umap <- fread('data/supplementary/umap_marker_genes.csv')
 
@@ -1637,6 +1790,8 @@ ggsave("figures/supplementary/Supplementary_Fig15.png",
 # ============================
 # Marker gene dot plot
 
+print.noquote("Supplementary Figure 16")
+
 marker_dot <- fread('data/supplementary/dotplot_marker_genes.csv')
 
 marker_panel <- list(
@@ -1682,11 +1837,14 @@ ggsave("figures/supplementary/Supplementary_Fig16.png",
 # ============================
 
 # Made in Powerpoint. Figure stored in figures/supplementary
+print.noquote("Supplementary Figure 17 made in PowerPoint")
 
 
 # ============================
 #   SUPPLEMENTARY FIGURE 18  #
 # ============================
+
+print.noquote("Supplementary Figure 18")
 
 # CELL TYPE COUNTS
 assay_count <- fread('data/supplementary/cell_counts.csv')
@@ -1744,7 +1902,7 @@ cell_prop_bar <- ggplot(cell_prop, aes(x = COMBAT_ID, y = prop, fill = cell_type
     axis.text.x = element_blank(),
     axis.title = element_text(size = 14),
     legend.title = element_text(size = 14),
-    strip.background = element_blank(),            # remove facet background
+    strip.background = element_blank(),
     strip.text = element_text(size = 14),
     axis.ticks.x = element_blank(),
     plot.title = element_text(size = 14)
@@ -1771,10 +1929,13 @@ ggsave("figures/supplementary/Supplementary_Fig18.png", fig_s18, width = 13, hei
 # ============================
 
 # Made in powerpoint. Figure stored in figures/supplementary
+print.noquote("Supplementary Figure 19 made in PowerPoint")
 
 # ============================
 #   SUPPLEMENTARY FIGURE 20  #
 # ============================
+
+print.noquote("Supplementary Figure 20")
 
 # Finemapping sensitivity analysis
 
